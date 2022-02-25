@@ -5,12 +5,12 @@
 # sent_id = 01.001
 # text = diawutari
 # text_fr = Il ne parlera pas (GE, 23:16)
-1	diawutari	awu	NOUN	n	Polarity=Neg|Rel=NCont|Tense=Fut	0	_	_	_
+1	diawutari	awu	NOUN	n	Polarity=Neg|Rel=NCont|Tense=Fut	0	root	_	_
 
 # sent_id = 01.002
 # text = dosuʔutari
 # text_fr = Ça ne mordra pas. (GE, 23:17)
-1	dosuʔutari	suʔu	VERB	v	Person=3|Polarity=Neg|Tense=Fut	0	_	_	_
+1	dosuʔutari	suʔu	VERB	v	Person=3|Polarity=Neg|Tense=Fut	0	root	_	_
 
 # sent_id = 01.003
 # text = imen oʔao okijapope

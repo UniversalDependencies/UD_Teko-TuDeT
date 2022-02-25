@@ -25,7 +25,7 @@
 1	damãʔẽtaraɨdʒi	mãʔẽ	VERB	v	Intens=Yes|Number=Sing|Person=1|Polarity=Neg|Tense=Fut	0	root	_	_
 2	derehe	ehe	ADP	posp	Number=Sing|Person=2|Rel=Cont	1	obl	_	_
 
-# sent_id = 01.114 
+# sent_id = 01.114
 # text = kɨto raʔir oiɲuŋ baʔepopedʒi , bokalapedʒi oiɲuŋ
 # text_fr = Il met la petite grenouille dans un truc, il la met dans un bocal. (GE, 176:462)
 1	kɨto	kɨto	NOUN	n	_	2	nmod	_	_

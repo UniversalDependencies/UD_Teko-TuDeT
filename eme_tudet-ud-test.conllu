@@ -1,0 +1,38 @@
+# Sentences from Rose, F. (2011) Grammaire de l'Émerillon Teko: une langue Tupi-Guarani de Guyane Française. Peeters (begin with 01.[sentence number in book]) 
+# Annotators: Fabrício Ferraz Gerardi and Uliana Vedenina
+# 
+
+# sent_id = 01.001
+# text = diawutari
+# text_fr = Il ne parlera pas (GE, 23:16)
+1	diawutari	awu	NOUN	n	Polarity=Neg|Rel=NCont|Tense=Fut	0	_	_	_
+
+# sent_id = 01.002
+# text = dosuʔutari
+# text_fr = Ça ne mordra pas. (GE, 23:17)
+1	dosuʔutari	suʔu	VERB	v	Person=3|Polarity=Neg|Tense=Fut	0	_	_	_
+
+# sent_id = 01.003
+# text = imen oʔao okijapope
+# text_fr = (GE, 23:18)
+1	imen	men	NOUN	n	Rel=NCont	2	nsubj	_	_
+2	oʔao	ʔa	VERB	v	Aspect=Cont|Person=3	0	root	_	_
+3	okijapope	kija	NOUN	n	Case=Loc|Corf=Yes	2	obl	_	_
+
+# sent_id = 01.160
+# text = damãʔẽtaraɨdʒi derehe
+# text=fr = Je ne veux plus te voir (GE, 95:211)
+1	damãʔẽtaraɨdʒi	mãʔẽ	VERB	v	Intens=Yes|Number=Sing|Person=1|Polarity=Neg|Tense=Fut	0	root	_	_
+2	derehe	ehe	ADP	posp	Number=Sing|Person=2|Rel=Cont	1	obl	_	_
+
+# sent_id = 01.114
+# text = kɨto raʔir oiɲuŋ baʔepopedʒi , bokalapedʒi oiɲuŋ
+# text_fr = Il met la petite grenouille dans un truc, il la met dans un bocal. (GE, 176:462)
+1	kɨto	kɨto	NOUN	n	_	2	nmod	_	_
+2	raʔir	aʔir	NOUN	n	Rel=Cont	3	obj	_	_
+3	oiɲuŋ	iɲuŋ	VERB	v	Number=Sing|Person=3	0	root	_	_
+4	baʔepopedʒi	baʔe	NOUN	v	Case=Loc	3	obl	_	_
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	bokalapedʒi	bokal	NOUN	n	Case=Loc	7	obl	_	_
+7	oiɲuŋ	iɲuŋ	VERB	v	Number=Sing|Person=3	3	parataxis	_	_
+

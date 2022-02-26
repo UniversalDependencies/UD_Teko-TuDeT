@@ -14,31 +14,31 @@
 
 # sent_id = 01.003
 # text = imen oʔao okijapope
-# text_fr = (GE, 23:18)
+# text_fr = Et puis son mari est allongé dans son propre hamac. (GE, 23:18)
 1	imen	men	NOUN	n	Rel=NCont	2	nsubj	_	_
 2	oʔao	ʔa	VERB	v	Aspect=Cont|Person=3	0	root	_	_
 3	okijapope	kija	NOUN	n	Case=Loc|Corf=Yes	2	obl	_	_
 
 # sent_id = 01.004
 # text = demeni
-# text_fr = (GE, 24:19)
+# text_fr = Je n'ai pas de mari. (GE, 24:19)
 1	demeni	men	NOUN	n	Number=Sing|Person=1|Polarity=Neg	0	root	_	_
 
 # sent_id = 01.005
 # text = Polo omanõ
-# text_fr = (GE, 24:20)
+# text_fr = Paulo est décédé. (GE, 24:20)
 1	Polo	Polo	PROPN	propn	_	2	nsubj	_	_
 2	omanõ	manõ	VERB	v	Person=3	0	root	_	_
 
 # sent_id = 01.006
 # text = okuwapa omanõmãʔẽ
-# text_fr = (GE, 24:21)
+# text_fr = Il connaît tous les morts. (GE, 24:21)
 1	okuwapa	kuwa	VERB	v	Person=3	0	root	_	_
 2	omanõmãʔẽ	manõ	VERB	v	Nomzr=Rel|Person=3	1	obj	_	_
 
 # sent_id = 01.007
 # text = tekokom opopor oho
-# text_fr = (GE, 25:22)
+# text_fr = Les Emérillons se sont dispersés. (GE, 25:22)
 1	tekokom	teko	PROPN	propn	Number=Plur	2	nsubj:pass	_	_
 2	opopor	popor	VERB	v	Person=3	0	root	_	_
 3	oho	ho	VERB	v	Person=3	2	aux:pass	_	_

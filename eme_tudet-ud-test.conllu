@@ -33,7 +33,7 @@
 # sent_id = 01.006
 # text = okuwapa omanõmãʔẽ
 # text_fr = Il connaît tous les morts. (GE, 24:21)
-1	okuwapa	kuwa	VERB	v	Person=3	0	root	_	_
+1	okuwapa	kuwa	VERB	v	Aspect=Compl|Person=3	0	root	_	_
 2	omanõmãʔẽ	manõ	VERB	v	Nomzr=Rel|Person=3	1	obj	_	_
 
 # sent_id = 01.007

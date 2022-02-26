@@ -39,9 +39,9 @@
 # sent_id = 01.007
 # text = tekokom opopor oho
 # text_fr = Les Emérillons se sont dispersés. (GE, 25:22)
-1	tekokom	teko	PROPN	propn	Number=Plur	2	nsubj:pass	_	_
+1	tekokom	teko	PROPN	propn	Number=Plur	2	nsubj	_	_
 2	opopor	popor	VERB	v	Person=3	0	root	_	_
-3	oho	ho	VERB	v	Person=3	2	aux:pass	_	_
+3	oho	ho	VERB	v	Person=3	2	aux	_	_
 
 # sent_id = 01.160
 # text = damãʔẽtaraɨdʒi derehe

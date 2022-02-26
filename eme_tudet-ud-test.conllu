@@ -19,6 +19,30 @@
 2	oʔao	ʔa	VERB	v	Aspect=Cont|Person=3	0	root	_	_
 3	okijapope	kija	NOUN	n	Case=Loc|Corf=Yes	2	obl	_	_
 
+# sent_id = 01.004
+# text = demeni
+# text_fr = (GE, 24:19)
+1	demeni	men	NOUN	n	Number=Sing|Person=1|Polarity=Neg	0	root	_	_
+
+# sent_id = 01.005
+# text = Polo omanõ
+# text_fr = (GE, 24:20)
+1	Polo	Polo	PROPN	propn	_	2	nsubj	_	_
+2	omanõ	manõ	VERB	v	Person=3	0	root	_	_
+
+# sent_id = 01.006
+# text = okuwapa omanõmãʔẽ
+# text_fr = (GE, 24:21)
+1	okuwapa	kuwa	VERB	v	Person=3	0	root	_	_
+2	omanõmãʔẽ	manõ	VERB	v	Nomzr=Rel|Person=3	1	obj	_	_
+
+# sent_id = 01.007
+# text = tekokom opopor oho
+# text_fr = (GE, 25:22)
+1	tekokom	teko	PROPN	propn	Number=Plur	2	nsubj:pass	_	_
+2	opopor	popor	VERB	v	Person=3	0	root	_	_
+3	oho	ho	VERB	v	Person=3	2	aux:pass	_	_
+
 # sent_id = 01.160
 # text = damãʔẽtaraɨdʒi derehe
 # text=fr = Je ne veux plus te voir (GE, 95:211)

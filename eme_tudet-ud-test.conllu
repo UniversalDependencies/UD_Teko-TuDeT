@@ -232,12 +232,12 @@
 # sent_id = 01.036
 # text = iba'ewato
 # text_fr = Il est en train d'avoir faim.(GE, 36:52)
-1	iba'ewato	ba'ewat	NOUN	n	Aspect=Prog|Rel=NCont	0	root	_	_
+1	iba'ewato	ba'ewat	NOUN	n	Aspect=Cont|Rel=NCont	0	root	_	_
 
 # sent_id = 01.037
 # text = oʔao
 # text_fr = Il est allongé.(GE, 37:53)
-1	oʔao	ʔa	VERB	v	Aspect=Prog|Person=3	0	root	_	_
+1	oʔao	ʔa	VERB	v	Aspect=Cont|Person=3	0	root	_	_
 
 # sent_id = 01.038
 # text = ʔɨ oboaku

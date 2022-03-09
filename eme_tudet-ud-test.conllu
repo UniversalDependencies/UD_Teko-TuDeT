@@ -170,7 +170,7 @@
 # text = aʔenawe sikãĩwe wãĩwĩkom
 # text_fr = A cette époque, les filles étaient petites aussi.(GE, 34:40)
 1	aʔenawe	nawe	ADV	adv	PronType=Dem	2	advmod	_	_
-2	sikãĩwe	sikãĩ	ADJ	adj	_	_	_	_	_
+2	sikãĩwe	sikãĩ	ADJ	adj	_	0	root	_	_
 3	wãĩwĩkom	wãĩwĩ	NOUN	n	Number=Plur	2	nsubj	_	_
 
 # sent_id = 01.026

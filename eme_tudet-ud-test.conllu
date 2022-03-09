@@ -42,6 +42,203 @@
 2	opopor	popor	VERB	v	Person=3	0	root	_	_
 3	oho	ho	VERB	v	Person=3	2	aux	_	_
 
+# sent_id = 01.008
+# text = tekoate eredʒu !
+# text_fr = C'est Emérillon que tu es !(GE, 25:23)
+1	tekoate	teko	PROPN	propn	Case=Ref|Foc=Yes	2	csubj	_	_
+2	eredʒu	dʒu	VERB	v	Number=Sing|Person=2	0	root	_	_
+3	!	!	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 01.009
+# text = nõdeɨane erezika
+# text_fr = "tu as tué notre mère."(GE, 25:24)
+1	nõdeɨane	nõde	NOUN	n	Case=Ref|Clusivity=In|Person=1|	2	obj	_	_
+2	erezika	zika	VERB	v	Number=Sing|Person=2	0	root	_	_
+
+# sent_id = 01.010
+# text = apamanẽ nõdeapisitanẽ , eʔi tekokom
+# text_fr = "Les étrangers voulaient nous massacrer", disent les Emérillons.(GE, 25:25)
+1	apamanẽ	apam	NOUN	n	Case=Ref|	2	nsubj	_	_
+2	nõdeapisitanẽ	apisi	NOUN	n	Clusivity=In|Person=1|Mood=Des	0	root	_	_
+3	,	,	PUNCT	punct	_	4	punct	_	_
+4	eʔi	eʔi	VERB	v	Person=3	2	parataxis	_	_
+5	tekokom	teko	PROPN	propn	Number=Plur	4	nsubj	_	_
+
+# sent_id = 01.011
+# text = tekokom opopor oho
+# text_fr = Les Emérillons se sont dispersés.(GE, 26:26)
+1	tekokom	teko	PROPN	propn	Number=Plur	2	nsubj	_	_
+2	opopor	popor	VERB	v	Person=3	0	root	_	_
+3	oho	ho	VERB	v	Person=3	2	aux	_	_
+
+# sent_id = 01.012
+# text = idʒeate azikakom
+# text_fr = C'est moi qui les ai tués.(GE, 26:27)
+1	idʒeate	idʒe	PRON	pron	Case=Ref|Foc=Yes|Number=Sing|Person=1	2	csubj	_	_
+2	azikakom	zika	VERB	v	Number=Sing|Person=1|	0	root	_	_
+
+# sent_id = 01.013
+# text = " daʔudʒi " , eʔi idʒupe
+# text_fr = "Je n'ai pas mangé", lui dit-il.(GE, 26:28)
+1	"	"	PUNCT	punct	_	2	punct	_	_
+2	daʔudʒi	ʔu	VERB	v	Number=Sing|Person=1|Polarity=Neg	0	root	_	_
+3	"	"	PUNCT	punct	_	2	punct	_	_
+4	,	,	PUNCT	punct	_	5	punct	_	_
+5	eʔi	eʔi	VERB	v	Person=3	2	parataxis	_	_
+6	idʒupe	dʒupe	NOUN	n	Case=Dat|Person=3	5	case	_	_
+
+# sent_id = 01.014
+# text = porowaratewe , diakaŋi
+# text = porowaratewe , didʒakaŋi
+# text_fr = C'est un ogre, il n'a pas de tête.(GE, 26:29)
+1	porowaratewe	porowar	NOUN	n	Case=Ref|Foc=Yes|	0	root	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	diakaŋi	akaŋ	NOUN	n	Person=3|Polarity=Neg	1	parataxis	_	_
+
+# sent_id = 01.015
+# text = esisiganũwã
+# text_fr = Ce n'est pas ma sœur.(GE, 26:30)
+1	esisiganũwã	sisig	NOUN	n	Case=Ref|Number=Sing|Person=2|Polarity=Neg	0	root	_	_
+
+# sent_id = 01.016
+# text = wɨrakarakotɨnuwã peotar
+# text_fr = Ce n'est pas vers Dieu que vous irez.(GE, 27:31)
+1	wɨrakarakotɨnuwã	wɨrakara	NOUN	n	Case=Lat|Polarity=Neg	2	obl	_	_
+2	peotar	o	VERB	v	Number=Plur|Person=2|Tense=Fut	0	root	_	_
+
+# sent_id = 01.017
+# text = manasipo sibaʔetar ? "
+# text_fr = "Comment allons-nous faire ?"(GE, 27:32)
+1	manasipo	mana	ADV	adv	PronType=Int	2	advmod	_	_
+2	sibaʔetar	baʔe	VERB	v	Clusivity=In|Person=1|Tense=Fut	0	root	_	_
+3	?	?	PUNCT	punct	_	2	punct	_	_
+4	"	"	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 01.018
+# text = oboʔa orekʷar
+# text_fr = Il couche sa propre femme.(GE, 28:33)
+1	oboʔa	ʔa	VERB	v	Person=3|Voice=Cau	0	root	_	_
+2	orekʷar	rekʷar	NOUN	n	Corf=Yes|Person=3	1	obj	_	_
+
+# sent_id = 01.019
+# text = idʒeate aŋ magazẽ aiɲuŋokar
+# text_fr = C'est moi qui ai fait installer ce magasin.(GE, 28:34)
+1	idʒeate	idʒe	PRON	pron	Case=Ref|Foc=Yes|Number=Sing|Person=1	4	csubj	_	_
+2	aŋ	aŋ	DET	det	PronType=Dem	3	det	_	_
+3	magazẽ	magazẽ	NOUN	n	_	4	obj	_	_
+4	aiɲuŋokar	iɲuŋ	VERB	v	Number=Sing|Person=1|Voice=Cau	0	root	_	_
+
+# sent_id = 01.020
+# text = owa , emenatesipo idʒe aʔu
+# text_fr = Oh, c'est mon mari que j'ai mangé.(GE, 28:35)
+1	owa	owa	INTJ	intj	_	3	discourse	_	_
+2	,	,	PUNCT	punct	_	3	punct	_	_
+3	emenatesipo	men	NOUN	n	Case=Ref|Foc=Yes|Number=Sing|Person=1|PronType=Int	0	root	_	_
+4	idʒe	idʒe	PRON	pron	Number=Sing|Person=1	5	nsubj	_	_
+5	aʔu	ʔu	VERB	v	Number=Sing|Person=1	3	csubj	_	_
+
+# sent_id = 01.021
+# text = nõdebaʔekʷərawe sikuwakatu
+# text_fr = et on connaît bien nos légendes.(GE, 28:36)
+1	nõdebaʔekʷərawe	baʔekʷər	NOUN	n	Case=Ref|Clusivity=In|Person=1	2	obj	_	_
+2	sikuwakatu	kuwa	VERB	v	Clusivity=In|Person=1	0	root	_	_
+
+# sent_id = 01.022
+# text = aŋ baʔekʷər amebeʔutaramãʔẽ
+# text_fr = Voici le conte queje vais raconter.(GE, 28:37)
+1	aŋ	aŋ	ADV	adv	_	_	_	_	_
+2	baʔekʷər	baʔekʷər	NOUN	n	_	_	_	_	_
+3	amebeʔutaramãʔẽ	mebeʔu	VERB	v	Case=Ref|Nomzr=Rel|Number=Sing|Person=1|Tense=Fut	2	acl	_	_
+
+# sent_id = 01.023
+# text = apamanẽ nõdeapisitanẽ, eʔi tekokom
+# text_fr = "Les étrangers voulaient nous massacrer", disent les Emérillons.(GE, 28:38)
+1	apamanẽ	apam	NOUN	n	Case=Ref	2	nsubj	_	_
+2	nõdeapisitanẽ	apisi	NOUN	n	Clusivity=In|Mood=Des|Person=1	0	root	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	eʔi	eʔi	VERB	v	Person=3	2	parataxis	_	_
+5	tekokom	teko	PROPN	propn	Number=Plur	4	nsubj	_	_
+
+# sent_id = 01.024
+# text = wãĩwĩ ipuruʔa ikeʔɨ
+# text_fr = La femme est enceinte maintenant.(GE, 34:39)
+1	wãĩwĩ	wãĩwĩ	NOUN	n	_	2	nsubj	_	_
+2	ipuruʔa	puruʔa	NOUN	n	Person=3	0	root	_	_
+3	ikeʔɨ	ikeʔɨ	ADV	adv	_	2	advmod	_	_
+
+# sent_id = 01.025
+# text = aʔenawe sikãĩwe wãĩwĩkom
+# text_fr = A cette époque, les filles étaient petites aussi.(GE, 34:40)
+1	aʔenawe	nawe	ADV	adv	PronType=Dem	2	advmod	_	_
+2	sikãĩwe	sikãĩ	ADJ	adj	_	_	_	_	_
+3	wãĩwĩkom	wãĩwĩ	NOUN	n	Number=Plur	2	nsubj	_	_
+
+# sent_id = 01.026
+# text = wãĩwĩ ipuruʔa ikeʔɨ
+# text_fr = La femme est enceinte maintenant.(GE, 35:41)
+1	wãĩwĩ	wãĩwĩ	NOUN	n	_	2	nsubj	_	_
+2	ipuruʔa	puruʔa	NOUN	n	Person=3	0	root	_	_
+3	ikeʔɨ	ikeʔɨ	ADV	adv	_	2	advmod	_	_
+
+# sent_id = 01.027
+# text = karaɨ okʷa
+# text_fr = Ilya une épidémie de fièvre. (litt : la fièvre passe)(GE, 35:42)
+1	karaɨ	karaɨ	NOUN	n	_	2	nsubj	_	_
+2	okʷa	kʷa	VERB	v	Person=3	0	root	_	_
+
+# sent_id = 01.028
+# text = dekaraɨdʒi
+# text_fr = Je ne suis pas fiévreux.(GE, 35:43)
+1	dekaraɨdʒi	karaɨ	NOUN	n	Number=Sing|Person=1|Polarity=Neg	0	root	_	_
+
+# sent_id = 01.029
+# text = dekuɲaɲi
+# text_fr = Je n'ai pas de sœur.(GE, 35:44)
+1	dekuɲaɲi	kuɲa	NOUN	n	Number=Sing|Person=1|Polarity=Neg	0	root	_	_
+
+# sent_id = 01.030
+# text = wãĩwĩ ipuruʔa ikeʔɨ
+# text_fr = La femme est enceinte maintenant. (litt : la femme a sa grossesse maintenant.)(GE, 36:45)
+1	wãĩwĩ	wãĩwĩ	NOUN	n	_	2	nsubj	_	_
+2	ipuruʔa	puruʔa	NOUN	n	Person=3	0	root	_	_
+3	ikeʔɨ	ikeʔɨ	ADV	adv	_	2	advmod	_	_
+
+# sent_id = 01.031
+# text = iɲuʔaŋoŋ
+# text_fr = Ils ont froid.(GE, 36:46)
+1	iɲuʔaŋoŋ	ɲuʔaŋ	NOUN	n	Number=Plur|Person=3	0	root	_	_
+
+# sent_id = 01.032
+# text = pɨawe okuʔeŋ
+# text_fr = Ils se sont réveillés à l'aube.(GE, 36:47)
+1	pɨawe	pɨawe	NOUN	n	_	2	obl	_	_
+2	okuʔeŋ	kuʔe	VERB	v	Number=Plur|Person=3	0	root	_	_
+
+# sent_id = 01.033
+# text = debaʔewari
+# text_fr = Je n'ai pas faim.(GE, 36:48)
+1	debaʔewari	baʔewar	NOUN	n	Number=Sing|Person=1|Polarity=Neg	0	root	_	_
+
+# sent_id = 01.034
+# text = demebɨri
+# text_fr = Je n'ai pas d'enfant.(GE, 36:49)
+1	demebɨri	mebɨr	NOUN	n	Number=Sing|Person=1|Polarity=Neg	0	root	_	_
+
+# sent_id = 01.035
+# text = dazaugi
+# text_fr = Je ne me suis pas baigné.(GE, 36:50)
+1	dazaugi	zaug	VERB	v	Number=Sing|Person=1|Polarity=Neg	0	root	_	_
+
+# sent_id = 01.036
+# text = iba'ewato
+# text_fr = Il est en train d'avoir faim.(GE, 36:52)
+1	iba'ewato	ba'ewat	NOUN	n	Aspect=Prog|Person=3	0	root	_	_
+
+# sent_id = 01.037
+# text = oʔao
+# text_fr = Il est allongé.(GE, 37:53)
+1	oʔao	ʔa	VERB	v	Aspect=Prog|Person=3	0	root	_	_
+
 # sent_id = 01.160
 # text = damãʔẽtaraɨdʒi derehe
 # text=fr = Je ne veux plus te voir (GE, 95:211)

@@ -239,6 +239,17 @@
 # text_fr = Il est allongé.(GE, 37:53)
 1	oʔao	ʔa	VERB	v	Aspect=Prog|Person=3	0	root	_	_
 
+# sent_id = 01.038
+# text = ʔɨ oboaku
+# text_fr = Il fait chauffer l'eau.(GE, 37:54)
+1	ʔɨ	ʔɨ	NOUN	n	_	2	obj	_	_
+2	oboaku	aku	VERB	v	Person=3|Voice=Cau	0	root	_	_
+
+# sent_id = 01.039
+# text = oboba'ewatokat
+# text_fr = Il l'affame.(GE, 37:55)
+1	oboba'ewatokat	ba'ewat	NOUN	n	Person=3|Voice=Cau	0	root	_	_
+
 # sent_id = 01.160
 # text = damãʔẽtaraɨdʒi derehe
 # text=fr = Je ne veux plus te voir (GE, 95:211)

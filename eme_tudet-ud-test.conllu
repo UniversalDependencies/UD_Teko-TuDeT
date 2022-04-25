@@ -649,7 +649,7 @@
 # sent_id = 01.101
 # text = ipuriweʔe baʔe ipope pazaru zaiɲuŋamãʔẽ
 # text_fr = Et à côté il y a la chose dans laquelle on met du cachiri (= une marmite).(GE, 60:120)
-1	ipuriweʔe	puri	NOUN	n	Intens=Yes|Rel=NCont	5	obl	_	_
+1	ipuriweʔe	puri	NOUN	n	Emph=Yes|Rel=NCont	5	obl	_	_
 2	baʔe	baʔe	NOUN	n	_	5	obl	_	_
 3	ipope	pope	NOUN	n	Rel=NCont	2	case	_	_
 4	pazaru	pazaru	NOUN	n	_	5	obl	_	_

@@ -567,7 +567,7 @@
 
 # sent_id = 01.091
 # text = datisikədʒi teko
-# text_fr = C'est comme s'il n'y avait pas d'Emérillon.(GE, 50:110)
+# text_fr = C'est comme s'il n'y avait pas d'Emérillon (GE, 50:110)
 1-3	datisikədʒi	_	_	_	_	_	_	_	_
 1	dati	dati	AUX	aux	_	4	cop	_	_
 2	sikə	sikə	ADV	adv	_	4	advmod	_	_
@@ -612,7 +612,7 @@
 # text_fr = Maman, nous allons nourrir le tapir.(GE, 59:116)
 1	Mama	Mama	NOUN	n	_	5	vocative	_	_
 2	,	,	PUNCT	punct	_	5	punct	_	_
-3	orohotar	ho	VERB	v	Clusivity=Ex|Person=1|Tense=Fut	5	aux	_	_
+3	orohotar	ho	VERB	v	Clusivity=Ex|Person=1|Tense=Fut	5	dep	_	_
 4	baipuri	baipuri	NOUN	n	_	5	obj	_	_
 5	orozopodʒ	zopodʒ	VERB	v	Clusivity=Ex|Person=1	0	root	_	_
 

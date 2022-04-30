@@ -538,7 +538,7 @@
 # text_fr = Je travaille avec des hommes.(GE, 50:108)
 1	atarawadʒ	tarawadʒ	VERB	v	Number=Sing|Person=1	0	root	_	_
 2	awakʷər	awakʷər	NOUN	n	_	1	obl	_	_
-3	arehe	ehe	ADP	posp	Сase=Com	1	obl	_	_
+3	arehe	ehe	ADP	posp	Case=Com	1	obl	_	_
 
 # sent_id = 01.089
 # text = atarawadʒ awakʷər arehedʒi
@@ -546,7 +546,7 @@
 1	atarawadʒ	tarawadʒ	VERB	v	Number=Sing|Person=1	0	root	_	_
 2	awakʷər	awakʷər	NOUN	n	_	1	obl	_	_
 3-4	arehedʒi	_	_	_	_	_	_	_	_
-3	arehe	ehe	ADP	posp	Сase=Com	1	obl	_	_
+3	arehe	ehe	ADP	posp	Case=Com	1	obl	_	_
 4	dʒi	dʒi	X	x	_	1	dep	_	_
 
 # sent_id = 01.090
@@ -651,3 +651,4 @@
 3	ipope	pope	NOUN	n	Rel=NCont	2	case	_	_
 4	pazaru	pazaru	NOUN	n	_	5	obl	_	_
 5	zaiɲuŋamãʔẽ	iɲuŋ	VERB	v	Case=Ref|Imprs=Yes|Nomzr=Rel	0	root	_	_
+

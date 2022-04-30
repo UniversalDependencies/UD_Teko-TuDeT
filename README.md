@@ -1,7 +1,7 @@
-![TuLeD](not-to-release/mapNimu2.png)
+
 # Summary
 
-UD_Teko-TuDeT is a collection of annotated sentences and texts in Tekó (Emérillon).
+UD_Teko-TuDeT is a collection of annotated texts in Tekó (Emérillon) (https://www.endangeredlanguages.com/lang/1368).
 
 
 

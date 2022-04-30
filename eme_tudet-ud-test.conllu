@@ -132,7 +132,7 @@
 # text_fr = Oh, c'est mon mari que j'ai mangé.(GE, 28:35)
 1	owa	owa	INTJ	intj	_	5	discourse	_	_
 2	,	,	PUNCT	punct	_	5	punct	_	_
-3	emenatesipo	men	NOUN	n	Case=Ref|Excl=Yes|Foc=Yes|Number=Sing|Person=1|PronType=Int	5	obj	_	_
+3	emenatesipo	men	NOUN	n	Case=Ref|Excl=Yes|Foc=Yes|Number=Sing|Person=1|Excl=Yes	5	obj	_	_
 4	idʒe	idʒe	PRON	pron	Number=Sing|Person=1	5	nsubj	_	_
 5	aʔu	ʔu	VERB	v	Number=Sing|Person=1	0	root	_	_
 
@@ -651,4 +651,3 @@
 3	ipope	pope	NOUN	n	Rel=NCont	2	case	_	_
 4	pazaru	pazaru	NOUN	n	_	5	obl	_	_
 5	zaiɲuŋamãʔẽ	iɲuŋ	VERB	v	Case=Ref|Imprs=Yes|Nomzr=Rel	0	root	_	_
-

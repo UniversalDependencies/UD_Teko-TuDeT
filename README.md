@@ -30,7 +30,7 @@ The development of this treebank is supported by the by European Research Counci
 Data available since: UD v2.10
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: grammar-examples, stories
+Genre: nonfiction news
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available

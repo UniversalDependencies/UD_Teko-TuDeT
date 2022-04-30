@@ -36,10 +36,10 @@
 
 # sent_id = 01.007
 # text = tekokom opopor oho
-# text_fr = Les Emérillons se sont dispersés.(GE, 25:22)
+# text_fr = Les Emérillons se sont dispersés (GE, 25:22)
 1	tekokom	teko	PROPN	propn	Number=Plur	2	nsubj	_	_
 2	opopor	popor	VERB	v	Person=3	0	root	_	_
-3	oho	ho	VERB	v	Person=3	2	aux	_	_
+3	oho	ho	VERB	v	Person=3	2	dep	_	_
 
 # sent_id = 01.008
 # text = tekoate eredʒu !
@@ -68,7 +68,7 @@
 # text_fr = Les Emérillons se sont dispersés.(GE, 26:26)
 1	tekokom	teko	PROPN	propn	Number=Plur	2	nsubj	_	_
 2	opopor	popor	VERB	v	Person=3	0	root	_	_
-3	oho	ho	VERB	v	Person=3	2	aux	_	_
+3	oho	ho	VERB	v	Person=3	2	dep	_	_
 
 # sent_id = 01.012
 # text = idʒeate azikakom

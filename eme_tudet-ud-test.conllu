@@ -88,7 +88,6 @@
 
 # sent_id = 01.014
 # text = porowaratewe , diakaŋi
-# text = porowaratewe , didʒakaŋi
 # text_fr = C'est un ogre, il n'a pas de tête.(GE, 26:29)
 1	porowaratewe	porowar	NOUN	n	Case=Ref|Foc=Yes	0	root	_	_
 2	,	,	PUNCT	punct	_	1	punct	_	_

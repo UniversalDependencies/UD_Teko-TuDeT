@@ -1,7 +1,7 @@
 
 # Summary
 
-UD_Teko-TuDeT is a collection of annotated texts in Tekó (Emérillon) (https://www.endangeredlanguages.com/lang/1368).
+UD_Teko-TuDeT is a collection of annotated texts in <a href="https://glottolog.org/resource/languoid/id/emer1243"> Tekó (Emérillon) </a>.
 
 
 

@@ -375,7 +375,7 @@
 1	omãʔẽ	mãʔẽ	NOUN	n	Rel=NCont	0	root	_	_
 2	bɨgi	bɨg	NOUN	n	Pred=Yes	3	nmod	_	_
 3	owa	owa	NOUN	n	_	1	obl	_	_
-4	rehe	ehe	NOUN	n	Rel=Cont	3	case	_	_
+4	rehe	ehe	ADP	posp	Rel=Cont	3	obl	_	_
 
 # sent_id = 01.062
 # text = sə tapiʔir otuirupiwe , wãĩwĩkom səsəwe otuiŋ
@@ -537,7 +537,7 @@
 # text_fr = Je travaille avec des hommes.(GE, 50:108)
 1	atarawadʒ	tarawadʒ	VERB	v	Number=Sing|Person=1	0	root	_	_
 2	awakʷər	awakʷər	NOUN	n	_	1	obl	_	_
-3	arehe	ehe	ADP	posp	Case=Com	1	obl	_	_
+3	arehe	ehe	ADP	posp	Rel=Cont	1	obl	_	_
 
 # sent_id = 01.089
 # text = atarawadʒ awakʷər arehedʒi
@@ -545,7 +545,7 @@
 1	atarawadʒ	tarawadʒ	VERB	v	Number=Sing|Person=1	0	root	_	_
 2	awakʷər	awakʷər	NOUN	n	_	1	obl	_	_
 3-4	arehedʒi	_	_	_	_	_	_	_	_
-3	arehe	ehe	ADP	posp	Case=Com	1	obl	_	_
+3	arehe	ehe	ADP	posp	Rel=Cont	1	obl	_	_
 4	dʒi	dʒi	X	x	_	1	dep	_	_
 
 # sent_id = 01.090

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>100</sentences><tokens>232</tokens><words>242</words><fused>9</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>100</sentences><tokens>232</tokens><words>242</words><fused>9</fused></test>
+  </size>
+  <lemmas unique="128" /><!-- ,, teko, dʒu, tukuk, aŋ, wãĩwĩ, bɨg, dʒi, ehe, ho, iɲuŋ, nõde, sə, ", awakʷər -->
+  <forms unique="175" /><!-- ,, aŋ, tekokom, adʒu, dʒi, ", bɨgi, eʔi, ikeʔɨ, ipuruʔa, nõde, teko, wãĩwĩ, apamanẽ, arehe -->
+  <fusions unique="9" /><!-- arehedʒi, baʔepopedʒi, bokalapedʒi, damãʔẽtaraɨdʒi, datisikədʒi, nanipamẽ, nanãhãte, pinãngala, tukukaɨ -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="12">
+    <tag name="ADP">4</tag><!-- ehe -->
+    <tag name="ADV">15</tag><!-- ikeʔɨ, nan, akapɨrer, kor, kotɨ, kʷi, la, mana, nawe, pɨawe -->
+    <tag name="AUX">10</tag><!-- dʒu, ate, dati, kob -->
+    <tag name="DET">8</tag><!-- aŋ, aʔe, les -->
+    <tag name="INTJ">1</tag><!-- owa -->
+    <tag name="NOUN">101</tag><!-- wãĩwĩ, bɨg, sə, tukuk, awakʷər, baʔekʷər, men, puruʔa, tukug, apam -->
+    <tag name="PART">1</tag><!-- siʔe -->
+    <tag name="PRON">10</tag><!-- idʒe, nõde, amõ, pamẽ, wɨɲ, ãng -->
+    <tag name="PROPN">12</tag><!-- teko, Camopi, Cayenne, Polo -->
+    <tag name="PUNCT">16</tag><!-- ,, ", !, ? -->
+    <tag name="VERB">60</tag><!-- ho, eʔi, iɲuŋ, kuwa, manõ, o, wata, ʔa, dzauk, ket -->
+    <tag name="X">4</tag><!-- dʒi -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="45">
+    <feat name="Antr" value="Yes" upos="NOUN">1</feat><!-- nõderaɨhɨpadʒira -->
+    <feat name="Aspect" value="Compl" upos="NOUN,VERB">2</feat><!-- nõderaɨhɨpadʒira, okuwapa -->
+    <feat name="Aspect" value="Cont" upos="NOUN,VERB">3</feat><!-- oʔao, iba'ewato -->
+    <feat name="Case" value="Abl" upos="NOUN,PROPN">2</feat><!-- Cayenneawinẽ, ewinẽ -->
+    <feat name="Case" value="Dat" upos="NOUN,PROPN">2</feat><!-- Camopipori, idʒupe -->
+    <feat name="Case" value="Dub" upos="ADV">1</feat><!-- kʷienã -->
+    <feat name="Case" value="Lat" upos="NOUN">2</feat><!-- wɨrakarakotɨnuwã -->
+    <feat name="Case" value="Loc" upos="NOUN">3</feat><!-- baʔepope, bokalape, okijapope -->
+    <feat name="Case" value="Ref" upos="DET,NOUN,PRON,PROPN,VERB">17</feat><!-- apamanẽ, esisiganũwã, idʒeate, amebeʔutaramãʔẽ, awakʷərakom, aʔeate, emenatesipo, izonaɲapɨrɨ, nõdebaʔekʷərawe, nõdeɨane -->
+    <feat name="Clusivity" value="Ex" upos="NOUN,VERB">4</feat><!-- orohotar, oronekarakuriõwãnam, orozopodʒ -->
+    <feat name="Clusivity" value="In" upos="AUX,NOUN,PRON,VERB">15</feat><!-- nõde, nõdeapisitanẽ, sidʒu, disidʒapɨakadʒi, nõdebaʔekʷərawe, nõderaɨhɨpadʒira, nõdezar, nõdeɨane, sibaʔetar, sidʒaonẽ -->
+    <feat name="Contrast" value="Yes" upos="NOUN,PROPN,VERB">6</feat><!-- apamanẽ, Cayenneawinẽ, ewinẽ, nõdeɨane, sidʒaonẽ -->
+    <feat name="Corf" value="Yes" upos="NOUN">2</feat><!-- okijapope, orekʷar -->
+    <feat name="Degree" value="Cmp" upos="NOUN">3</feat><!-- epɨbɨrɨ, ipoɨdjpɨlɨ, izonaɲapɨrɨ -->
+    <feat name="Degree" value="Sup" upos="NOUN">1</feat><!-- səbɨrɨ -->
+    <feat name="Emph" value="Yes" upos="NOUN">2</feat><!-- ipuriweʔe, oronekarakuriõwãnam -->
+    <feat name="Excl" value="Yes" upos="ADV,NOUN">2</feat><!-- emenatesipo, manasipo -->
+    <feat name="Foc" value="Yes" upos="ADV,DET,NOUN,PRON,PROPN">7</feat><!-- idʒeate, aʔeate, emenatesipo, porowaratewe, tekoate, ãhãte -->
+    <feat name="Imprs" value="Yes" upos="NOUN,VERB">3</feat><!-- sidʒaonẽ, zaidu, zaiɲuŋamãʔẽ -->
+    <feat name="Intens" value="Yes" upos="NOUN,VERB">4</feat><!-- damãʔẽtar, okuwapɨlɨ, perabkatu, sikuwakatu -->
+    <feat name="Mood" value="Des" upos="NOUN">2</feat><!-- nõdeapisitanẽ -->
+    <feat name="Mood" value="Sub" upos="NOUN,VERB">2</feat><!-- oronekarakuriõwãnam, otuirupiwe -->
+    <feat name="Nomzr" value="Rel" upos="NOUN,VERB">8</feat><!-- tukukima'ẽ, amebeʔutaramãʔẽ, bɨgimãʔẽ, ikijama'ẽ, omanõmãʔẽ, owatama'ẽ, zaiɲuŋamãʔẽ -->
+    <feat name="Number" value="Plur" upos="AUX,NOUN,PRON,PROPN,VERB">18</feat><!-- tekokom, nõde, peotar, wãĩwĩkom, awakʷərakom, iɲuʔaŋoŋ, okuʔeŋ, otuiŋ, owataŋ, sidʒu -->
+    <feat name="Number" value="Sing" upos="AUX,NOUN,PRON,VERB">33</feat><!-- adʒu, atarawadʒ, dapotari, esisiganũwã, idʒeate, oiɲuŋ, aiɲuŋokar, aker, amebeʔutaramãʔẽ, aʔu -->
+    <feat name="Number[obj]" value="Plur" upos="VERB">1</feat><!-- azikakom -->
+    <feat name="Number[subj]" value="Sing" upos="VERB">1</feat><!-- azikakom -->
+    <feat name="Person" value="1" upos="AUX,NOUN,PRON,VERB">46</feat><!-- adʒu, atarawadʒ, dapotari, idʒeate, nõde, nõdeapisitanẽ, orohotar, sidʒu, aiɲuŋokar, aker -->
+    <feat name="Person" value="2" upos="AUX,NOUN,VERB">6</feat><!-- peotar, eredʒu, erezika, esisiganũwã, itawa -->
+    <feat name="Person" value="3" upos="NOUN,VERB">39</feat><!-- eʔi, dokusugi, oho, oiɲuŋ, oket, opopor, oʔao, domanõɲi, dosuʔutari, oboaku -->
+    <feat name="Person[subj]" value="1" upos="VERB">1</feat><!-- azikakom -->
+    <feat name="Polarity" value="Neg" upos="NOUN,VERB">23</feat><!-- dapotari, dokusugi, esisiganũwã, wɨrakarakotɨnuwã, aɨdʒi, damãʔẽtar, dazaugi, daʔudʒi, debaʔewari, dekaraɨdʒi -->
+    <feat name="Pred" value="Yes" upos="NOUN">13</feat><!-- bɨgi, siŋi, tukugi, tukukima'ẽ, bɨgimãʔẽ, kuʔidʒi, tabedʒi, tawadʒi -->
+    <feat name="PronType" value="Dem" upos="PRON">1</feat><!-- ãng -->
+    <feat name="PronType" value="Ind" upos="PRON">1</feat><!-- amõenam -->
+    <feat name="PronType" value="Int" upos="ADV">1</feat><!-- manasipo -->
+    <feat name="PronType" value="Tot" upos="PRON">1</feat><!-- pamẽ -->
+    <feat name="Red" value="Yes" upos="VERB">1</feat><!-- otuiŋ -->
+    <feat name="Reflex" value="Yes" upos="ADV">1</feat><!-- zeakapɨreri -->
+    <feat name="Rel" value="Cont" upos="ADP,NOUN">6</feat><!-- arehe, irehe, nõderaɨhɨpadʒira, raʔɨr, rehe -->
+    <feat name="Rel" value="NCont" upos="NOUN">17</feat><!-- ipuruʔa, diakaŋi, diawutari, iba'ewato, idʒupe, ikijama'ẽ, imen, ipope, ipoɨdjpɨlɨ, ipuriweʔe -->
+    <feat name="Tense" value="Fut" upos="NOUN,VERB">9</feat><!-- orohotar, peotar, amebeʔutaramãʔẽ, damãʔẽtar, diawutari, dosuʔutari, sibaʔetar -->
+    <feat name="Top" value="Yes" upos="PRON">1</feat><!-- amõenam -->
+    <feat name="Voice" value="Cau" upos="NOUN,VERB">7</feat><!-- aiɲuŋokar, oboaku, oboba'ewatokat, obodzauk, obosale, obotukuk, oboʔa -->
+    <feat name="Voice" value="CauFact" upos="VERB">3</feat><!-- obodzaukokat, obotekookat, obotukukokat -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="18">
+    <dep name="advcl">3</dep>
+    <dep name="advmod">13</dep>
+    <dep name="aux">1</dep>
+    <dep name="case">2</dep>
+    <dep name="cop">9</dep>
+    <dep name="dep">9</dep>
+    <dep name="det">9</dep>
+    <dep name="discourse">3</dep>
+    <dep name="dislocated">1</dep>
+    <dep name="nmod">7</dep>
+    <dep name="nsubj">28</dep>
+    <dep name="obj">14</dep>
+    <dep name="obl">18</dep>
+    <dep name="parataxis">6</dep>
+    <dep name="punct">16</dep>
+    <dep name="root">100</dep>
+    <dep name="vocative">1</dep>
+    <dep name="xcomp">2</dep>
+  </deps>
+</treebank>

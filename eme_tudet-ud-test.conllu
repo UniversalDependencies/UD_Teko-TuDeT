@@ -3,11 +3,13 @@
 # sent_id = 01.001
 # text = diawutari
 # text_fr = Il ne parlera pas (GE, 23:16)
+# text_eng = He won't speak
 1	diawutari	awu	NOUN	n	Polarity=Neg|Rel=NCont|Tense=Fut	0	root	_	_
 
 # sent_id = 01.002
 # text = dosuʔutari
 # text_fr = Ça ne mordra pas. (GE, 23:17)
+# text_eng = It won't bite
 1	dosuʔutari	suʔu	VERB	v	Person=3|Polarity=Neg|Tense=Fut	0	root	_	_
 
 # sent_id = 01.003

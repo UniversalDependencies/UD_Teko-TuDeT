@@ -344,7 +344,7 @@
 # sent_id = 01.048
 # text = teko adʒu
 # text_fr = Je suis Emérillon.(GE, 41:69)
-# text_eng = 
+# text_eng = I am Emerillon.
 1	teko	teko	PROPN	propn	_	0	root	_	_
 2	adʒu	dʒu	AUX	aux	Number=Sing|Person=1	1	cop	_	_
 

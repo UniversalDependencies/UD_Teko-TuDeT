@@ -351,7 +351,7 @@
 # sent_id = 01.049
 # text = teko ate
 # text_fr = Il est Emérillon.(GE, 41:70)
-# text_eng = I am Emerillon.
+# text_eng = He is Emerillon.
 1	teko	teko	PROPN	propn	_	0	root	_	_
 2	ate	ate	AUX	aux	_	1	cop	_	_
 

@@ -10,49 +10,49 @@
 # sent_id = 01.002
 # text = dosuʔutari
 # text_fr = Ça ne mordra pas. (GE, 23:17)
-# text_eng = It won't bite
+# text_eng = It won't bite.
 1	dosuʔutari	suʔu	VERB	v	Person=3|Polarity=Neg|Tense=Fut	0	root	_	_
 
 # sent_id = 01.003
 # text = imen oʔao okijapope
-# text_fr = (GE, 24:18)
-# text_eng = 
+# text_fr = Et puis son mari est allongé dans son propre hamac. (GE, 24:18)
+# text_eng = And then her husband is lying in his own hammock.
 1	imen	men	NOUN	n	Rel=NCont	2	nsubj	_	_
 2	oʔao	ʔa	VERB	v	Aspect=Cont|Person=3	0	root	_	_
 3	okijapope	kija	NOUN	n	Case=Loc|Corf=Yes	2	obl	_	_
 
 # sent_id = 01.004
 # text = demeni
-# text_fr = (GE, 24:19)
-# text_eng = 
+# text_fr = Je n'ai pas de mari. (GE, 24:19)
+# text_eng = I don't have a husband.
 1	demeni	men	NOUN	n	Number=Sing|Person=1|Polarity=Neg	0	root	_	_
 
 # sent_id = 01.005
 # text = Polo omanõ
-# text_fr = (GE, 24:20)
-# text_eng = 
+# text_fr = Paulo est décédé. (GE, 24:20)
+# text_eng = Paul is deceased.
 1	Polo	Polo	PROPN	propn	_	2	nsubj	_	_
 2	omanõ	manõ	VERB	v	Person=3	0	root	_	_
 
 # sent_id = 01.006
 # text = okuwapa omanõmãʔẽ
-# text_fr = (GE, 24:21)
-# text_eng = 
+# text_fr = Il connaît tous les morts. (GE, 24:21)
+# text_eng = He knows all the dead.
 1	okuwapa	kuwa	VERB	v	Aspect=Compl|Person=3	0	root	_	_
 2	omanõmãʔẽ	manõ	VERB	v	Nomzr=Rel|Person=3	1	obj	_	_
 
 # sent_id = 01.007
 # text = tekokom opopor oho
 # text_fr = Les Emérillons se sont dispersés (GE, 25:22)
-# text_eng = 
+# text_eng = The Emerillons were dispersed
 1	tekokom	teko	PROPN	propn	Number=Plur	2	nsubj	_	_
 2	opopor	popor	VERB	v	Person=3	0	root	_	_
 3	oho	ho	VERB	v	Person=3	2	dep	_	_
 
 # sent_id = 01.008
 # text = tekoate eredʒu !
-# text_fr = C'est Emérillon que tu es !(GE, 25:23)
-# text_eng = 
+# text_fr = C'est Emérillon que tu es!(GE, 25:23)
+# text_eng = You are Emerillon!
 1	tekoate	teko	PROPN	propn	Case=Ref|Foc=Yes	0	root	_	_
 2	eredʒu	dʒu	AUX	aux	Number=Sing|Person=2	1	cop	_	_
 3	!	!	PUNCT	punct	_	1	punct	_	_
@@ -60,14 +60,14 @@
 # sent_id = 01.009
 # text = nõdeɨane erezika
 # text_fr = "tu as tué notre mère."(GE, 25:24)
-# text_eng = 
+# text_eng = "you killed our mother"
 1	nõdeɨane	nõde	NOUN	n	Case=Ref|Clusivity=In|Contrast=Yes|Person=1	2	obj	_	_
 2	erezika	zika	VERB	v	Number=Sing|Person=2	0	root	_	_
 
 # sent_id = 01.010
 # text = apamanẽ nõdeapisitanẽ , eʔi tekokom
 # text_fr = "Les étrangers voulaient nous massacrer", disent les Emérillons.(GE, 25:25)
-# text_eng = 
+# text_eng = "The foreigners wanted to massacre us", say the Emerillons.
 1	apamanẽ	apam	NOUN	n	Case=Ref|Contrast=Yes	2	nsubj	_	_
 2	nõdeapisitanẽ	apisi	NOUN	n	Clusivity=In|Mood=Des|Person=1	0	root	_	_
 3	,	,	PUNCT	punct	_	4	punct	_	_
@@ -77,7 +77,7 @@
 # sent_id = 01.011
 # text = tekokom opopor oho
 # text_fr = Les Emérillons se sont dispersés.(GE, 26:26)
-# text_eng = 
+# text_eng = The Emerillons were dispersed.
 1	tekokom	teko	PROPN	propn	Number=Plur	2	nsubj	_	_
 2	opopor	popor	VERB	v	Person=3	0	root	_	_
 3	oho	ho	VERB	v	Person=3	2	dep	_	_
@@ -85,14 +85,14 @@
 # sent_id = 01.012
 # text = idʒeate azikakom
 # text_fr = C'est moi qui les ai tués.(GE, 26:27)
-# text_eng = 
+# text_eng = It's me who killed them.
 1	idʒeate	idʒe	PRON	pron	Case=Ref|Foc=Yes|Number=Sing|Person=1	2	nsubj	_	_
 2	azikakom	zika	VERB	v	Number[obj]=Plur|Number[subj]=Sing|Person[subj]=1	0	root	_	_
 
 # sent_id = 01.013
 # text = " daʔudʒi " , eʔi idʒupe
 # text_fr = "Je n'ai pas mangé", lui dit-il.(GE, 26:28)
-# text_eng = 
+# text_eng = "I did'not eat", he tells him.
 1	"	"	PUNCT	punct	_	2	punct	_	_
 2	daʔudʒi	ʔu	VERB	v	Number=Sing|Person=1|Polarity=Neg	0	root	_	_
 3	"	"	PUNCT	punct	_	2	punct	_	_
@@ -103,7 +103,7 @@
 # sent_id = 01.014
 # text = porowaratewe , diakaŋi
 # text_fr = C'est un ogre, il n'a pas de tête.(GE, 26:29)
-# text_eng = 
+# text_eng = It's an ogre, he has no head.
 1	porowaratewe	porowar	NOUN	n	Case=Ref|Foc=Yes	0	root	_	_
 2	,	,	PUNCT	punct	_	1	punct	_	_
 3	diakaŋi	akaŋ	NOUN	n	Polarity=Neg|Rel=NCont	1	parataxis	_	_
@@ -111,20 +111,20 @@
 # sent_id = 01.015
 # text = esisiganũwã
 # text_fr = Ce n'est pas ma sœur.(GE, 26:30)
-# text_eng = 
+# text_eng = She's not my sister.
 1	esisiganũwã	sisig	NOUN	n	Case=Ref|Number=Sing|Person=2|Polarity=Neg	0	root	_	_
 
 # sent_id = 01.016
 # text = wɨrakarakotɨnuwã peotar
 # text_fr = Ce n'est pas vers Dieu que vous irez.(GE, 27:31)
-# text_eng = 
+# text_eng = It's not the God you are going to.
 1	wɨrakarakotɨnuwã	wɨrakara	NOUN	n	Case=Lat|Polarity=Neg	2	obl	_	_
 2	peotar	o	VERB	v	Number=Plur|Person=2|Tense=Fut	0	root	_	_
 
 # sent_id = 01.017
 # text = manasipo sibaʔetar ? "
 # text_fr = "Comment allons-nous faire ?"(GE, 27:32)
-# text_eng = 
+# text_eng = "How are we going to do this ?"
 1	manasipo	mana	ADV	adv	Excl=Yes|PronType=Int	2	advmod	_	_
 2	sibaʔetar	baʔe	VERB	v	Clusivity=In|Person=1|Tense=Fut	0	root	_	_
 3	?	?	PUNCT	punct	_	2	punct	_	_
@@ -133,14 +133,14 @@
 # sent_id = 01.018
 # text = oboʔa orekʷar
 # text_fr = Il couche sa propre femme.(GE, 28:33)
-# text_eng = 
+# text_eng = He puts his own wife to bed.
 1	oboʔa	ʔa	VERB	v	Person=3|Voice=Cau	0	root	_	_
 2	orekʷar	rekʷar	NOUN	n	Corf=Yes|Person=3	1	obj	_	_
 
 # sent_id = 01.019
 # text = idʒeate aŋ magazẽ aiɲuŋokar
 # text_fr = C'est moi qui ai fait installer ce magasin.(GE, 28:34)
-# text_eng = 
+# text_eng = It's me who made equip this store.
 1	idʒeate	idʒe	PRON	pron	Case=Ref|Foc=Yes|Number=Sing|Person=1	4	nsubj	_	_
 2	aŋ	aŋ	DET	dem	_	3	det	_	_
 3	magazẽ	magazẽ	NOUN	n	_	4	obj	_	_
@@ -149,7 +149,7 @@
 # sent_id = 01.020
 # text = owa , emenatesipo idʒe aʔu
 # text_fr = Oh, c'est mon mari que j'ai mangé.(GE, 28:35)
-# text_eng = 
+# text_eng = Oh, it's my husband who I ate.
 1	owa	owa	INTJ	intj	_	5	discourse	_	_
 2	,	,	PUNCT	punct	_	5	punct	_	_
 3	emenatesipo	men	NOUN	n	Case=Ref|Excl=Yes|Foc=Yes|Number=Sing|Person=1	5	obj	_	_
@@ -159,14 +159,14 @@
 # sent_id = 01.021
 # text = nõdebaʔekʷərawe sikuwakatu
 # text_fr = et on connaît bien nos légendes.(GE, 28:36)
-# text_eng = 
+# text_eng = and our legends are well-known.
 1	nõdebaʔekʷərawe	baʔekʷər	NOUN	n	Case=Ref|Clusivity=In|Person=1	2	obj	_	_
 2	sikuwakatu	kuwa	VERB	v	Clusivity=In|Intens=Yes|Person=1	0	root	_	_
 
 # sent_id = 01.022
 # text = aŋ baʔekʷər amebeʔutaramãʔẽ
 # text_fr = Voici le conte que je vais raconter.(GE, 28:37)
-# text_eng = 
+# text_eng = This is the tale I am going to tell.
 1	aŋ	aŋ	DET	dem	_	2	det	_	_
 2	baʔekʷər	baʔekʷər	NOUN	n	_	3	obj	_	_
 3	amebeʔutaramãʔẽ	mebeʔu	VERB	v	Case=Ref|Nomzr=Rel|Number=Sing|Person=1|Tense=Fut	0	root	_	_

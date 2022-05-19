@@ -660,7 +660,7 @@
 # sent_id = 01.091
 # text = datisikədʒi teko
 # text_fr = C'est comme s'il n'y avait pas d'Emérillon (GE, 50:110)
-# text_eng = 
+# text_eng = It's as if there were no Emerillons.
 1-3	datisikədʒi	_	_	_	_	_	_	_	_
 1	dati	dati	AUX	aux	_	4	cop	_	_
 2	sikə	sikə	ADV	adv	_	4	advmod	_	_
@@ -670,15 +670,15 @@
 # sent_id = 01.092
 # text = aʔe kõʔem irehe
 # text_fr = Le lendemain (GE, 50:111)
-# text_eng = 
+# text_eng = The next day
 1	aʔe	aʔe	DET	dem	_	2	det	_	_
 2	kõʔem	kõʔem	NOUN	n	_	0	root	_	_
 3	irehe	ehe	ADP	posp	Rel=Cont	2	obl	_	_
 
 # sent_id = 01.093
 # text = nanipamẽ sidʒu nõde les jeunes
-# text_fr = Nous sommes tous comme ça,les jeunes,(GE, 50:112)
-# text_eng = 
+# text_fr = Nous sommes tous comme ça,les jeunes, (GE, 50:112)
+# text_eng = We are all like that, young people,
 1-2	nanipamẽ	_	_	_	_	_	_	_	_
 1	nani	nan	ADV	adv	_	0	root	_	_
 2	pamẽ	pamẽ	PRON	pron	PronType=Tot	1	dep	_	_
@@ -689,15 +689,15 @@
 
 # sent_id = 01.094
 # text = zeakapɨreri owataŋ
-# text_fr = Ils marchent les uns derrière les autres(GE, 50:113)
-# text_eng = 
+# text_fr = Ils marchent les uns derrière les autres (GE, 50:113)
+# text_eng = They walk behind each other
 1	zeakapɨreri	akapɨrer	ADV	adv	Reflex=Yes	2	advmod	_	_
 2	owataŋ	wata	VERB	v	Number=Plur|Person=3	0	root	_	_
 
 # sent_id = 01.096
 # text = sidʒaonẽ siʔe nõde , nõderaɨhɨpadʒira
-# text_fr = Allons-y nous-mêmes, parce qu'on ne nous aime pas.(GE, 59:115)
-# text_eng = 
+# text_fr = Allons-y nous-mêmes, parce qu'on ne nous aime pas. (GE, 59:115)
+# text_eng = Let's go ourselves, because they don't like us.
 1	sidʒaonẽ	o	VERB	v	Clusivity=In|Contrast=Yes|Imprs=Yes|Person=1	0	root	_	_
 2	siʔe	siʔe	PART	prcl	_	3	discourse	_	_
 3	nõde	nõde	PRON	pron	Clusivity=In|Number=Plur|Person=1	1	nsubj	_	_
@@ -707,7 +707,7 @@
 # sent_id = 01.097
 # text = Mama , orohotar baipuri orozopodʒ
 # text_fr = Maman, nous allons nourrir le tapir.(GE, 59:116)
-# text_eng = 
+# text_eng = Mom, let's feed the tapir.
 1	Mama	Mama	NOUN	n	_	5	vocative	_	_
 2	,	,	PUNCT	punct	_	5	punct	_	_
 3	orohotar	ho	VERB	v	Clusivity=Ex|Person=1|Tense=Fut	5	dep	_	_
@@ -717,7 +717,7 @@
 # sent_id = 01.098
 # text = kʷienã oronekarakuriõwãnam , kotɨ orohotar
 # text_fr = Un jour, peut-être, quand on aura un peu de sous, nous irons là-bas.(GE, 59:117)
-# text_eng = 
+# text_eng = One day, perhaps, when we have some money, we will go there.
 1	kʷienã	kʷi	ADV	adv	Case=Dub	5	advmod	_	_
 2	oronekarakuriõwãnam	karakuri	NOUN	n	Clusivity=Ex|Emph=Yes|Mood=Sub|Person=1	5	advcl	_	_
 3	,	,	PUNCT	punct	_	5	punct	_	_
@@ -727,7 +727,7 @@
 # sent_id = 01.099
 # text = aʔeate nõde tekokom sidʒu
 # text_fr = Ceux-là, c'est nous, nous sommes les Emérillons.(GE, 59:118)
-# text_eng = 
+# text_eng = Those are us, we are the Emerillons.
 1	aʔeate	aʔe	DET	dem	Case=Ref|Foc=Yes	3	det	_	_
 2	nõde	nõde	PRON	pron	Clusivity=In|Number=Plur	3	parataxis	_	_
 3	tekokom	teko	PROPN	propn	Number=Plur	0	root	_	_
@@ -736,7 +736,7 @@
 # sent_id = 01.100
 # text = nanãhãte aŋ baʔekʷər zaidu
 # text_fr = C'est comme ça qu'on raconte cette histoire.(GE, 59:119)
-# text_eng = 
+# text_eng = That's how we tell this story.
 1-2	nanãhãte	_	_	_	_	_	_	_	_
 1	nan	nan	ADV	adv	_	5	advmod	_	_
 2	ãhãte	ãhã	ADV	adv	Foc=Yes	1	dep	_	_
@@ -746,8 +746,8 @@
 
 # sent_id = 01.101
 # text = ipuriweʔe baʔe ipope pazaru zaiɲuŋamãʔẽ
-# text_fr = Et à côté il y a la chose dans laquelle on met du cachiri (= une marmite)
-# text_eng = .(GE, 60:120) 
+# text_fr = Et à côté il y a la chose dans laquelle on met du cachiri (= une marmite) (GE, 60:120) 
+# text_eng = And nearby there is the thing in which we put cachiri (= a pot)
 1	ipuriweʔe	puri	NOUN	n	Emph=Yes|Rel=NCont	5	obl	_	_
 2	baʔe	baʔe	NOUN	n	_	5	obl	_	_
 3	ipope	pope	NOUN	n	Rel=NCont	2	case	_	_

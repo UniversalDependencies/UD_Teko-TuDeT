@@ -92,7 +92,7 @@
 # sent_id = 01.013
 # text = " daʔudʒi " , eʔi idʒupe
 # text_fr = "Je n'ai pas mangé", lui dit-il.(GE, 26:28)
-# text_eng = "I did'not eat", he tells him.
+# text_eng = "I did not eat", he tells him.
 1	"	"	PUNCT	punct	_	2	punct	_	_
 2	daʔudʒi	ʔu	VERB	v	Number=Sing|Person=1|Polarity=Neg	0	root	_	_
 3	"	"	PUNCT	punct	_	2	punct	_	_

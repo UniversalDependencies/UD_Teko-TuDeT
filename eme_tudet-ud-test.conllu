@@ -1280,9 +1280,9 @@
 1	irupi	upi	ADV	adv	Rel=NCont	0	root	_	_
 
 # sent_id = 01.193
-# text = sikãĩnam baipuri opɨhɨgoŋ
+# text = sikãĩnam baipuri opɨhɨgoŋ
 # text=fr = Ils ont attrapé le tapir quand il était petit. (GE, 106:225)
-1	sikãĩnam	sikãĩ	NOUN	n	_	3	advcl	_	_
+1	sikãĩnam	sikãĩ	NOUN	n	_	3	advcl	_	_
 2	baipuri	baipuri	NOUN	n	_	3	obj	_	_
 3	opɨhɨgoŋ	pɨhɨg	VERB	v	Number=Plur|Person=3	0	root	_	_
 
@@ -1299,10 +1299,10 @@
 1	epotaroŋ	potar	NOUN	n	Number[psor]=Sing|Number=Plur|Person[psor]=1	0	root	_	_
 
 # sent_id = 01.196
-# text = wɨtʃɨnẽ nõdemõdokaroŋ
+# text = wɨtʃɨnẽ nõdemõdokaroŋ
 # text=fr = Ils nous ont envoyé loin. (GE, 106:229)
-1	wɨtʃɨnẽ	wɨtʃɨ	ADV	adv	Contrast=Yes	2	advmod	_	_
-2	nõdemõdokaroŋ	mõdokar	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1	0	root	_	_
+1	wɨtʃɨnẽ	wɨtʃɨ	ADV	adv	Contrast=Yes	2	advmod	_	_
+2	nõdemõdokaroŋ	mõdokar	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1	0	root	_	_
 
 # sent_id = 01.197
 # text = maŋ ebɨgoŋ
@@ -1311,9 +1311,9 @@
 2	ebɨgoŋ	ebɨg	NOUN	n	Number=Plur	0	root	_	_
 
 # sent_id = 01.198
-# text = wãĩwĩkomenam owɨkɨrog owɨkɨrog
+# text = wãĩwĩkomenam owɨkɨrog owɨkɨrog
 # text=fr = Les femmes vident les poissons. (GE, 107:232)
-1	wãĩwĩkomenam	wãĩwĩ	NOUN	n	Number=Plur|Top=Yes	2	nsubj	_	_
+1	wãĩwĩkomenam	wãĩwĩ	NOUN	n	Number=Plur|Top=Yes	2	nsubj	_	_
 2	owɨkɨrog	wɨkɨrog	VERB	v	Person=3	0	root	_	_
 3	owɨkɨrog	wɨkɨrog	VERB	v	Person=3	2	discourse	_	_
 
@@ -1409,10 +1409,10 @@
 4	ikarug	karug	NOUN	n	Rel=NCont	3	obl	_	_
 
 # sent_id = 01.213
-# text = munuʔaŋanate ohẽhem ohoŋ
+# text = munuʔaŋanate ohẽhem ohoŋ
 # text=fr = L'après-midi, elles sortent. (GE, 109:248)
 1	munuʔaŋanate	munuʔaŋ	ADV	adv	Case=Ref|Mood=Sub	2	advmod	_	_
-2	ohẽhem	hem	VERB	v	Person=3|Red=Yes	0	root	_	_
+2	ohẽhem	hem	VERB	v	Person=3|Red=Yes	0	root	_	_
 3	ohoŋ	ho	VERB	v	Number=Plur|Person=3	2	dep	_	_
 
 # sent_id = 01.214
@@ -1448,14 +1448,14 @@
 5	...	...	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 01.218
-# text = ... , eʔi baipurirɨepopenẽ kupao
+# text = ... , eʔi baipurirɨepopenẽ kupao
 # text=fr = ..., disent-elle ensemble dans le ventre du tapir. (GE, 110:254)
 1	...	...	PUNCT	punct	_	3	punct	_	_
 2	,	,	PUNCT	punct	_	3	punct	_	_
 3	eʔi	eʔi	VERB	v	Person-3	0	root	_	_
-4-5	baipurirɨepopenẽ	_	_	_	_	_	_	_	_
+4-5	baipurirɨepopenẽ	_	_	_	_	_	_	_	_
 4	baipuri	baipuri	NOUN	n	_	3	obl	_	_
-5	rɨepopenẽ	ɨe	NOUN	n	Case=Loc|Contrast=Yes|Rel=Cont	4	nmod	_	_
+5	rɨepopenẽ	ɨe	NOUN	n	Case=Loc|Contrast=Yes|Rel=Cont	4	nmod	_	_
 6	kupao	o	PART	prcl	Number=Plur	3	obl	_	_
 
 # sent_id = 01.219
@@ -1944,5 +1944,4 @@
 7	docteur	docteur	NOUN	n	_	_	_	_	_
 8	oʔoramte	oʔoram	CCONJ	cc	Foc=Yes	_	_	_	_
 9	infirmier	infirmier	NOUN	n	_	_	_	_	_
-
 

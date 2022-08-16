@@ -890,9 +890,9 @@
 # sent_id = 01.131
 # text = arakapusauhu omõduroŋ bal
 # text_fr = Les fusils tiraient des balles.(GE, 71:155)
-1	arakapusauhu	arakapusa	NOUN	n	Augm=Yes	3	nsubj	_	_
+1	arakapusauhu	arakapusa	NOUN	n	Augm=Yes	2	nsubj	_	_
 2	omõduroŋ	mõdur	VERB	v	Person=3	0	root	_	_
-3	bal	bal	NOUN	n	_	3	obj	_	_
+3	bal	bal	NOUN	n	_	2	obj	_	_
 
 # sent_id = 01.132
 # text = omõgaʔu
@@ -1177,6 +1177,7 @@
 3	aipo	aipo	ADV	adv	_	5	advmod	_	_
 4	waɨkuwa	kuwa	PART	prcl	Mood=Cnd|Polarity=Neg	5	obl	_	_
 5	nõderɨruũwã	ɨru	NOUN	n	Clusivity=In|Person=1|Polarity=Neg|Rel=Cont	0	root	_	_
+
 # sent_id = 01.179
 # text = oɨruanẽʔe oiɲuŋoŋ
 # text_fr = Ils portent des vêtements. (GE, 92:204)
@@ -1382,7 +1383,7 @@
 # text = lekolazarakom oʔutar ekotɨŋ
 # text_fr = Les instituteurs vont venir chez moi. (GE, 108:243)
 1	lekolazarakom	lekolazar	NOUN	n	Case=Ref|Number=Plur	2	nsubj	_	_
-2	oʔurtar	ʔu	VERB	v	Person=3|Tense=Fut	0	root	_	_
+2	oʔutar	ʔu	VERB	v	Person=3|Tense=Fut	0	root	_	_
 3	ekotɨŋ	kotɨ	ADV	adv	Number[psor]=Sing|Number[subj]=Plur|Person[psor]=1	2	advmod	_	_
 
 # sent_id = 01.210
@@ -1554,22 +1555,22 @@
 # sent_id = 01.232
 # text = ikɨwɨrakom
 # text_fr = leur frère (GE, 114:267)
-1	ikɨwɨrakom	kɨwɨr	NOUN	n	Case=Ref|Number=Plur|Rel=NCont	0	root	_	_	n	Number=Sing|Person=1|Polarity=Neg
+1	ikɨwɨrakom	kɨwɨr	NOUN	n	Case=Ref|Number=Plur|Rel=NCont	0	root	_	_
 
 # sent_id = 01.233
 # text = ikɨwɨrakom
 # text_fr = leur frères (GE, 114:267)
-1	ikɨwɨrakom	kɨwɨr	NOUN	n	Case=Ref|Number=Plur|Rel=NCont	0	root	_	_	n	Number=Sing|Person=1|Polarity=Neg
+1	ikɨwɨrakom	kɨwɨr	NOUN	n	Case=Ref|Number=Plur|Rel=NCont	0	root	_	_
 
 # sent_id = 01.234
 # text = wareʔeteaʔu amãʔẽ baʔekomarehe
 # text_fr = J'ai vu de jolies choses en route. (GE, 114:268)
 1	wareʔeteaʔu	wareʔete	VERB	v	Top=Yes	2	discourse	_	_
 2	amãʔẽ	mãʔẽ	VERB	v	Number=Sing|Person=1	0	root	_	_
-3	baʔekomarehe	baʔe	NOUN	n	Case=Ref|Number=Plur|Mood=Sub|Rel=Cont	2	obj	_	_
+3	baʔekomarehe	baʔe	NOUN	n	Case=Ref|Mood=Sub|Number=Plur|Rel=Cont	2	obj	_	_
 
 # sent_id = 01.235
-# text = ʔɨb dozaugi teko wãĩwĩ...
+# text = ʔɨb dozaugi teko wãĩwĩ ...
 # text_fr = Elles ne se baignent pas dans la rivière, les femmes émérillons [quand elles ont leur règles pour la première fois] (litt : elle ne se baigne pas, la femme émérillon.) (GE, 114:269)
 1	ʔɨb	ʔɨ	NOUN	n	Case=Loc	2	obl	_	_
 2	dozaugi	zaug	VERB	v	Person=3|Polarity=Neg	0	root	_	_
@@ -1702,7 +1703,7 @@
 # sent_id = 01.252
 # text = zawapinim
 # text_fr = jaguar tacheté (GE, 124:290)
-1-2	zawapinim	zawapinim	NOUN	n	_	_	_	_	_
+1-2	zawapinim	_	_	_	_	_	_	_	_
 1	zawa	zawa	NOUN	n	_	0	root	_	_
 2	pinim	pinim	NOUN	n	_	1	nmod	_	_
 
@@ -1710,14 +1711,14 @@
 # text = tatabodʒ
 # text_fr = serpent corail (GE, 124:291)
 1-2	tatabodʒ	_	_	_	_	_	_	_	_
-1	tata	ata	NOUN	n	Rel=Abs	1	nmod	_	_
+1	tata	ata	NOUN	n	Rel=Abs	2	nmod	_	_
 2	bodʒ	bodʒ	NOUN	n	_	0	root	_	_
 
 # sent_id = 01.254
 # text = tazar
 # text_fr = chef de village/chef du village (GE, 124:292)
 1-2	tazar	_	_	_	_	_	_	_	_
-1	ta	ta	NOUN	n	_	1	nmod	_	_
+1	ta	ta	NOUN	n	_	2	nmod	_	_
 2	zar	zar	NOUN	n	_	0	root	_	_
 
 # sent_id = 01.255
@@ -1731,7 +1732,7 @@
 # text = kaʔiakaŋ
 # text_fr = louche (GE, 124:294)
 1-2	kaʔiakaŋ	_	_	_	_	_	_	_	_
-1	kaʔi	kaʔi	NOUN	n	_	1	nmod	_	_
+1	kaʔi	kaʔi	NOUN	n	_	2	nmod	_	_
 2	akaŋ	akaŋ	NOUN	n	_	0	root	_	_
 
 # sent_id = 01.257
@@ -2305,3 +2306,4 @@
 4	oweta	weta	VERB	v	Person=3	0	root	_	_
 5	beku	beku	NOUN	n	_	4	obj	_	_
 6	oiruroŋ	irur	VERB	v	Number=Plur|Person=3	4	conj	_	_
+

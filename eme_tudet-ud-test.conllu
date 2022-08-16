@@ -671,7 +671,7 @@
 # text = nanãhãte aŋ baʔekʷər zaidu
 # text_fr = C'est comme ça qu'on raconte cette histoire.(GE, 59:119)
 # text_eng = That's how we tell this story.
-1	nanãhãte	nan	_	_	_	_	_	_	_
+1	nanãhãte	nan	ADV	adv	Foc=Yes	4	advmod	_	_
 2	aŋ	aŋ	DET	dem	_	3	det	_	_
 3	baʔekʷər	baʔekʷər	NOUN	n	_	4	obj	_	_
 4	zaidu	idu	VERB	v	Imprs=Yes	0	root	_	_
@@ -809,8 +809,8 @@
 1	nõde	nõde	PRON	pron	Clusivity=In|Number=Plur	3	nsubj	_	_
 2	wɨtʃɨ	wɨtʃɨ	ADV	adv	_	3	advmod	_	_
 3	sidʒaorehe	o	VERB	v	Clusivity=In|Imprs=Yes|Mood=Sub|Nomzr=Rel|Person=1	0	root	_	_
-5	,	,	PUNCT	punct	_	3	punct	_	_
-6	...	...	PUNCT	punct	_	3	punct	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_
+5	...	...	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 01.118
 # text = aʔɨta ʔɨpope
@@ -2279,6 +2279,7 @@
 3	oker	ker	VERB	v	Person=3	0	root	_	_
 4	kotɨ	kotɨ	ADV	adv	_	3	advmod	_	_
 
+# sent_id = 01.329
 # text = nanipamẽitʃe zadʒapɨakanam , ...
 # text_fr = Si tout le monde pensait ainsi... (GE, 151:388)
 1-2	nanipamẽitʃe	_	_	_	_	_	_	_	_

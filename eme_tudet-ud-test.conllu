@@ -1175,7 +1175,7 @@
 1	...	...	PUNCT	punct	_	5	punct	_	_
 2	,	,	PUNCT	punct	_	5	punct	_	_
 3	aipo	aipo	ADV	adv	_	5	advmod	_	_
-4	waɨkuwa	kuwa	PART	prcl	Mood=Cnd|Polarity=Neg	5	obl	_	_
+4	waɨkuwa	kuwa	PART	prcl	Mood=Irr|Polarity=Neg	5	obl	_	_
 5	nõderɨruũwã	ɨru	NOUN	n	Clusivity=In|Person=1|Polarity=Neg|Rel=Cont	0	root	_	_
 
 # sent_id = 01.179
@@ -1296,7 +1296,7 @@
 # sent_id = 01.195
 # text = epotaroŋ
 # text_fr = Ils m'aiment. (GE, 106:228)
-1	epotaroŋ	potar	NOUN	n	Number[psor]=Sing|Number=Plur|Person[psor]=1	0	root	_	_
+1	epotaroŋ	potar	NOUN	n	Number=Plur|Number[psor]=Sing|Person[psor]=1	0	root	_	_
 
 # sent_id = 01.196
 # text = wɨtʃɨnẽ nõdemõdokaroŋ
@@ -1740,7 +1740,7 @@
 # text_fr = C'est de l'école dont moi, je vais parler. (GE, 125:295)
 1	lekolarehete	lekol	NOUN	n	Case=Ref|Foc=Yes|Mood=Sub|Rel=Cont	3	obl	_	_
 2	idʒe	idʒe	PRON	pron	Number=Sing|Person=1	3	nsubj	_	_
-3	eawutar	awu	NOUN	n	Number=Sing|Person=1|Tense=Fut	_	_	_	_
+3	eawutar	awu	NOUN	n	Number=Sing|Person=1|Tense=Fut	0	root	_	_
 
 # sent_id = 01.258
 # text = dorokuwadʒi , ede
@@ -1897,7 +1897,7 @@
 2	wɨtʃɨ	wɨtʃɨ	ADV	adv	_	3	advmod	_	_
 3	ekʷa	kʷa	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
 4	damãʔẽtaraɨdʒi	mãʔẽ	VERB	v	Intens=Yes|Number=Sing|Person=1|Polarity=Neg|Tense=Fut	3	parataxis	_	_
-5	derehe	ehe	ADP	posp	Number=Sing|Person=2	_	_	_	_
+5	derehe	ehe	ADP	posp	Number=Sing|Person=2	4	obl	_	_
 6	!	!	PUNCT	punct	_	3	punct	_	_
 7	"	"	PUNCT	punct	_	3	punct	_	_
 
@@ -1949,7 +1949,7 @@
 9	infirmier	infirmier	NOUN	n	_	7	conj	_	_
 
 # sent_id = 01.284
-# text = aʔkomãhã nõdepe kob
+# text = aʔekomãhã nõdepe kob
 # text_fr = Il y a seulement ces choses qui nous restent. (litt : il y a seulement ceux-ci à nous). (GE, 134:327)
 1	aʔekomãhã	aʔe	DET	dem	Number=Plur	2	det	_	_
 2	nõdepe	nõde	PRON	pron	Case=Dat|Clusivity=In|Number=Plur|Person=1	0	root	_	_

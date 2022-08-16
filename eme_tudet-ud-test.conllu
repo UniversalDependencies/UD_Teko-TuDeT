@@ -891,8 +891,8 @@
 # text = arakapusauhu omõduroŋ bal
 # text_fr = Les fusils tiraient des balles.(GE, 71:155)
 1	arakapusauhu	arakapusa	NOUN	n	Augm=Yes	3	nsubj	_	_
-3	omõduroŋ	mõdur	VERB	v	Person=3	0	root	_	_
-4	bal	bal	NOUN	n	_	3	obj	_	_
+2	omõduroŋ	mõdur	VERB	v	Person=3	0	root	_	_
+3	bal	bal	NOUN	n	_	3	obj	_	_
 
 # sent_id = 01.132
 # text = omõgaʔu
@@ -943,16 +943,16 @@
 # text_fr = "Descends que je te mange !"(GE, 74:165)
 1	"	"	PUNCT	punct	_	2	punct	_	_
 2	ewedʒu	wedʒu	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
-3	toroʔu	ʔu	VERB	v	Mood=Per|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[obj]=1	2	parataxis	_	_
+3	toroʔu	ʔu	VERB	v	Mood=Per|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=1	2	parataxis	_	_
 4	"	"	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 01.142
 # text = aporoekar
 # text_fr = Nous vous avons cherché.(GE, 74:166)
-1	aporoekar	ekar	VERB	v	Number[obj]=Plur|Number[subj]=Plur|Person[obj]=2|Person[obj]=1	0	root	_	_
+1	aporoekar	ekar	VERB	v	Number[obj]=Plur|Number[subj]=Plur|Person[obj]=2|Person[subj]=1	0	root	_	_
 
 # sent_id = 01.145
-# text = apama baʔekʷərakom aipo zapuru
+# text = apamabaʔekʷərakom aipo zapuru
 # text_fr = Maintenant on utilise les coutumes des étrangers.(GE, 83:172)
 1-2	apamabaʔekʷərakom	_	_	_	_	_	_	_	_
 1	apama	apam	NOUN	n	Case=Ref	2	nmod	_	_
@@ -1025,7 +1025,7 @@
 # sent_id = 01.155
 # text = zaɨaʔebaʔekʷər
 # text_fr = l'histoire de la lune (GE, 85:181)
-1-2	zaɨaʔebaʔekʷor	_	_	_	_	_	_	_	_
+1-2	zaɨaʔebaʔekʷər	_	_	_	_	_	_	_	_
 1	zaɨ	zaɨ	NOUN	n	_	2	nmod	_	_
 2	aʔebaʔekʷər	baʔekʷər	NOUN	n	Case=Ref	0	root	_	_
 
@@ -1070,7 +1070,7 @@
 # sent_id = 01.161
 # text = arehete ...
 # text_fr = C'est pour ça que ... (GE, 87:187)
-1	arehete	a	DET	dem	Foc=Yes|Mood=Sub|Rel=Cont	0	root	_	_	_	_
+1	arehete	a	DET	dem	Foc=Yes|Mood=Sub|Rel=Cont	0	root	_	_
 2	...	...	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 01.162
@@ -1152,7 +1152,7 @@
 # text_fr = On ne veut pas vous voir. (GE, 91:199)
 1	waɨ	waɨ	PART	prcl	Polarity=Neg	3	advmod	_	_
 2	pedehe	ehe	ADP	posp	Number=Plur|Person=2|Rel=Cont	3	obl	_	_
-3	zamãʔẽtanẽ	mãʔẽ	VERB	v	Mood=Des|Imprs=Yes	0	root	_	_
+3	zamãʔẽtanẽ	mãʔẽ	VERB	v	Imprs=Yes|Mood=Des	0	root	_	_
 
 # sent_id = 01.175
 # text = pedapɨdʒ
@@ -1160,7 +1160,7 @@
 1	pedapɨdʒ	apɨdʒ	NOUN	n	Number=Plur|Person=2|Rel=Cont	0	root	_	_
 
 # sent_id = 01.176
-# text = pedapɨdʒ
+# text = penerapɨdʒ
 # text_fr = votre maison (GE, 91:201)
 1	penerapɨdʒ	apɨdʒ	NOUN	n	Number=Plur|Person=2|Rel=Cont	0	root	_	_
 
@@ -1175,9 +1175,8 @@
 1	...	...	PUNCT	punct	_	5	punct	_	_
 2	,	,	PUNCT	punct	_	5	punct	_	_
 3	aipo	aipo	ADV	adv	_	5	advmod	_	_
-4	waɨkuwa	kuwa	PART	prcl	Mood=Cnd|Polarity=Neg	5	_	_	_
+4	waɨkuwa	kuwa	PART	prcl	Mood=Cnd|Polarity=Neg	5	obl	_	_
 5	nõderɨruũwã	ɨru	NOUN	n	Clusivity=In|Person=1|Polarity=Neg|Rel=Cont	0	root	_	_
-
 # sent_id = 01.179
 # text = oɨruanẽʔe oiɲuŋoŋ
 # text_fr = Ils portent des vêtements. (GE, 92:204)

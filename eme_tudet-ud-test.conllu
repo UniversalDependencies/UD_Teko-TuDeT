@@ -1844,7 +1844,7 @@
 3	zatarawadʒ	tarawadʒ	VERB	v	Imprs=Yes	1	ccomp	_	_
 
 # sent_id = 01.271
-# text = " erepotanẽso aŋ arowarowag ? "
+# text = erepotanẽso aŋ arowarowag ?
 # text_fr = "Est-ce que tu veux que je renverse ça ?" (GE, 130:313)
 1	erepotanẽso	pota	VERB	v	Number=Sing|Person=2	0	root	_	_
 2	aŋ	aŋ	DET	dem	_	3	obj	_	_

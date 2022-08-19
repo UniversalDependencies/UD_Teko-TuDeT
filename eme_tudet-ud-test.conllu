@@ -364,13 +364,13 @@
 # text = obotukukokat
 # text_fr = Il le lui fait raccourcir.(GE, 42:77)
 # text_eng = He makes her shorten it.
-1	obotukukokat	tukuk	VERB	v	Person=3|Voice=CauFact	0	root	_	_
+1	obotukukokat	tukuk	VERB	v	Person=3|Voice=Cau	0	root	_	_
 
 # sent_id = 01.057
 # text = obodzaukokat
 # text_fr = Il le lui fait baigner.(GE, 42:78)
 # text_eng = He makes her bathe him.
-1	obodzaukokat	dzauk	VERB	v	Person=3|Voice=CauFact	0	root	_	_
+1	obodzaukokat	dzauk	VERB	v	Person=3|Voice=Cau	0	root	_	_
 
 # sent_id = 01.058
 # text = amõenam awakʷərakom obosale paku
@@ -385,7 +385,7 @@
 # text = obotekookat
 # text_fr = Il le fait devenir Emérillon.(GE, 42:80)
 # text_eng = He makes him become Emerillon.
-1	obotekookat	teko	VERB	v	Person=3|Voice=CauFact	0	root	_	_
+1	obotekookat	teko	VERB	v	Person=3|Voice=Cau	0	root	_	_
 
 # sent_id = 01.060
 # text = dapotari aŋ zawar bɨgi
@@ -680,7 +680,7 @@
 # text = ipuriweʔe baʔe ipope pazaru zaiɲuŋamãʔẽ
 # text_fr = Et à côté il y a la chose dans laquelle on met du cachiri (= une marmite) (GE, 60:120) 
 # text_eng = And nearby there is the thing in which we put cachiri (= a pot)
-1	ipuriweʔe	puri	NOUN	n	Also=Yes|Emph=Yes|Rel=NCont	5	obl	_	_
+1	ipuriweʔe	puri	ADP	posp	Also=Yes|Emph=Yes|Rel=NCont	5	obl	_	_
 2	baʔe	baʔe	NOUN	n	_	5	obl	_	_
 3	ipope	pope	NOUN	n	Rel=NCont	2	case	_	_
 4	pazaru	pazaru	NOUN	n	_	5	obl	_	_
@@ -1280,9 +1280,9 @@
 1	irupi	upi	ADV	adv	Rel=NCont	0	root	_	_
 
 # sent_id = 01.193
-# text = sikãĩnam baipuri opɨhɨgoŋ
+# text = sikãĩnam baipuri opɨhɨgoŋ
 # text_fr = Ils ont attrapé le tapir quand il était petit. (GE, 106:225)
-1	sikãĩnam	sikãĩ	NOUN	n	Subord=Yes	3	advcl	_	_
+1	sikãĩnam	sikãĩ	NOUN	n	Subord=Yes	3	advcl	_	_
 2	baipuri	baipuri	NOUN	n	_	3	obj	_	_
 3	opɨhɨgoŋ	pɨhɨg	VERB	v	Number=Plur|Person=3	0	root	_	_
 
@@ -1299,10 +1299,10 @@
 1	epotaroŋ	potar	NOUN	n	Number=Plur|Number[psor]=Sing|Person[psor]=1	0	root	_	_
 
 # sent_id = 01.196
-# text = wɨtʃɨnẽ nõdemõdokaroŋ
+# text = wɨtʃɨnẽ nõdemõdokaroŋ
 # text_fr = Ils nous ont envoyé loin. (GE, 106:229)
-1	wɨtʃɨnẽ	wɨtʃɨ	ADV	adv	Contrast=Yes	2	advmod	_	_
-2	nõdemõdokaroŋ	mõdokar	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1	0	root	_	_
+1	wɨtʃɨnẽ	wɨtʃɨ	ADV	adv	Contrast=Yes	2	advmod	_	_
+2	nõdemõdokaroŋ	mõdokar	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1	0	root	_	_
 
 # sent_id = 01.197
 # text = maŋ ebɨgoŋ
@@ -1311,9 +1311,9 @@
 2	ebɨgoŋ	ebɨg	NOUN	n	Number=Plur	0	root	_	_
 
 # sent_id = 01.198
-# text = wãĩwĩkomenam owɨkɨrog owɨkɨrog
+# text = wãĩwĩkomenam owɨkɨrog owɨkɨrog
 # text_fr = Les femmes vident les poissons. (GE, 107:232)
-1	wãĩwĩkomenam	wãĩwĩ	NOUN	n	Number=Plur|Top=Yes	2	nsubj	_	_
+1	wãĩwĩkomenam	wãĩwĩ	NOUN	n	Number=Plur|Top=Yes	2	nsubj	_	_
 2	owɨkɨrog	wɨkɨrog	VERB	v	Person=3	0	root	_	_
 3	owɨkɨrog	wɨkɨrog	VERB	v	Person=3	2	discourse	_	_
 
@@ -1409,10 +1409,10 @@
 4	ikarug	karug	NOUN	n	Rel=NCont	3	obl	_	_
 
 # sent_id = 01.213
-# text = munuʔaŋanate ohẽhem ohoŋ
+# text = munuʔaŋanate ohẽhem ohoŋ
 # text_fr = L'après-midi, elles sortent. (GE, 109:248)
 1	munuʔaŋanate	munuʔaŋ	ADV	adv	Case=Ref|Mood=Sub	2	advmod	_	_
-2	ohẽhem	hem	VERB	v	Person=3|Red=Yes	0	root	_	_
+2	ohẽhem	hem	VERB	v	Person=3|Red=Yes	0	root	_	_
 3	ohoŋ	ho	VERB	v	Number=Plur|Person=3	2	dep	_	_
 
 # sent_id = 01.214
@@ -1448,14 +1448,14 @@
 5	...	...	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 01.218
-# text = ... , eʔi baipurirɨepopenẽ kupao
+# text = ... , eʔi baipurirɨepopenẽ kupao
 # text_fr = ..., disent-elle ensemble dans le ventre du tapir. (GE, 110:254)
 1	...	...	PUNCT	punct	_	3	punct	_	_
 2	,	,	PUNCT	punct	_	3	punct	_	_
 3	eʔi	eʔi	VERB	v	Person=3	0	root	_	_
-4-5	baipurirɨepopenẽ	_	_	_	_	_	_	_	_
+4-5	baipurirɨepopenẽ	_	_	_	_	_	_	_	_
 4	baipuri	baipuri	NOUN	n	_	3	obl	_	_
-5	rɨepopenẽ	ɨe	NOUN	n	Case=Loc|Contrast=Yes|Rel=Cont	4	nmod	_	_
+5	rɨepopenẽ	ɨe	NOUN	n	Case=Loc|Contrast=Yes|Rel=Cont	4	nmod	_	_
 6	kupao	o	PART	prcl	Number=Plur	3	obl	_	_
 
 # sent_id = 01.219
@@ -1845,13 +1845,11 @@
 
 # sent_id = 01.271
 # text = " erepotanẽso aŋ arowarowag ? "
-# text_fr = "Est-ce que tu veux que je renverse ça ?" (GE, 130:313)
-1	"	"	PUNCT	punct	_	2	punct	_	_
-2	erepotanẽso	pota	VERB	v	Contrast=Yes|Int=Yes|Number=Sing|Person=2	0	root	_	_
-3	aŋ	aŋ	DET	dem	_	4	det	_	_
-4	arowarowag	wag	VERB	v	Number=Sing|Person=1|Red=Yes|Voice=CauCom	2	ccomp	_	_
-5	?	?	PUNCT	punct	_	2	punct	_	_
-6	"	"	PUNCT	punct	_	2	punct	_	_
+# text=fr = "Est-ce que tu veux que je renverse ça ?" (GE, 130:313)
+1	erepotanẽso	pota	VERB	v	Number=Sing|Person=2	0	root	_	_
+2	aŋ	aŋ	DET	dem	_	3	obj	_	_
+3	arowarowag	wag	VERB	v	Number=Sing|Person=1|Red=Yes|Voice=CauCom	1	ccomp	_	_
+4	?	?	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 01.272
 # text = " erepotarnẽso aŋ arowarowag ? "
@@ -1859,7 +1857,7 @@
 1	"	"	PUNCT	punct	_	2	punct	_	_
 2	erepotarnẽso	potar	VERB	v	Number=Sing|Person=2	0	root	_	_
 3	aŋ	aŋ	DET	dem	_	4	det	_	_
-4	arowarowag	wag	VERB	v	Number=Sing|Person=1|Red=Yes|Voice=CauCom	2	ccomp	_	_
+4	arowarowag	wag	VERB	v	Number=Sing|Person=1|Red=Yes|Voice=SCau	2	ccomp	_	_
 5	?	?	PUNCT	punct	_	2	punct	_	_
 6	"	"	PUNCT	punct	_	2	punct	_	_
 
@@ -1959,9 +1957,9 @@
 # text = datɨpɨdʒi aʔebarehete , wane odʒarapaʔameʔe
 # text_fr = Comme ce n'était pas profond à cet endroit, ils se sont bien relevés. (GE, 134:329)
 1	datɨpɨdʒi	tɨpɨ	VERB	v	Polarity=Neg	5	xcomp	_	_
-2	aʔebarehete	aʔe	DET	dem	Case=Loc|Foc=Yes|Mood=Sub|Rel=Cont	1	obl	_	_
+2	aʔebarehete	aʔebarehe	ADP	posp	Case=Loc|Foc=Yes|Mood=Sub|Rel=Cont	1	obl	_	_
 3	,	,	PUNCT	punct	_	1	punct	_	_
-4	wane	wane	NOUN	n	_	5	_	_	_
+4	wane	wane	ADV	adv	_	5	advmod	_	_
 5	odʒarapaʔameʔe	dʒarapaʔam	VERB	v	Emph=Yes|Person=3	0	root	_	_
 
 # sent_id = 01.286
@@ -2167,28 +2165,27 @@
 # sent_id = 01.315
 # text = aʔepori ijɨ tu moɲiãhã otui kupao , wãĩwĩ kudʒatãĩkɨr , mokoɲ iɲuanakom awakʷərakom
 # text_fr = A cet endroit, il n'y a que son père et sa mère, la jeune fille et deux hommes de sa parenté. (GE, 147:370)
-1-2	aʔepori	_	_	_	_	_	_	_	_
-1	aʔe	aʔe	DET	dem	_	6	discourse	_	_
-2	pori	pori	ADP	posp	_	1	case	_	_
-3	ijɨ	jɨ	NOUN	n	Rel=NCont	6	nsubj	_	_
-4	tu	u	NOUN	n	Rel=NCont	3	conj	_	_
-5	moɲiãhã	moɲi	ADV	adv	_	6	advmod	_	_
-6	otui	tui	VERB	v	Person=3	0	root	_	_
-7	kupao	kupao	PART	prcl	Number=Plur	6	dep	_	_
-8	,	,	PUNCT	punct	_	6	punct	_	_
-9	wãĩwĩ	wãĩwĩ	NOUN	n	_	4	conj	_	_
-10	kudʒatãĩkɨr	kudʒatãĩkɨr	NOUN	n	_	9	nmod	_	_
-11	,	,	PUNCT	punct	_	9	punct	_	_
-12	mokoɲ	mokoɲ	NUM	num	_	14	nummod	_	_
-13	iɲuanakom	ɲuan	NOUN	n	Case=Ref|Number=Plur|Rel=NCont	14	nmod	_	_
-14	awakʷərakom	awakʷər	NOUN	n	Case=Ref|Number=Plur	4	conj	_	_
+1	aʔepori	aʔe	DET	dem	Case=Loc	5	obl	_	_
+2	ijɨ	jɨ	NOUN	n	Rel=NCont	5	nsubj	_	_
+3	tu	u	NOUN	n	Rel=NCont	2	conj	_	_
+4	moɲiãhã	moɲi	ADV	adv	_	5	advmod	_	_
+5	otui	tui	VERB	v	Person=3	0	root	_	_
+6	kupao	kupao	PART	prcl	Number=Plur	5	obl	_	_
+7	,	,	PUNCT	punct	_	5	punct	_	_
+8	wãĩwĩ	wãĩwĩ	NOUN	n	_	_	_	_	_
+9	kudʒatãĩkɨr	kudʒatãĩkɨr	NOUN	n	_	8	nmod	_	_
+10	,	,	PUNCT	punct	_	_	_	_	_
+11	mokoɲ	mokoɲ	NUM	num	_	13	nummod	_	_
+12	iɲuanakom	ɲuan	NOUN	n	Case=Ref|Number=Plur|Rel=NCont	13	nmod	_	_
+13	awakʷərakom	awakʷər	NOUN	n	Case=Ref|Number=Plur	_	_	_	_
 
 # sent_id = 01.316
 # text = papa mamãkomapuri adʒuɲ
 # text_fr = Je suis chez papa et maman. (GE, 147:372)
-1	papa	papa	NOUN	n	_	0	root	_	_
-2	mamãkomapuri	mamã	NOUN	n	Case=Loc|Number=Plur	1	conj	_	_
-3	adʒuɲ	dʒu	AUX	aux	Aspect=Cont|Number=Sing|Person=1	1	cop	_	_
+1	papa	papa	NOUN	n	_	4	obl	_	_
+2	mamãkoma	mamã	NOUN	n	Case=Ref|Number=Plur	1	conj	_	_
+3	puri	puri	ADP	adp	_	1	case	_	_
+4	adʒuɲ	dʒu	VERB	v	Aspect=Cont|Number=Sing|Person=1	0	root	_	_
 
 # sent_id = 01.317
 # text = bodʒ , nãsĩʔõ , zawapinim aʔekom didʒeburupadʒi tekorehe

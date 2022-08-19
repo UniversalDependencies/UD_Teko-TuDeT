@@ -1280,9 +1280,9 @@
 1	irupi	upi	ADV	adv	Rel=NCont	0	root	_	_
 
 # sent_id = 01.193
-# text = sikãĩnam baipuri opɨhɨgoŋ
+# text = sikãĩnam baipuri opɨhɨgoŋ
 # text_fr = Ils ont attrapé le tapir quand il était petit. (GE, 106:225)
-1	sikãĩnam	sikãĩ	NOUN	n	Subord=Yes	3	advcl	_	_
+1	sikãĩnam	sikãĩ	NOUN	n	Subord=Yes	3	advcl	_	_
 2	baipuri	baipuri	NOUN	n	_	3	obj	_	_
 3	opɨhɨgoŋ	pɨhɨg	VERB	v	Number=Plur|Person=3	0	root	_	_
 
@@ -1299,10 +1299,10 @@
 1	epotaroŋ	potar	NOUN	n	Number=Plur|Number[psor]=Sing|Person[psor]=1	0	root	_	_
 
 # sent_id = 01.196
-# text = wɨtʃɨnẽ nõdemõdokaroŋ
+# text = wɨtʃɨnẽ nõdemõdokaroŋ
 # text_fr = Ils nous ont envoyé loin. (GE, 106:229)
 1	wɨtʃɨnẽ	wɨtʃɨ	ADV	adv	Contrast=Yes	2	advmod	_	_
-2	nõdemõdokaroŋ	mõdokar	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1	0	root	_	_
+2	nõdemõdokaroŋ	mõdokar	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1	0	root	_	_
 
 # sent_id = 01.197
 # text = maŋ ebɨgoŋ
@@ -1311,9 +1311,9 @@
 2	ebɨgoŋ	ebɨg	NOUN	n	Number=Plur	0	root	_	_
 
 # sent_id = 01.198
-# text = wãĩwĩkomenam owɨkɨrog owɨkɨrog
+# text = wãĩwĩkomenam owɨkɨrog owɨkɨrog
 # text_fr = Les femmes vident les poissons. (GE, 107:232)
-1	wãĩwĩkomenam	wãĩwĩ	NOUN	n	Number=Plur|Top=Yes	2	nsubj	_	_
+1	wãĩwĩkomenam	wãĩwĩ	NOUN	n	Number=Plur|Top=Yes	2	nsubj	_	_
 2	owɨkɨrog	wɨkɨrog	VERB	v	Person=3	0	root	_	_
 3	owɨkɨrog	wɨkɨrog	VERB	v	Person=3	2	discourse	_	_
 

@@ -1845,7 +1845,7 @@
 
 # sent_id = 01.271
 # text = " erepotanẽso aŋ arowarowag ? "
-# text=fr = "Est-ce que tu veux que je renverse ça ?" (GE, 130:313)
+# text_fr = "Est-ce que tu veux que je renverse ça ?" (GE, 130:313)
 1	erepotanẽso	pota	VERB	v	Number=Sing|Person=2	0	root	_	_
 2	aŋ	aŋ	DET	dem	_	3	obj	_	_
 3	arowarowag	wag	VERB	v	Number=Sing|Person=1|Red=Yes|Voice=SCau	1	ccomp	_	_

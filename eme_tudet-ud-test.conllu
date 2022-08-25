@@ -144,14 +144,6 @@
 1	nõdebaʔekʷərawe	baʔekʷər	NOUN	n	Also=Yes|Case=Ref|Clusivity=In|Person=1	2	obj	_	_
 2	sikuwakatu	kuwa	VERB	v	Clusivity=In|Intens=Yes|Person=1	0	root	_	_
 
-# sent_id = 01.022
-# text = aŋ baʔekʷər amebeʔutaramãʔẽ
-# text_fr = Voici le conte que je vais raconter.(GE, 28:37)
-# text_eng = This is the tale I am going to tell.
-1	aŋ	aŋ	DET	dem	_	2	det	_	_
-2	baʔekʷər	baʔekʷər	NOUN	n	_	3	obj	_	_
-3	amebeʔutaramãʔẽ	mebeʔu	VERB	v	Case=Ref|Nomzr=Rel|Number=Sing|Person=1|Tense=Fut	0	root	_	_
-
 # sent_id = 01.023
 # text = apamanẽ nõdeapisitanẽ , eʔi tekokom
 # text_fr = "Les étrangers voulaient nous massacrer", disent les Emérillons.(GE, 28:38)
@@ -260,12 +252,6 @@
 1	kob	kob	AUX	aux	_	2	cop	_	_
 2	ebaridʒa	baridʒa	NOUN	n	Number=Sing|Person=1	0	root	_	_
 
-# sent_id = 01.041
-# text = esisiganũwã
-# text_fr = Ce n'est pas ma sœur cadette.(GE, 38:59)
-# text_eng = She's not my younger sister.
-1	esisiganũwã	sisig	NOUN	n	Case=Ref|Number=Sing|Person=1|Polarity=Neg	0	root	_	_
-
 # sent_id = 01.042
 # text = aker
 # text_fr = Je dors.(GE, 40:63)
@@ -371,15 +357,6 @@
 # text_fr = Il le lui fait baigner.(GE, 42:78)
 # text_eng = He makes her bathe him.
 1	obodzaukokat	dzauk	VERB	v	Person=3|Voice=Cau	0	root	_	_
-
-# sent_id = 01.058
-# text = amõenam awakʷərakom obosale paku
-# text_fr = D'autres hommes salent les pacous.(GE, 42:79)
-# text_eng = Other men salt the pacous.
-1	amõenam	amõ	PRON	pron	PronType=Ind|Top=Yes	2	nmod	_	_
-2	awakʷərakom	awakʷər	NOUN	n	Case=Ref|Number=Plur	3	nsubj	_	_
-3	obosale	sale	VERB	v	Person=3|Voice=Cau	0	root	_	_
-4	paku	paku	NOUN	n	_	3	obj	_	_
 
 # sent_id = 01.059
 # text = obotekookat
@@ -803,15 +780,6 @@
 3	sizopodʒ	zopodʒ	VERB	v	Clusivity=In|Person=1	2	parataxis	_	_
 4	pitakom	pita	NOUN	n	Number=Plur	3	obj	_	_
 
-# sent_id = 01.117
-# text = nõde wɨtʃɨ sidʒaorehe , ...
-# text_fr = Parce que nous somme allés là-bas,...(GE, 65:139)
-1	nõde	nõde	PRON	pron	Clusivity=In|Number=Plur	3	nsubj	_	_
-2	wɨtʃɨ	wɨtʃɨ	ADV	adv	_	3	advmod	_	_
-3	sidʒaorehe	o	VERB	v	Clusivity=In|Imprs=Yes|Mood=Sub|Nomzr=Rel|Person=1	0	root	_	_
-4	,	,	PUNCT	punct	_	3	punct	_	_
-5	...	...	PUNCT	punct	_	3	punct	_	_
-
 # sent_id = 01.118
 # text = aʔɨta ʔɨpope
 # text_fr = Je nage dans la rivière.(GE, 66:140)
@@ -887,13 +855,6 @@
 1	patupope	patu	NOUN	n	Case=Loc	2	obl	_	_
 2	oiɲuŋ	iɲuŋ	VERB	v	Person=3	0	root	_	_
 
-# sent_id = 01.131
-# text = arakapusauhu omõduroŋ bal
-# text_fr = Les fusils tiraient des balles.(GE, 71:155)
-1	arakapusauhu	arakapusa	NOUN	n	Augm=Yes	2	nsubj	_	_
-2	omõduroŋ	mõdur	VERB	v	Person=3	0	root	_	_
-3	bal	bal	NOUN	n	_	2	obj	_	_
-
 # sent_id = 01.132
 # text = omõgaʔu
 # text_fr = Ils la font boire.(GE, 71:156)
@@ -939,12 +900,10 @@
 2	ereɲ	ereɲ	PRON	pron	Number=Sing|Person=2	1	dep	_	_
 
 # sent_id = 01.141
-# text = " ewedʒu toroʔu "
+# text = ewedʒu toroʔu
 # text_fr = "Descends que je te mange !"(GE, 74:165)
-1	"	"	PUNCT	punct	_	2	punct	_	_
-2	ewedʒu	wedʒu	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
-3	toroʔu	ʔu	VERB	v	Mood=Per|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=1	2	parataxis	_	_
-4	"	"	PUNCT	punct	_	2	punct	_	_
+1	ewedʒu	wedʒu	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+2	toroʔu	ʔu	VERB	v	Mood=Per|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=1	2	parataxis	_	_
 
 # sent_id = 01.142
 # text = aporoekar
@@ -981,12 +940,6 @@
 4	eaɲ	eaɲ	NOUN	n	_	5	nmod	_	_
 5	okakuwa	kakuwa	VERB	v	Person=3	0	root	_	_
 6	ikiʔɨ	ikiʔɨ	ADV	adv	_	5	advmod	_	_
-
-# sent_id = 01.149
-# text = apamanẽ nõdeapisitanẽ
-# text_fr = Les étrangers voulaient nous massacrer.(GE, 83:175)
-1	apamanẽ	apam	NOUN	n	Case=Ref|Contrast=Yes	2	nsubj	_	_
-2	nõdeapisitanẽ	apisi	NOUN	n	Mood=Des|Person=2	0	root	_	_
 
 # sent_id = 01.150
 # text = lekolazar
@@ -1280,9 +1233,9 @@
 1	irupi	upi	ADV	adv	Rel=NCont	0	root	_	_
 
 # sent_id = 01.193
-# text = sikãĩnam baipuri opɨhɨgoŋ
+# text = sikãĩnam baipuri opɨhɨgoŋ
 # text_fr = Ils ont attrapé le tapir quand il était petit. (GE, 106:225)
-1	sikãĩnam	sikãĩ	NOUN	n	Subord=Yes	3	advcl	_	_
+1	sikãĩnam	sikãĩ	NOUN	n	Subord=Yes	3	advcl	_	_
 2	baipuri	baipuri	NOUN	n	_	3	obj	_	_
 3	opɨhɨgoŋ	pɨhɨg	VERB	v	Number=Plur|Person=3	0	root	_	_
 
@@ -1299,9 +1252,9 @@
 1	epotaroŋ	potar	NOUN	n	Number=Plur|Number[psor]=Sing|Person[psor]=1	0	root	_	_
 
 # sent_id = 01.196
-# text = wɨtʃɨnẽ nõdemõdokaroŋ
+# text = wɨtʃɨnẽ nõdemõdokaroŋ
 # text_fr = Ils nous ont envoyé loin. (GE, 106:229)
-1	wɨtʃɨnẽ	wɨtʃɨ	ADV	adv	Contrast=Yes	2	advmod	_	_
+1	wɨtʃɨnẽ	wɨtʃɨ	ADV	adv	Contrast=Yes	2	advmod	_	_
 2	nõdemõdokaroŋ	mõdokar	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1	0	root	_	_
 
 # sent_id = 01.197
@@ -1311,9 +1264,9 @@
 2	ebɨgoŋ	ebɨg	NOUN	n	Number=Plur	0	root	_	_
 
 # sent_id = 01.198
-# text = wãĩwĩkomenam owɨkɨrog owɨkɨrog
+# text = wãĩwĩkomenam owɨkɨrog owɨkɨrog
 # text_fr = Les femmes vident les poissons. (GE, 107:232)
-1	wãĩwĩkomenam	wãĩwĩ	NOUN	n	Number=Plur|Top=Yes	2	nsubj	_	_
+1	wãĩwĩkomenam	wãĩwĩ	NOUN	n	Number=Plur|Top=Yes	2	nsubj	_	_
 2	owɨkɨrog	wɨkɨrog	VERB	v	Person=3	0	root	_	_
 3	owɨkɨrog	wɨkɨrog	VERB	v	Person=3	2	discourse	_	_
 
@@ -1409,21 +1362,11 @@
 4	ikarug	karug	NOUN	n	Rel=NCont	3	obl	_	_
 
 # sent_id = 01.213
-# text = munuʔaŋanate ohẽhem ohoŋ
+# text = munuʔaŋanate ohẽhem ohoŋ
 # text_fr = L'après-midi, elles sortent. (GE, 109:248)
 1	munuʔaŋanate	munuʔaŋ	ADV	adv	Case=Ref|Mood=Sub	2	advmod	_	_
-2	ohẽhem	hem	VERB	v	Person=3|Red=Yes	0	root	_	_
+2	ohẽhem	hem	VERB	v	Person=3|Red=Yes	0	root	_	_
 3	ohoŋ	ho	VERB	v	Number=Plur|Person=3	2	dep	_	_
-
-# sent_id = 01.214
-# text = imani munakom oho oweta beku oiruroŋ
-# text_fr = Beaucoup de gens sont allés couper la liane et la rapporter. (GE, 109:249)
-1	imani	imani	NUM	num	_	2	nummod	_	_
-2	munakom	mun	NOUN	n	Case=Ref|Number=Plur	4	nsubj	_	_
-3	oho	oho	VERB	v	Person=3	4	dep	_	_
-4	oweta	weta	VERB	v	Person=3	0	root	_	_
-5	beku	beku	NOUN	n	_	4	obj	_	_
-6	oiruroŋ	irur	VERB	v	Number=Plur|Person=3	4	conj	_	_
 
 # sent_id = 01.215
 # text = zeporikatu oapɨgo kupao
@@ -1448,14 +1391,14 @@
 5	...	...	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 01.218
-# text = ... , eʔi baipurirɨepopenẽ kupao
+# text = ... , eʔi baipurirɨepopenẽ kupao
 # text_fr = ..., disent-elle ensemble dans le ventre du tapir. (GE, 110:254)
 1	...	...	PUNCT	punct	_	3	punct	_	_
 2	,	,	PUNCT	punct	_	3	punct	_	_
 3	eʔi	eʔi	VERB	v	Person=3	0	root	_	_
-4-5	baipurirɨepopenẽ	_	_	_	_	_	_	_	_
+4-5	baipurirɨepopenẽ	_	_	_	_	_	_	_	_
 4	baipuri	baipuri	NOUN	n	_	3	obl	_	_
-5	rɨepopenẽ	ɨe	NOUN	n	Case=Loc|Contrast=Yes|Rel=Cont	4	nmod	_	_
+5	rɨepopenẽ	ɨe	NOUN	n	Case=Loc|Contrast=Yes|Rel=Cont	4	nmod	_	_
 6	kupao	o	PART	prcl	Number=Plur	3	obl	_	_
 
 # sent_id = 01.219
@@ -1488,7 +1431,7 @@
 # text_fr = les autres, qui viennent de leur rivière. (GE, 112:259)
 1	oʔɨwiwi	ʔɨ	NOUN	n	Case=Abl|Corf=Yes|Person=3|Red=Yes	2	obl	_	_
 2	oʔuramãʔẽkom	ʔur	VERB	v	Case=Ref|Nomzr=Rel|Number=Plur|Person=3	0	root	_	_
-3	amõ	amõ	NOUN	n	_	2	nsubj	_	_
+3	amõ	amõ	PRON	pron	PronType=Ind	2	nsubj	_	_
 
 # sent_id = 01.223
 # text = uruwi , tareʔɨr , pakupitaŋakom õwem
@@ -1814,7 +1757,7 @@
 # sent_id = 01.267
 # text = amõkom owɨr oho kiʔɨ
 # text_fr = Alors les autres montent. (GE, 129:306)
-1	amõkom	amõ	PRON	pron	Number=Plur	2	nsubj	_	_
+1	amõkom	amõ	PRON	pron	Number=Plur|PronType=Ind	2	nsubj	_	_
 2	owɨr	wɨr	VERB	v	Person=3	0	root	_	_
 3	oho	ho	VERB	v	Person=3	2	dep	_	_
 4	kiʔɨ	kiʔɨ	ADV	adv	_	2	advmod	_	_
@@ -1827,14 +1770,13 @@
 3	anũpãtar	nũpã	VERB	v	Number=Sing|Person=1|Tense=Fut	0	root	_	_
 
 # sent_id = 01.269
-# text = aʔewi , pɨawe 2heuresanam okuʔeŋ .
+# text = aʔewi , pɨawe 2heuresanam okuʔeŋ
 # text_fr = Après ça, à l'aurore, ils se sont réveillés à deux heures. (GE, 129:309)
 1	aʔewi	aʔe	DET	dem	Case=Abl	5	obl	_	_
 2	,	,	PUNCT	punct	_	5	punct	_	_
 3	pɨawe	pɨawe	ADV	adv	_	5	advmod	_	_
 4	2heuresanam	2heures	NOUN	n	Subord=Yes	5	obl	_	_
 5	okuʔeŋ	kuʔe	VERB	v	Number=Plur|Person=3	0	root	_	_
-6	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 01.270
 # text = wanekuwa am zatarawadʒ
@@ -1844,22 +1786,20 @@
 3	zatarawadʒ	tarawadʒ	VERB	v	Imprs=Yes	1	ccomp	_	_
 
 # sent_id = 01.271
-# text = erepotanẽso aŋ arowarowag ?
+# text = erepotanẽso aŋ arowarowag ?
 # text_fr = "Est-ce que tu veux que je renverse ça ?" (GE, 130:313)
-1	erepotanẽso	pota	VERB	v	Number=Sing|Person=2	0	root	_	_
+1	erepotanẽso	pota	VERB	v	Number=Sing|Person=2	0	root	_	_
 2	aŋ	aŋ	DET	dem	_	3	obj	_	_
 3	arowarowag	wag	VERB	v	Number=Sing|Person=1|Red=Yes|Voice=SCau	1	ccomp	_	_
 4	?	?	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 01.272
-# text = " erepotarnẽso aŋ arowarowag ? "
-# text_fr = "Est-ce que tu veux que je renverse ça ?" (GE, 130:313)
-1	"	"	PUNCT	punct	_	2	punct	_	_
-2	erepotarnẽso	potar	VERB	v	Number=Sing|Person=2	0	root	_	_
-3	aŋ	aŋ	DET	dem	_	4	det	_	_
-4	arowarowag	wag	VERB	v	Number=Sing|Person=1|Red=Yes|Voice=SCau	2	ccomp	_	_
-5	?	?	PUNCT	punct	_	2	punct	_	_
-6	"	"	PUNCT	punct	_	2	punct	_	_
+# text = erepotarnẽso aŋ arowarowag ?
+# text_fr = Est-ce que tu veux que je renverse ça ? (GE, 130:313)
+1	erepotarnẽso	potar	VERB	v	Number=Sing|Person=2	0	root	_	_
+2	aŋ	aŋ	DET	dem	_	4	det	_	_
+3	arowarowag	wag	VERB	v	Number=Sing|Person=1|Red=Yes|Voice=SCau	2	ccomp	_	_
+4	?	?	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 01.273
 # text = aŋ ikɨʔa
@@ -1889,15 +1829,13 @@
 3	otuitaro	tui	VERB	v	Aspect=Cont|Person=3|Tense=Fut	0	root	_	_
 
 # sent_id = 01.277
-# text = " wɨtʃɨ ekʷa damãʔẽtaraɨdʒi derehe ! "
-# text_fr = "Pars loin,je ne veux plus te voir !" (GE, 131:318)
-1	"	"	PUNCT	punct	_	3	punct	_	_
-2	wɨtʃɨ	wɨtʃɨ	ADV	adv	_	3	advmod	_	_
-3	ekʷa	kʷa	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
-4	damãʔẽtaraɨdʒi	mãʔẽ	VERB	v	Intens=Yes|Number=Sing|Person=1|Polarity=Neg|Tense=Fut	3	parataxis	_	_
-5	derehe	ehe	ADP	posp	Number=Sing|Person=2	4	obl	_	_
-6	!	!	PUNCT	punct	_	3	punct	_	_
-7	"	"	PUNCT	punct	_	3	punct	_	_
+# text = wɨtʃɨ ekʷa damãʔẽtaraɨdʒi derehe !
+# text_fr = Pars loin, je ne veux plus te voir ! (GE, 131:318)
+1	wɨtʃɨ	wɨtʃɨ	ADV	adv	_	3	advmod	_	_
+2	ekʷa	kʷa	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+3	damãʔẽtaraɨdʒi	mãʔẽ	VERB	v	Intens=Yes|Number=Sing|Person=1|Polarity=Neg|Tense=Fut	3	parataxis	_	_
+4	derehe	ehe	ADP	posp	Number=Sing|Person=2	4	obl	_	_
+5	!	!	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 01.278
 # text = aŋ urupẽhem dapotari , wɨɲanẽ apotar
@@ -1927,12 +1865,6 @@
 5	aʔe	aʔe	DET	dem	_	6	det	_	_
 6	baʔekʷər	kʷər	NOUN	n	_	0	root	_	_
 
-# sent_id = 01.281
-# text = aʔepete aʔe
-# text_fr = Voila ce que j'ai dit. (GE, 133:325)
-1	aʔepete	aʔe	DET	dem	Case=Dat|Foc=Yes	2	obl	_	_
-2	aʔe	ʔe	VERB	v	Number=Sing|Person=1	0	root	_	_
-
 # sent_id = 01.282
 # text = aʔenam dati docteur , aipo kob docteur oʔoramte infirmier
 # text_fr = A cette époque, il n'y avait pas de médecin, maintenant il y a un médecin et un infirmier. (GE, 133:326)
@@ -1953,15 +1885,6 @@
 2	nõdepe	nõde	PRON	pron	Case=Dat|Clusivity=In|Number=Plur|Person=1	0	root	_	_
 3	kob	kob	AUX	aux	_	2	cop	_	_
 
-# sent_id = 01.285
-# text = datɨpɨdʒi aʔebarehete , wane odʒarapaʔameʔe
-# text_fr = Comme ce n'était pas profond à cet endroit, ils se sont bien relevés. (GE, 134:329)
-1	datɨpɨdʒi	tɨpɨ	VERB	v	Polarity=Neg	5	xcomp	_	_
-2	aʔebarehete	aʔebarehe	ADP	posp	Case=Loc|Foc=Yes|Mood=Sub|Rel=Cont	1	obl	_	_
-3	,	,	PUNCT	punct	_	1	punct	_	_
-4	wane	wane	ADV	adv	_	5	advmod	_	_
-5	odʒarapaʔameʔe	dʒarapaʔam	VERB	v	Emph=Yes|Person=3	0	root	_	_
-
 # sent_id = 01.286
 # text = zaɨ mɨnawe sikãĩ ta
 # text_fr = Autrefois, Lune était dans un petit village.(GE, 134:330)
@@ -1969,16 +1892,6 @@
 2	mɨnawe	mɨn	ADV	adv	Also=Yes|Case=Ref	4	advmod	_	_
 3	sikãĩ	sikãĩ	NOUN	n	_	4	nmod	_	_
 4	ta	ta	NOUN	n	_	0	root	_	_
-
-# sent_id = 01.287
-# text = aʔepori ijɨ tu moɲiãhã otui kupao
-# text_fr = A cet endroit, il n'y avait donc que sa mère et son père. (GE, 134:330)
-1	aʔepori	aʔe	DET	dem	Case=Loc	5	obl	_	_
-2	ijɨ	jɨ	NOUN	n	Rel=NCont	5	nsubj	_	_
-3	tu	u	NOUN	n	Rel=NCont	2	conj	_	_
-4	moɲiãhã	moɲi	ADV	adv	_	5	advmod	_	_
-5	otui	tui	VERB	v	Person=3	0	root	_	_
-6	kupao	kupao	PART	prcl	Number=Plur	5	obl	_	_
 
 # sent_id = 01.288
 # text = mozepẽ watekotɨ otuio ʔogapope
@@ -2262,14 +2175,6 @@
 4	zapẽhẽ	zapẽhẽ	NOUN	n	_	2	conj	_	_
 5	kiʔɨ	kiʔɨ	ADV	adv	_	2	advmod	_	_
 
-# sent_id = 01.327
-# text = idʒerawe am tam aiɲuŋeʔe
-# text_fr = Moi aussi j’ai installé une habitation ici. (GE, 150:385)
-1	idʒerawe	idʒe	PRON	pron	Also=Yes|Case=Ref|Number=Sing|Person=1|Rel=Cont	4	nsubj	_	_
-2	am	am	ADV	adv	_	4	advmod	_	_
-3	tam	ta	NOUN	n	Case=Tra	4	obj	_	_
-4	aiɲuŋeʔe	iɲuŋ	VERB	v	Number=Sing|Person=1	0	root	_	_
-
 # sent_id = 01.328
 # text = mozepẽ ʔarãhã oker kotɨ
 # text_fr = Ils dorment seulement un jour là-bas. (GE, 151:387)
@@ -2306,3 +2211,109 @@
 5	beku	beku	NOUN	n	_	4	obj	_	_
 6	oiruroŋ	irur	VERB	v	Number=Plur|Person=3	4	conj	_	_
 
+# sent_id = 01.332
+# text = imani ɨaroŋarehe , ozikazepeŋ iwaɲete ozikapaŋ
+# text_fr = Malgré les nombreuses pirogues, les gens tuaient, mais ils n'arrivaient pas à tout tuer. (litt : parce qu'il y avait beaucoup de pirogues, ils ne tuaient pourtant pas, ils n'arrivaient pas à tout tuer.) (GE, 152:391)
+1	imani	imani	ADV	adv	_	2	obl	_	_
+2	ɨaroŋarehe	ɨar	NOUN	n	Case=Ref|Mood=Sub|Number=Plur|Rel=Cont	4	advcl	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	ozikazepeŋ	zika	VERB	v	Number=Plur|Person=3	5	advcl	_	_
+5	iwaɲete	waɲe	NOUN	n	Foc=Yes|Rel=NCont	0	root	_	_
+6	ozikapaŋ	zika	VERB	v	Aspect=Compl|Number=Plur|Person=3	5	xcomp	_	_
+
+# sent_id = 01.333
+# text = opɨhɨgpa iwaɲete zapɨhɨpa imaniaɨ pirarehe
+# text_fr = Ils ne sont pas arrivés à tous les prendre, parce qu'il y avait beaucoup de poissons. (GE, 152:392)
+1	opɨhɨgpa	pɨhɨg	VERB	v	Aspect=Compl|Person=3	0	root	_	_
+2	iwaɲete	waɲe	NOUN	n	Foc=Yes|Rel=NCont	1	ccomp	_	_
+3	zapɨhɨpa	pɨhɨ	VERB	v	Aspect=Compl|Imprs=Yes	2	xcomp	_	_
+4	imaniaɨ	imani	ADV	adv	Intens=Yes	5	obl	_	_
+5	pirarehe	pira	NOUN	n	Mood=Sub|Rel=Cont	3	obl	_	_
+
+# sent_id = 01.334
+# text = opɨhɨpa iwaɲete zapɨhɨpa imaniaɨ pirarehe
+# text_fr = Ils ne sont pas arrivés à tous les prendre, parce qu'il y avait beaucoup de poissons. (GE, 152:392)
+1	opɨhɨpa	pɨhɨ	VERB	v	Aspect=Compl|Person=3	0	root	_	_
+2	iwaɲete	waɲe	NOUN	n	Foc=Yes|Rel=NCont	1	ccomp	_	_
+3	zapɨhɨpa	pɨhɨ	VERB	v	Aspect=Compl|Imprs=Yes	2	xcomp	_	_
+4	imaniaɨ	imani	ADV	adv	Intens=Yes	5	obl	_	_
+5	pirarehe	pira	NOUN	n	Mood=Sub|Rel=Cont	3	obl	_	_
+
+# sent_id = 01.335
+# text = aʔenam , ikemɨnanam , dati mokoneãhã lekol
+# text_fr = En ce temps-là, à cette époque, il n'y avait pas beaucoup de classes. (GE, 153:393)
+1	aʔenam	aʔe	ADV	adv	Subord=Yes	7	discourse	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	ikemɨnanam	ikemɨn	ADV	adv	Case=Ref|Subord=Yes	7	discourse	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_
+5	dati	dati	AUX	aux	Polarity=Neg	7	cop	_	_
+6	mokoneãhã	mokone	ADV	adv	_	7	nmod	_	_
+7	lekol	lekol	NOUN	n	_	0	root	_	_
+
+# sent_id = 01.336
+# text = mokoneãhã teko karairupi iʔawumãʔẽ
+# text_fr = Il y a peu d'Emérillons qui parlent brésilien. (GE, 153:394)
+1	mokoneãhã	mokone	ADV	adv	_	2	nmod	_	_
+2	teko	teko	PROPN	propn	_	4	nsubj	_	_
+3	karairupi	karai	NOUN	n	Rel=Cont	4	obl	_	_
+4	iʔawumãʔẽ	ʔawu	NOUN	n	Nomzr=Rel|Rel=NCont	0	root	_	_
+
+# sent_id = 01.337
+# text = amõ omumuɲ , amõenam awakʷərakom obosale paku
+# text_fr = Certains les cuisent, d'autres hommes salent les pacous. (GE, 153:395)
+1	amõ	amõ	PRON	pron	PronType=Ind	2	nsubj	_	_
+2	omumuɲ	mumuɲ	VERB	v	Person=3	_	_	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	amõenam	amõ	PRON	pron	PronType=Ind|Top=Yes	5	amod	_	_
+5	awakʷərakom	awakʷər	NOUN	n	Case=Ref|Number=Plur	6	nsubj	_	_
+6	obosale	sale	VERB	v	Person=3|Voice=Cau	2	parataxis	_	_
+7	paku	paku	NOUN	n	_	6	obj	_	_
+
+# sent_id = 01.338
+# text = amõ tekokomãhã karairupi iʔawu
+# text_fr = Seulement quelques autres Emérillons parlent portugais. (GE, 153:396)
+1	amõ	amõ	PRON	pron	PronType=Ind	2	amod	_	_
+2	tekokomãhã	teko	PROPN	propn	Number=Plur	4	nsubj	_	_
+3	karairupi	karai	NOUN	n	Rel=Cont	4	obl	_	_
+4	iʔawu	ʔawu	NOUN	n	Rel=NCont	0	root	_	_
+
+# sent_id = 01.340
+# text = kor ikemɨnanam mozepẽãhã lekol
+# text_fr = Et puis à cette époque, il n'y avait qu'une seule classe. (GE, 153:398)
+1	kor	kor	ADV	adv	_	4	advmod	_	_
+2	ikemɨnanam	ikemɨn	ADV	adv	Case=Ref|Subord=Yes	4	advmod	_	_
+3	mozepẽãhã	mozepẽ	NUM	num	_	4	nummod	_	_
+4	lekol	lekol	NOUN	n	_	0	root	_	_
+
+# sent_id = 01.341
+# text = aipo kiʔɨ bapɨr ʒãdam
+# text_fr = Maintenant, il y a trois gendarmes. (GE, 153:399)
+1	aipo	aipo	ADV	adv	_	4	advmod	_	_
+2	kiʔɨ	kiʔɨ	ADV	adv	_	4	advmod	_	_
+3	bapɨr	bapɨr	NUM	num	_	4	nummod	_	_
+4	ʒãdam	ʒãdam	NOUN	n	_	0	root	_	_
+
+# sent_id = 01.342
+# text = cinq jours oker
+# text_fr = Elle dort pendant cinq jours. (GE, 153:400)
+1	cinq	cinq	NUM	num	_	2	nummod	_	_
+2	jours	jours	NOUN	n	_	3	obl	_	_
+3	oker	ker	VERB	v	Person=3	0	root	_	_
+
+# sent_id = 01.343
+# text = aʔewi , pɨawe pɨawe deuxheuresanam okuʔeŋ
+# text_fr = Après ça, à l'aurore, ils se sont réveillés à 2h. (GE, 153:401)
+1	aʔewi	aʔe	DET	dem	Case=Abl	6	obl	_	_
+2	,	,	PUNCT	punct	_	6	punct	_	_
+3	pɨawe	pɨawe	ADV	adv	_	6	advmod	_	_
+4	pɨawe	pɨawe	ADV	adv	_	3	discourse	_	_
+5	deuxheuresanam	deuxheures	NOUN	n	Subord=Yes	6	obl	_	_
+6	okuʔeŋ	kuʔe	VERB	v	Number=Plur|Person=3	0	root	_	_
+
+# sent_id = 01.344
+# text = Nebʃa ozikamãʔẽ wɨɲ siʔu
+# text_fr = Nous allons manger celui que Nebʃa a tué. (GE, 154:403)
+1	Nebʃa	Nebʃa	PROPN	propn	_	2	nsubj	_	_
+2	ozikamãʔẽ	zika	VERB	v	Nomzr=Rel|Person=3	0	root	_	_
+3	wɨɲ	wɨɲ	DET	dem	_	4	obj	_	_
+4	siʔu	ʔu	VERB	v	Clusivity=In|Number=Plur|Person=1	2	ccomp	_	_

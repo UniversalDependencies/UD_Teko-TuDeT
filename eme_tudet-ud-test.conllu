@@ -2465,7 +2465,7 @@
 # text = Sisukija
 # text_fr = le hamac de Sisu (GE, 162:431)
 1-2	Sisukija	_	_	_	_	_	_	_	_
-1	Sisu	Sisu	PROPN	propn	_	1	nmod	_	_
+1	Sisu	Sisu	PROPN	propn	_	2	nmod	_	_
 2	kija	kija	NOUN	n	_	0	root	_	_
 
 # sent_id = 01.367
@@ -2552,7 +2552,7 @@
 # sent_id = 01.379
 # text = sipaʔam
 # text_fr = Nous nous sommes levés. (GE, 174:448)
-1	sipaʔam	paʔam	VERB	v	Clusivity=In|Number=Plur|Person=1	_	_	_	_
+1	sipaʔam	paʔam	VERB	v	Clusivity=In|Number=Plur|Person=1	0	root	_	_
 
 # sent_id = 01.380
 # text = doʔudʒi sautu
@@ -2612,7 +2612,7 @@
 # text_fr = Il y a un enfant et sa euh... grenouille apprivoisée. (GE, 176:461)
 1	kob	kob	AUX	aux	_	2	cop	_	_
 2	pitaŋam	pitaŋ	NOUN	n	Case=Tra	0	root	_	_
-3	baʔe	baʔe	NOUN	n	_	2	_	_	_
+3	baʔe	baʔe	NOUN	n	_	2	discourse	_	_
 4	kɨtorehe	kɨto	NOUN	n	Mood=Sub|Rel=Cont	5	nmod	_	_
 5	eiba	iba	NOUN	n	Rel=NCont	2	conj	_	_
 
@@ -2627,3 +2627,4 @@
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	bokalapedʒi	bokal	NOUN	n	Case=Loc	7	obl	_	_
 7	oiɲuŋ	iɲuŋ	VERB	v	Number=Sing|Person=3	3	parataxis	_	_
+

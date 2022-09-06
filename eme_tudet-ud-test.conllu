@@ -1045,7 +1045,7 @@
 # sent_id = 01.164
 # text = ozarareiba
 # text_fr = l'animal de son maître (GE, 88:189)
-1-2	ozarareiba	iba	NOUN	n	Rel=NCont	_	_	_	_
+1-2	ozarareiba	_	_	_	_	_	_	_	_
 1	ozar	zar	NOUN	n	Corf=Yes|Person=3	2	nsubj	_	_
 2	areiba	iba	NOUN	n	Case=Ref|Rel=Cont	0	root	_	_
 

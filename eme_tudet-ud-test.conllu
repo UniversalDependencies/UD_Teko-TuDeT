@@ -1037,7 +1037,7 @@
 # text = ozara aʔereiba okoar
 # text_fr = Il a trouvé l'animal de son maître. (GE, 88:188)
 1	ozara	zar	NOUN	n	Case=Ref|Corf=Yes|Person=3	3	nmod	_	_
-2-3	aʔereiba	iba	NOUN	n	Rel=NCont	_	_	_	_
+2-3	aʔereiba	_	_	_	_	_	_	_	_
 2	aʔe	aʔe	DET	dem	_	3	det	_	_
 3	reiba	iba	NOUN	n	Rel=Cont	4	obj	_	_
 4	okoar	koar	VERB	v	Person=3	0	root	_	_
@@ -1883,9 +1883,9 @@
 # text_fr = Il y a seulement ces choses qui nous restent. (litt : il y a seulement ceux-ci à nous). (GE, 134:327)
 1-2	aʔekomãhã	_	_	_	_	_	_	_	_
 1	aʔekom	aʔe	DET	dem	Number=Plur	2	det	_	_
-2	ãhã	ãhã	ADV	adv	_	1	advmod	_	_
+2	ãhã	ãhã	ADV	adv	_	3	advmod	_	_
 3	nõdepe	nõde	PRON	pron	Case=Dat|Clusivity=In|Number=Plur|Person=1	0	root	_	_
-4	kob	kob	AUX	aux	_	2	cop	_	_
+4	kob	kob	AUX	aux	_	3	cop	_	_
 
 # sent_id = 01.286
 # text = zaɨ mɨnawe sikãĩ ta
@@ -2639,7 +2639,7 @@
 2	baʔezaʔu	baʔezaʔu	NOUN	n	_	1	obj	_	_
 
 # sent_id = 01.392
-# text = sizika mun, omãʔẽnẽ nõderehe
+# text = sizika mun , omãʔẽnẽ nõderehe
 # text_fr = Si on tue des gens, il nous voit encore. (GE, 177:464)
 1	sizika	zika	VERB	v	Clusivity=In|Number=Plur|Person=1	4	ccomp	_	_
 2	mun	mun	NOUN	n	_	1	obj	_	_
@@ -2713,7 +2713,7 @@
 3	ta	ta	NOUN	n	_	5	obl	_	_
 4-5	tazar	_	_	_	_	_	_	_	_
 4	ta	ta	NOUN	n	_	5	nmod	_	_
-5	zar	zar	NOUN	n	_	_	_	_	_
+5	zar	zar	NOUN	n	_	0	root	_	_
 6	adʒumãʔẽ	dʒu	VERB	v	Nomzr=Rel|Number=Sing|Person=1	5	cop	_	_
 7	...	...	PUNCT	punct	_	5	punct	_	_
 
@@ -2737,3 +2737,4 @@
 5	mananeto	nane	ADV	adv	Int=Yes	6	advmod	_	_
 6	sidʒutar	dʒu	VERB	v	Clusivity=In|Number=Plur|Person=1|Tense=Fut	3	parataxis	_	_
 7	?	?	PUNCT	punct	_	6	punct	_	_
+

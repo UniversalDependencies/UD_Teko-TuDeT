@@ -1045,7 +1045,7 @@
 # sent_id = 01.164
 # text = ozarareiba
 # text_fr = l'animal de son maître (GE, 88:189)
-1-2	ozarareiba	iba	NOUN	n	Rel=NCont	_	_	_	_
+1-2	ozarareiba	_	_	_	_	_	_	_	_
 1	ozar	zar	NOUN	n	Corf=Yes|Person=3	2	nsubj	_	_
 2	areiba	iba	NOUN	n	Case=Ref|Rel=Cont	0	root	_	_
 
@@ -2020,7 +2020,7 @@
 # text = akuwapakatu Sẽswawanakom
 # text_fr = Je connais tous les gens qui habitent à St Soi. (GE, 141:349)
 1	akuwapakatu	kuwa	VERB	v	Aspect=Compl|Intens=Yes|Number=Sing|Person=1	0	root	_	_
-2	Sẽswawanakom	Sẽswa	PROPN	propn	Case=Ref|Nmzr=Adv||Number=Plur	1	obj	_	_
+2	Sẽswawanakom	Sẽswa	PROPN	propn	Case=Ref|Nmzr=Adv|Number=Plur	1	obj	_	_
 
 # sent_id = 01.306
 # text = abaʔe baʔeraʔɨrapɨhɨka
@@ -2714,7 +2714,7 @@
 4-5	tazar	_	_	_	_	_	_	_	_
 4	ta	ta	NOUN	n	_	5	nmod	_	_
 5	zar	zar	NOUN	n	_	0	root	_	_
-6	adʒumãʔẽ	dʒu	VERB	v	Nomzr=Rel|Number=Sing|Person=1	5	cop	_	_
+6	adʒumãʔẽ	dʒu	AUX	aux	Nomzr=Rel|Number=Sing|Person=1	5	cop	_	_
 7	...	...	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 01.402
@@ -2804,7 +2804,7 @@
 2	pazaru	pazaru	NOUN	n	_	0	root	_	_
 
 # sent_id = 01.414
-# text = eaɲ okakuwa, amanaraʔɨraterehe
+# text = eaɲ okakuwa , amanaraʔɨraterehe
 # text_fr = Il grandit vite, parce que c'est le fils de la pluie. (GE, 183:492)
 1	eaɲ	eaɲ	ADV	adv	_	2	advmod	_	_
 2	okakuwa	kakuwa	VERB	v	Person=3	0	root	_	_
@@ -2830,12 +2830,12 @@
 # sent_id = 01.417
 # text = nõderapɨdʒ , apamaʔesiparate
 # text_fr = Nos maisons, c'est le fer des étrangers. (Elles sont construites avec les matériaux des étrangers.) (GE, 184:496)
-1	nõderapɨdʒ	apɨdʒ	VERB	v	Clusivity=In|Number=Plur|Person=1|Rel=Cont	_	_	_	_
-2	,	,	PUNCT	punct	_	1	punct	_	_
+1	nõderapɨdʒ	apɨdʒ	VERB	v	Clusivity=In|Number=Plur|Person=1|Rel=Cont	5	discourse	_	_
+2	,	,	PUNCT	punct	_	5	punct	_	_
 3-5	apamaʔesiparate	_	_	_	_	_	_	_	_
 3	apam	apam	NOUN	n	_	5	nmod	_	_
 4	aʔe	aʔe	DET	dem	_	3	det	_	_
-5	siparate	sipara	NOUN	n	Foc=Yes	1	_	_	_
+5	siparate	sipara	NOUN	n	Foc=Yes	0	root	_	_
 
 # sent_id = 01.418
 # text = poromokonamãʔẽate
@@ -2843,7 +2843,7 @@
 1	poromokonamãʔẽate	mokon	NOUN	n	Case=Ref|Foc=Yes|Imprs=Yes|Nomzr=Rel	0	root	_	_
 
 # sent_id = 01.419
-# text = aʔe manãkuwapa enam zadʒapɨaka, aʔete
+# text = aʔe manãkuwapa enam zadʒapɨaka , aʔete
 # text_fr = Je dis comment on devrait réfléchir,je le dis vraiment. (GE, 184:498)
 1	aʔe	ʔe	VERB	v	Number=Sing|Person=1	0	root	_	_
 2	manãkuwapa	nã	ADV	adv	Aspect=Compl|Int=Yes|Mood=Irr	4	advmod	_	_
@@ -2928,7 +2928,7 @@
 6	...	...	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 01.430
-# text = " idʒeanẽ dewɨrakotɨ " , eʔinẽiwər dʒasor
+# text = " idʒeanẽ dewɨrakotɨ " , eʔinẽɨwər dʒasor
 # text_fr = "Quant à moi,je serai sous toi", dit Djasot. (GE, 186:511)
 1	"	"	PUNCT	punct	_	2	punct	_	_
 2	idʒeanẽ	idʒe	PRON	pron	Case=Ref|Contrast=Yes|Number=Sing|Person=1	0	root	_	_
@@ -2945,3 +2945,4 @@
 1	kunumi	kunumi	PROPN	propn	_	2	nmod	_	_
 2	zeburupa	zeburupa	NOUN	n	_	3	nsubj	_	_
 3	am	am	ADV	adv	_	0	root	_	_
+

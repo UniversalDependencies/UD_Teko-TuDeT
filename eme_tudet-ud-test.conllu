@@ -1045,7 +1045,7 @@
 # sent_id = 01.164
 # text = ozarareiba
 # text_fr = l'animal de son maître (GE, 88:189)
-1-2	ozarareiba	_	_	_	_	_	_	_	_
+1-2	ozarareiba	iba	NOUN	n	Rel=NCont	_	_	_	_
 1	ozar	zar	NOUN	n	Corf=Yes|Person=3	2	nsubj	_	_
 2	areiba	iba	NOUN	n	Case=Ref|Rel=Cont	0	root	_	_
 
@@ -1695,7 +1695,7 @@
 # sent_id = 01.259
 # text = nõde wɨtʃɨ sidʒaorehe ,
 # text_fr = parce que nous, nous sommes allés là-bas, (GE, 125:297)
-1	nõde	nõde	PRON	pron	Number=Sing|Person=1	3	nmod	_	_
+1	nõde	nõde	PRON	pron	Clusivity=In|Number=Plur|Person=1	3	nmod	_	_
 2	wɨtʃɨ	wɨtʃɨ	ADV	adv	_	3	advmod	_	_
 3	sidʒaorehe	dʒao	VERB	v	Clusivity=In|Mood=Sub|Person=1|Rel=Cont	0	root	_	_
 4	,	,	PUNCT	punct	_	3	punct	_	_
@@ -1958,7 +1958,7 @@
 # sent_id = 01.295
 # text = omõgʷeraharanẽ oʔuo
 # text_fr = Il mange son sauveur. (GE, 139:338)
-1	omõgʷeraharanẽ	gʷera	VERB	v	Case=Ref|Contrast=Yes|Corf=Yes|Nmzr=Ag|Person=3|Voice=Cau	2	ccomp	_	_
+1	omõgʷeraharanẽ	gʷera	VERB	v	Case=Ref|Contrast=Yes|Corf=Yes|Nmzr=Ag|Person=3|Voice=Cau	2	obj	_	_
 2	oʔuo	ʔu	VERB	v	Aspect=Cont|Person=3	0	root	_	_
 
 # sent_id = 01.296
@@ -2738,3 +2738,210 @@
 6	sidʒutar	dʒu	VERB	v	Clusivity=In|Number=Plur|Person=1|Tense=Fut	3	parataxis	_	_
 7	?	?	PUNCT	punct	_	6	punct	_	_
 
+# sent_id = 01.405
+# text = ʔɨzate onanmãʔẽate meneɲõkom
+# text_fr = Les Emérillons sont ceux qui ont couru à chaque riviere. (GE, 182:484)
+1-2	ʔɨzate	_	_	_	_	_	_	_	_
+1	ʔɨ	ʔɨ	NOUN	n	_	3	obl	_	_
+2	zate	zate	NOUN	n	_	1	nmod	_	_
+3	onanmãʔẽate	nan	VERB	v	Case=Ref|Foc=Yes|Nomzr=Rel|Person=3	0	root	_	_
+4	meneɲõkom	meneɲõ	PROPN	prop	Number=Plur	3	nsubj	_	_
+
+# sent_id = 01.406
+# text = aŋ tapɨdʒ tekorapɨdʒate
+# text_fr = Cette maison, c'est la maison des Emérillons. (GE, 182:485)
+1	aŋ	aŋ	DET	dem	_	2	det	_	_
+2	tapɨdʒ	apɨdʒ	NOUN	n	Rel=Abs	4	discourse	_	_
+3-4	tekorapɨdʒate	_	_	_	_	_	_	_	_
+3	tekor	teko	PROPN	prop	Nomzr=Rel	4	nmod	_	_
+4	apɨdʒate	apɨdʒ	NOUN	n	Case=Ref|Foc=Yes	0	root	_	_
+
+# sent_id = 01.407
+# text = Françoise ereram
+# text_fr = Je m'appelle Françoise (litt. mon nom est Françoise). (GE, 182:486)
+1	Françoise	Françoise	PROPN	propn	_	2	nsubj	_	_
+2	ereram	er	NOUN	n	Case=Tra|Nomzr=Rel|Number=Sing|Person=1	0	root	_	_
+
+# sent_id = 01.408
+# text = Channel tazaram
+# text_fr = Channel est le chef du village. (GE, 182:487)
+1	Channel	Channel	PROPN	propn	_	3	nsubj	_	_
+2-3	tazaram	_	_	_	_	_	_	_	_
+2	ta	ta	NOUN	n	_	3	nmod	_	_
+3	zaram	zar	NOUN	n	Case=Tra	0	root	_	_
+
+# sent_id = 01.409
+# text = aʔɨamnẽ otuiʔe
+# text_fr = Et celui-là devient un paresseux. (GE, 182:488)
+1	aʔɨamnẽ	aʔɨ	NOUN	n	Case=Tra|Contrast=Yes	0	root	_	_
+2	otuiʔe	tui	AUX	aux	Aspect=Iter|Person=3	1	cop	_	_
+
+# sent_id = 01.410
+# text = nanipamẽ pira
+# text_fr = Les poissons sont tous pareils. (GE, 182:489)
+1-2	nanipamẽ	_	_	_	_	_	_	_	_
+1	nani	nani	ADV	adv	_	2	advmod	_	_
+2	pamẽ	pamẽ	PRON	pron	PronType=Tot	0	root	_	_
+3	pira	pira	NOUN	n	_	2	nsubj	_	_
+
+# sent_id = 01.411
+# text = baʔe tede ?
+# text_fr = Qu'es-tu ? (GE, 183:490)
+1	baʔe	baʔe	NOUN	n	_	2	_	_	_
+2	tede	ede	PRON	pron	Int=Yes|Number=Sing|Person=2	0	root	_	_
+3	?	?	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 01.412
+# text = aŋara bedʒu
+# text_fr = Voici de la cassave. (GE, 183:491)
+1	aŋara	aŋ	DET	dem	Accomp=Yes|Case=Ref	2	det	_	_
+2	bedʒu	bedʒu	NOUN	n	_	0	root	_	_
+
+# sent_id = 01.413
+# text = aŋeʔe pazaru
+# text_fr = Et voilà du cachiri. (GE, 183:491)
+1	aŋeʔe	aŋ	DET	dem	_	2	det	_	_
+2	pazaru	pazaru	NOUN	n	_	0	root	_	_
+
+# sent_id = 01.414
+# text = eaɲ okakuwa, amanaraʔɨraterehe
+# text_fr = Il grandit vite, parce que c'est le fils de la pluie. (GE, 183:492)
+1	eaɲ	eaɲ	ADV	adv	_	2	advmod	_	_
+2	okakuwa	kakuwa	VERB	v	Person=3	0	root	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4-5	amanaraʔɨraterehe	_	_	_	_	_	_	_	_
+4	amanar	aman	NOUN	n	Case=Ref|Nomzr=Rel	5	nmod	_	_
+5	aʔɨraterehe	aʔɨr	NOUN	n	Case=Ref|Foc=Yes|Mood=Sub|Nomzr=Rel	2	obl	_	_
+
+# sent_id = 01.415
+# text = lekolazarenũwã adʒu
+# text_fr = Je ne suis pas institutrice. (GE, 184:494)
+1-2	lekolazarenũwã	_	_	_	_	_	_	_	_
+1	lekola	lekol	NOUN	n	Case=Ref	2	nmod	_	_
+2	zarenũwã	zar	NOUN	n	Polarity=Neg	0	root	_	_
+3	adʒu	dʒu	AUX	aux	Number=Sing|Person=1	2	cop	_	_
+
+# sent_id = 01.416
+# text = dʒaiwərate pedʒu
+# text_fr = Vous êtes des démons. (GE, 184:495)
+1	dʒaiwərate	dʒaiwər	NOUN	n	Case=Ref|Foc=Yes	0	root	_	_
+2	pedʒu	dʒu	AUX	aux	Number=Plur|Person=2	1	cop	_	_
+
+# sent_id = 01.417
+# text = nõderapɨdʒ , apamaʔesiparate
+# text_fr = Nos maisons, c'est le fer des étrangers. (Elles sont construites avec les matériaux des étrangers.) (GE, 184:496)
+1	nõderapɨdʒ	apɨdʒ	VERB	v	Clusivity=In|Number=Plur|Person=1|Rel=Cont	_	_	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3-5	apamaʔesiparate	_	_	_	_	_	_	_	_
+3	apam	apam	NOUN	n	_	5	nmod	_	_
+4	aʔe	aʔe	DET	dem	_	3	det	_	_
+5	siparate	sipara	NOUN	n	Foc=Yes	1	_	_	_
+
+# sent_id = 01.418
+# text = poromokonamãʔẽate
+# text_fr = C'est quelqu'un qui avale les gens. (GE, 184:497)
+1	poromokonamãʔẽate	mokon	NOUN	n	Case=Ref|Foc=Yes|Imprs=Yes|Nomzr=Rel	0	root	_	_
+
+# sent_id = 01.419
+# text = aʔe manãkuwapa enam zadʒapɨaka, aʔete
+# text_fr = Je dis comment on devrait réfléchir,je le dis vraiment. (GE, 184:498)
+1	aʔe	ʔe	VERB	v	Number=Sing|Person=1	0	root	_	_
+2	manãkuwapa	nã	ADV	adv	Aspect=Compl|Int=Yes|Mood=Irr	4	advmod	_	_
+3	enam	enam	PART	prcl	Top=Yes	4	obl	_	_
+4	zadʒapɨaka	dʒapɨaka	VERB	v	Imprs=Yes	1	advcl	_	_
+5	,	,	PUNCT	punct	_	1	punct	_	_
+6	aʔete	ʔe	VERB	v	Foc=Yes|Number=Sing|Person=1	1	parataxis	_	_
+
+# sent_id = 01.421
+# text = emenam otuitar
+# text_fr = Il sera mon mari. (GE, 184:501)
+1	emenam	men	NOUN	n	Case=Tra|Number=Sing|Person=1	0	root	_	_
+2	otuitar	tui	AUX	aux	Person=3|Tense=Fut	1	cop	_	_
+
+# sent_id = 01.422
+# text = wɨrakaranũwã , zaɨraʔɨrate
+# text_fr = Ce n'est pas un dieu, c'est le fils de Lune. (GE, 185:502)
+1	wɨrakaranũwã	wɨrakara	NOUN	n	Polarity=Neg	0	root	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3-4	zaɨraʔɨrate	_	_	_	_	_	_	_	_
+3	zaɨr	zaɨ	NOUN	n	Nomzr=Rel	4	nmod	_	_
+4	aʔɨrate	aʔɨr	NOUN	n	Case=Ref|Foc=Yes	1	parataxis	_	_
+
+# sent_id = 01.423
+# text = pebaridʒateso ?
+# text_fr = Est-ce que ce sont vos couteaux? (GE, 185:503)
+1	pebaridʒateso	baridʒa	NOUN	n	Foc=Yes|Int=Yes|Number=Plur|Person=2	0	root	_	_
+2	?	?	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 01.424
+# text = pebaridʒaso ?
+# text_fr = Est-ce que vous avez des couteaux? (GE, 185:504)
+1	pebaridʒaso	baridʒa	NOUN	n	Int=Yes|Number=Plur|Person=2	0	root	_	_
+2	?	?	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 01.425
+# text = kaʔi watekotɨ otuio
+# text_fr = Le singe est en haut. (GE, 186:505)
+1	kaʔi	kaʔi	NOUN	n	_	2	nsubj	_	_
+2	watekotɨ	wate	NOUN	n	Case=All	0	root	_	_
+3	otuio	tui	AUX	aux	Aspect=Cont|Person=3	2	cop	_	_
+
+# sent_id = 01.426
+# text = bodʒuhukomãhã kɨtaʔar otuitʃẽ kiʔɨ
+# text_fr = Seulement les couleuvres sont sur le poteau. (GE, 186:507)
+1-2	bodʒuhukomãhã	_	_	_	_	_	_	_	_
+1	bodʒuhukom	bodʒ	NOUN	n	Augm=Yes|Number=Plur	3	nsubj	_	_
+2	ãhã	ãhã	ADV	adv	_	1	advmod	_	_
+3	kɨtaʔar	kɨta	NOUN	n	Case=Loc	0	root	_	_
+4-5	otuitʃẽ	_	_	_	_	_	_	_	_
+4	otui	tui	AUX	aux	Person=3	3	cop	_	_
+5	tʃẽ	tʃẽ	ADV	adv	_	4	advmod	_	_
+6	kiʔɨ	kiʔɨ	ADV	adv	_	3	advmod	_	_
+
+# sent_id = 01.427
+# text = takuruũwĩ otuiomãʔẽrehe owur
+# text_fr = Il monte sur un petit rocher qui est là. (GE, 186:508)
+1	takuruũwĩ	takuru	NOUN	n	Dim=Yes	3	obl	_	_
+2	otuiomãʔẽrehe	tui	AUX	aux	Aspect=Cont|Mood=Sub|Nomzr=Rel|Person=3|Rel=Cont	1	cop	_	_
+3	owur	wur	VERB	v	Person=3	0	root	_	_
+
+# sent_id = 01.428
+# text = edeãhã sa am eredʒuɲ ?
+# text_fr = Est-ce que c'est toi seul qui es ici? (GE, 186:509)
+1-2	edeãhã	_	_	_	_	_	_	_	_
+1	ede	ede	PRON	pron	Number=Sing|Person=2	4	nsubj	_	_
+2	ãhã	ãhã	ADV	adv	_	1	advmod	_	_
+3	sa	sa	PART	prcl	_	4	obl	_	_
+4	am	am	ADV	adv	_	0	root	_	_
+5	eredʒuɲ	dʒu	AUX	aux	Aspect=Cont|Number=Sing|Person=2	4	cop	_	_
+6	?	?	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 01.429
+# text = nõdesiʔe nõdeɨwɨʔar sidʒuɲrehe , ...
+# text_fr = Comme nous sommes sur notre terre à nous,... (GE, 186:510)
+1-2	nõdesiʔe	_	_	_	_	_	_	_	_
+1	nõde	nõde	PRON	pron	Clusivity=In|Number=Plur|Person=1	3	nsubj	_	_
+2	siʔe	siʔe	ADV	adv	_	1	advmod	_	_
+3	nõdeɨwɨʔar	ɨwɨ	NOUN	n	Clusivity=In|Number=Plur|Person=1	0	root	_	_
+4	sidʒuɲrehe	dʒu	AUX	aux	Aspect=Cont|Clusivity=In|Mood=Sub|Nomzr=Rel|Number=Plur|Person=1	3	cop	_	_
+5	,	,	PUNCT	punct	_	3	punct	_	_
+6	...	...	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 01.430
+# text = " idʒeanẽ dewɨrakotɨ " , eʔinẽiwər dʒasor
+# text_fr = "Quant à moi,je serai sous toi", dit Djasot. (GE, 186:511)
+1	"	"	PUNCT	punct	_	2	punct	_	_
+2	idʒeanẽ	idʒe	PRON	pron	Case=Ref|Contrast=Yes|Number=Sing|Person=1	0	root	_	_
+3	dewɨrakotɨ	wɨrakotɨ	ADP	posp	Case=Loc|Number=Sing|Person=2	2	obl	_	_
+4	"	"	PUNCT	punct	_	2	punct	_	_
+5	,	,	PUNCT	punct	_	2	punct	_	_
+6	eʔinẽɨwər	eʔi	VERB	v	Contrast=Yes|Person=3	2	parataxis	_	_
+7	dʒasor	dʒasor	PROPN	propn	_	6	nsubj	_	_
+
+# sent_id = 01.431
+# text = kunumizeburupa am
+# text_fr = L'ami de K est ici. (GE, 186:512)
+1-2	kunumizeburupa	_	_	_	_	_	_	_	_
+1	kunumi	kunumi	PROPN	propn	_	2	nmod	_	_
+2	zeburupa	zeburupa	NOUN	n	_	3	nsubj	_	_
+3	am	am	ADV	adv	_	0	root	_	_

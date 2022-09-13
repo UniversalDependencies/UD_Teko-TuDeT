@@ -574,7 +574,7 @@
 # text = datisikədʒi teko
 # text_fr = C'est comme s'il n'y avait pas d'Emérillon (GE, 50:110)
 # text_eng = It's as if there were no Emerillons.
-1-2	datisikədʒi	_	_	_	_	_	_	_	_
+1-2	datisikədʒi	sikədʒi	X	x	_	_	_	_	_
 1	dati	dati	AUX	aux	Polarity=Neg	3	cop	_	_
 2	sikədʒi	sikə	ADV	adv	_	3	advmod	_	_
 3	teko	teko	PROPN	propn	_	0	root	_	_
@@ -1881,7 +1881,7 @@
 # sent_id = 01.284
 # text = aʔekomãhã nõdepe kob
 # text_fr = Il y a seulement ces choses qui nous restent. (litt : il y a seulement ceux-ci à nous). (GE, 134:327)
-1-2	aʔekomãhã	_	_	_	_	_	_	_	_
+1-2	aʔekomãhã	ãhã	ADV	adv	_	_	_	_	_
 1	aʔekom	aʔe	DET	dem	Number=Plur	2	det	_	_
 2	ãhã	ãhã	ADV	adv	_	3	advmod	_	_
 3	nõdepe	nõde	PRON	pron	Case=Dat|Clusivity=In|Number=Plur|Person=1	0	root	_	_
@@ -2889,7 +2889,7 @@
 # sent_id = 01.426
 # text = bodʒuhukomãhã kɨtaʔar otuitʃẽ kiʔɨ
 # text_fr = Seulement les couleuvres sont sur le poteau. (GE, 186:507)
-1-2	bodʒuhukomãhã	_	_	_	_	_	_	_	_
+1-2	bodʒuhukomãhã	ãhã	ADV	adv	_	_	_	_	_
 1	bodʒuhukom	bodʒ	NOUN	n	Augm=Yes|Number=Plur	3	nsubj	_	_
 2	ãhã	ãhã	ADV	adv	_	1	advmod	_	_
 3	kɨtaʔar	kɨta	NOUN	n	Case=Loc	0	root	_	_
@@ -2908,7 +2908,7 @@
 # sent_id = 01.428
 # text = edeãhã sa am eredʒuɲ ?
 # text_fr = Est-ce que c'est toi seul qui es ici? (GE, 186:509)
-1-2	edeãhã	_	_	_	_	_	_	_	_
+1-2	edeãhã	ãhã	ADV	adv	_	_	_	_	_
 1	ede	ede	PRON	pron	Number=Sing|Person=2	4	nsubj	_	_
 2	ãhã	ãhã	ADV	adv	_	1	advmod	_	_
 3	sa	sa	PART	prcl	_	4	obl	_	_
@@ -2945,4 +2945,137 @@
 1	kunumi	kunumi	PROPN	propn	_	2	nmod	_	_
 2	zeburupa	zeburupa	NOUN	n	_	3	nsubj	_	_
 3	am	am	ADV	adv	_	0	root	_	_
+
+# sent_id = 01.432
+# text = mataʔe dezarakom ?
+# text_fr = Où sont tes maîtres ? (GE, 186:513)
+1	mataʔe	mataʔe	PART	prcl	_	2	obl	_	_
+2	dezarakom	zar	NOUN	n	Case=Ref|Number[obj]=Plur|Number[subj]=Sing|Person[subj]=2	0	root	_	_
+3	?	?	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 01.433
+# text = nõdezar sə
+# text_fr = Notre seigneur est grand. (GE, 188:515)
+1	nõdezar	zar	NOUN	n	Clusivity=In|Number=Plur|Person=1	2	nsubj	_	_
+2	sə	sə	NOUN	n	_	0	root	_	_
+
+# sent_id = 01.434
+# text = daepɨdʒiaʔu baʔekom
+# text_fr = Les choses ne sont pas chères. (GE, 189:517)
+1	daepɨdʒiaʔu	epɨ	NOUN	n	Polarity=Neg	_	_	_	_
+2	baʔekom	aʔe	DET	dem	Number=Plur	_	_	_	_
+
+# sent_id = 01.435
+# text = kuʔidʒinũwã aŋ wɨra
+# text_fr = Cet arbre n'est pas vert. (GE, 189:518)
+1	kuʔidʒinũwã	kuʔi	NOUN	n	Polarity=Neg	0	root	_	_
+2	aŋ	aŋ	DET	dem	_	3	det	_	_
+3	wɨra	wɨra	NOUN	n	_	1	nsubj	_	_
+
+# sent_id = 01.436
+# text = sikãĩnũwã adʒu
+# text_fr = Je ne suis pas petit. (GE, 189:519)
+1	sikãĩnũwã	sikãĩ	NOUN	n	Polarity=Neg	0	root	_	_
+2	adʒu	dʒu	AUX	aux	Number=Sing|Person=1	1	cop	_	_
+
+# sent_id = 01.438
+# text = apamabaʔepeãhã nõderapɨdʒapope
+# text_fr = Il n'y a que les choses des étrangers dans nos maisons. (GE, 189:521)
+1-3	apamabaʔepeãhã	ãhã	ADV	adv	_	_	_	_	_
+1	apama	apam	NOUN	n	Case=Ref	2	nmod	_	_
+2	baʔepe	baʔe	NOUN	n	_	4	obl	_	_
+3	ãhã	ãhã	ADV	adv	_	2	advmod	_	_
+4	nõderapɨdʒapope	apɨdʒ	NOUN	n	Case=Loc|Clusivity=In|Nomzr=Rel|Number=Plur|Person=1	0	root	_	_
+
+# sent_id = 01.439
+# text = kobãhã amonam munuʔaŋanamte orowɨgtareʔe
+# text_fr = A cet endroit-là, peut-être nous ne retournerons que le soir. (GE, 190:522)
+1-2	kobãhã	ãhã	ADV	adv	_	_	_	_	_
+1	kob	kob	AUX	aux	_	5	cop	_	_
+2	ãhã	ãhã	ADV	adv	_	1	advmod	_	_
+3	amonam	amonam	ADV	adv	_	5	advmod	_	_
+4	munuʔaŋanamte	munuʔaŋ	NOUN	n	Case=Ref|Foc=Yes|Subord=Yes	5	obl	_	_
+5	orowɨgtareʔe	wɨg	VERB	v	Aspect=Iter|Clusivity=Ex|Number=Sing|Tense=Fut|Person=1	0	root	_	_
+
+# sent_id = 01.440
+# text = nanãhãte pedʒuɲ kob
+# text_fr = Restez là-bas comme vous êtes. (GE, 190:523)
+1-2	nanãhãte	_	_	_	_	_	_	_	_
+1	nan	nan	ADV	adv	_	3	advmod	_	_
+2	ãhãte	ãhã	ADV	adv	Foc=Yes	1	advmod	_	_
+3	pedʒuɲ	dʒu	VERB	v	Aspect=Cont|Mood=Imp|Number=Plur|Person=2	0	root	_	_
+4	kob	kob	AUX	aux	_	3	cop	_	_
+
+# sent_id = 01.441
+# text = kobara tɨãkã
+# text_fr = Là-bas, il y avait une rivière. (GE, 190:524)
+1	kobara	kob	AUX	aux	Accomp=Yes|Case=Ref	2	cop	_	_
+2	tɨãkã	tɨãkã	NOUN	n	_	0	root	_	_
+
+# sent_id = 01.442
+# text = dati tarawadʒarehete , apɨhɨg sikədʒi maire
+# text_fr = C'est parce qu'il n'y avait pas de travail que j'ai pris le poste de maire. (GE, 191:526)
+1	dati	dati	AUX	aux	Polarity=Neg	2	cop	_	_
+2	tarawadʒarehete	tarawadʒ	NOUN	n	Case=Ref|Foc=Yes|Mood=Sub|Nomzr=Rel	4	advcl	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	apɨhɨg	pɨhɨg	VERB	v	Number=Sing|Person=1	0	root	_	_
+5	sikədʒi	sikədʒi	X	x	_	4	dep	_	_
+6	maire	maire	NOUN	n	_	4	obj	_	_
+
+# sent_id = 01.443
+# text = kobaitʃe tarawadʒanam , dapɨhɨgi maire
+# text_fr = Et s'il y avait du travaille ne prendrais pas le poste de maire. (GE, 191:526)
+1	kobaitʃe	kob	AUX	aux	Case=Ref|Mood=Irr	2	cop	_	_
+2	tarawadʒanam	tarawadʒ	NOUN	n	Case=Ref|Subord=Yes	4	advcl	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	dapɨhɨgi	pɨhɨg	VERB	v	Number=1|Person=1|Polarity=Neg	0	root	_	_
+5	maire	maire	NOUN	n	_	4	obj	_	_
+
+# sent_id = 01.445
+# text = kobpakatu ibaʔekom iwɨrakotɨ
+# text_fr = Il y a toutes leurs affaires en dessous. (GE, 191:528)
+1	kobpakatu	kob	AUX	aux	Aspect=Compl|Intens=Yes	2	cop	_	_
+2	ibaʔekom	baʔe	NOUN	n	Number=Plur	0	root	_	_
+3	iwɨrakotɨ	wɨrakotɨ	ADP	posp	Case=Loc|Rel=NCont	2	obl	_	_
+
+# sent_id = 01.446
+# text = aipo kobtarpɨrɨ
+# text_fr = Maintenant, il y en aura encore plus. (GE, 192:529)
+1	aipo	aipo	ADV	adv	_	0	root	_	_
+2	kobtarpɨrɨ	kob	AUX	aux	Degree=Cmp|Tense=Fut	1	cop	_	_
+
+# sent_id = 01.447
+# text = ipurite zapẽhẽ
+# text_fr = Et à côté, il y a une platine. (GE, 192:531)
+1	ipurite	puri	ADP	posp	Foc=Yes|Rel=NCont	0	root	_	_
+2	zapẽhẽ	zapẽhẽ	NOUN	n	_	1	obj	_	_
+
+# sent_id = 01.448
+# text = bedʒuenam wãĩwĩ oeɲueɲuŋo , sapaweʔe
+# text_fr = Quant aux cassaves, la jeune fille est en train de les faire ; et il y a un sabre, aussi. (GE, 192:533)
+1	bedʒuenam	bedʒu	NOUN	n	Top=Yes	3	appos	_	_
+2	wãĩwĩ	wãĩwĩ	NOUN	n	_	3	nsubj	_	_
+3	oeɲueɲuŋo	eɲuŋ	VERB	v	Aspect=Cont|Person=3|Red=Yes	_	_	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_
+5	sapaweʔe	sapa	NOUN	n	Also=Yes|Emph=Yes	3	parataxis	_	_
+
+# sent_id = 01.449
+# text = 12zaɨãhã kʷaraɨpope
+# text_fr = Il y a douze mois dans une année. (GE, 193:534)
+1-3	12zaɨãhã	_	_	_	_	_	_	_	_
+1	12	12	NUM	num	_	2	nummod	_	_
+2	zaɨ	zaɨ	NOUN	n	_	0	root	_	_
+3	ãhã	ãhã	ADV	adv	_	2	advmod	_	_
+4	kʷaraɨpope	kʷaraɨ	NOUN	n	Case=Loc	2	obl	_	_
+
+# sent_id = 01.450
+# text = emen
+# text_fr = J'ai un mari. (GE, 194:536)
+1	emen	men	NOUN	n	Number=Sing|Person=1	0	root	_	_
+
+# sent_id = 01.451
+# text = kob emen
+# text_fr = J'ai un mari. (GE, 194:538)
+1	kob	kob	AUX	aux	_	2	cop	_	_
+2	emen	men	NOUN	n	Number=Sing|Person=1	0	root	_	_
 

@@ -2315,7 +2315,7 @@
 # text = Nebʃa ozikamãʔẽ wɨɲ siʔu
 # text_fr = Nous allons manger celui que Nebʃa a tué. (GE, 154:403)
 1	Nebʃa	Nebʃa	PROPN	propn	_	2	nsubj	_	_
-2	ozikamãʔẽ	zika	VERB	v	Nomzr=Rel|Person=3	4	ccomp	_	_
+2	ozikamãʔẽ	zika	VERB	v	Nmzr=Rel|Person=3	4	ccomp	_	_
 3	wɨɲ	wɨɲ	DET	dem	_	4	obj	_	_
 4	siʔu	ʔu	VERB	v	Clusivity=In|Number=Plur|Person=1	0	root	_	_
 

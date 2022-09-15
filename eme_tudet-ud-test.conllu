@@ -2082,7 +2082,7 @@
 3	oʔuo	ʔu	VERB	v	Aspect=Cont|Person=3	0	root	_	_
 
 # sent_id = 01.315
-# text = aʔepori ijɨ tu moɲiãhã otui kupao, wãĩwĩ kudʒatãĩkɨr , mokoɲ iɲuanakom awakʷərakom
+# text = aʔepori ijɨ tu moɲiãhã otui kupao , wãĩwĩ kudʒatãĩkɨr , mokoɲ iɲuanakom awakʷərakom
 # text_fr = A cet endroit, il n'y a que son père et sa mère, la jeune fille et deux hommes de sa parenté. (GE, 147:370)
 1	aʔepori	aʔe	DET	dem	Case=Loc	6	obl	_	_
 2	ijɨ	jɨ	NOUN	n	Rel=NCont	6	nsubj	_	_

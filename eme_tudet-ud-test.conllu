@@ -2494,13 +2494,13 @@
 2	baʔekʷəranẽ	baʔekʷər	NOUN	n	Case=Ref|Contrast=Yes	3	obj	_	_
 3	sikuwa	kuwa	VERB	v	Clusivity=In|Number=Plur|Person=1	0	root	_	_
 
-# sent_id = 01.370 
+# sent_id = 01.370
 # text = deleiba dzawat
 # text_fr = ton chien (GE, 163:437)
 1	deleiba	iba	NOUN	n	Number=Sing|Person=2|Rel=Cont	0	root	_	_
 2	dzawat	dzawat	NOUN	n	_	1	appos	_	_
 
-# sent_id = 01.373
+# sent_id = 01.371
 # text = eiba zawaraenam bokal oituĩtun
 # text_fr = Son chien renifle le bocal. (GE, 165:441)
 1	eiba	iba	NOUN	n	Rel=NCont	4	nsubj	_	_
@@ -2508,11 +2508,11 @@
 3	bokal	bokal	NOUN	n	_	4	obj	_	_
 4	oituĩtun	ĩtun	VERB	v	Person=3|Red=Yes	0	root	_	_
 
-# sent_id = 01.373
+# sent_id = 01.372
 # text = eiba zawaraenam bokal oituĩtun
 # text_fr = Son chien renifle le bocal. (GE, 165:441)
 1	eiba	iba	NOUN	n	Rel=NCont	4	nsubj	_	_
-2	zawaraenam	zawar	NOUN	n	Case=Ref|Top=Yes	1	nmod	_	_
+2	zawaraenam	zawar	NOUN	n	Case=Ref|Top=Yes	1	appos	_	_
 3	bokal	bokal	NOUN	n	_	4	obj	_	_
 4	oituĩtun	ĩtun	VERB	v	Person=3|Red=Yes	0	root	_	_
 
@@ -2534,8 +2534,8 @@
 # sent_id = 01.376
 # text = tapiʔirarehe eibaŋ kudʒatãĩkɨrakom
 # text_fr = Les jeunes filles avaient un tapir comme animal domestique. (GE, 166:444)
-1	tapiʔirarehe	tapiʔir	NOUN	n	Case=Ref|Mood=Sub|Rel=Cont	2	appos	_	_
-2	eibaŋ	iba	NOUN	n	Number=Plur|Rel=NCont	3	obj	_	_
+1	tapiʔirarehe	tapiʔir	NOUN	n	Case=Ref|Mood=Sub|Rel=Cont	3	obj	_	_
+2	eibaŋ	iba	NOUN	n	Number=Plur|Rel=NCont	1	appos	_	_
 3	kudʒatãĩkɨrakom	kudʒatãĩkɨr	NOUN	n	Case=Ref|Number=Plur	0	root	_	_
 
 # sent_id = 01.377
@@ -2783,7 +2783,7 @@
 # sent_id = 01.411
 # text = baʔe tede ?
 # text_fr = Qu'es-tu ? (GE, 183:490)
-1	baʔe	baʔe	NOUN	n	PronType=Int	2	nsubj	_	_
+1	baʔe	baʔe	NOUN	n	Int=Yes	2	nsubj	_	_
 2	tede	ede	PRON	pron	Int=Yes|Number=Sing|Person=2	0	root	_	_
 3	?	?	PUNCT	punct	_	2	punct	_	_
 
@@ -2947,8 +2947,8 @@
 # sent_id = 01.434
 # text = daepɨdʒiaʔu baʔekom
 # text_fr = Les choses ne sont pas chères. (GE, 189:517)
-1	daepɨdʒiaʔu	epɨ	NOUN	n	Polarity=Neg	_	_	_	_
-2	baʔekom	aʔe	DET	dem	Number=Plur	_	_	_	_
+1	daepɨdʒiaʔu	epɨ	NOUN	n	Polarity=Neg|Top=Yes	0	root	_	_
+2	baʔekom	baʔe	NOUN	n	Number=Plur	1	nsubj	_	_
 
 # sent_id = 01.435
 # text = kuʔidʒinũwã aŋ wɨra
@@ -3063,3 +3063,4 @@
 # text_fr = J'ai un mari. (GE, 194:538)
 1	kob	kob	AUX	aux	_	2	cop	_	_
 2	emen	men	NOUN	n	Number=Sing|Person=1	0	root	_	_
+

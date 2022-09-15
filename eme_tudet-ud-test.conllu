@@ -2332,7 +2332,7 @@
 # text_fr = J'irai dans le village que tu voudras. (GE, 155:405)
 1	ahotar	ho	VERB	v	Number=Sing|Person=1|Tense=Fut	0	root	_	_
 2	erepotar	potar	VERB	v	Number=Sing|Person=2	3	dep	_	_
-3	tamãʔẽpope	ta	NOUN	n	Case=Loc|Nomzr=Rel	1	obl	_	_
+3	tamãʔẽpope	ta	NOUN	n	Case=Loc|Nmzr=Rel	1	obl	_	_
 
 # sent_id = 01.347
 # text = apotar sikãi tamãʔẽ

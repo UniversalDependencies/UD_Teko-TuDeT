@@ -3065,3 +3065,145 @@
 1	kob	kob	AUX	aux	_	2	cop	_	_
 2	emen	men	NOUN	n	Number=Sing|Person=1	0	root	_	_
 
+# sent_id = 01.452
+# text = oronekarakuri
+# text_fr = notre argent/ nous avons de l'argent (GE, 195:539)
+1	oronekarakuri	karakuri	NOUN	n	Clusivity=Ex|Person=1	0	root	_	_
+
+# sent_id = 01.453
+# text = oronekarakurinam perupi orohotaruwe
+# text_fr = Quand nous aurons des sous, nous irons aussi sur le chemin. (GE, 195:540)
+1	oronekarakurinam	karakuri	NOUN	n	Clusivity=Ex|Person=1|Subord=Yes	3	advcl	_	_
+2	perupi	pe	NOUN	n	Nmzr=Rel	3	obl	_	_
+3	orohotaruwe	ho	VERB	v	Also=Yes|Clusivity=Ex|Person=1|Tense=Fut	0	root	_	_
+
+# sent_id = 01.454
+# text = idʒarɨdʒanam , idʒarɨdʒate omãʔẽ ehe
+# text_fr = Si elle a une grand-mère, sa grand-mère la surveille. (GE, 195:541)
+1	idʒarɨdʒanam	dʒarɨdʒ	NOUN	n	Case=Ref|Rel=NCont|Subord=Yes	4	advcl	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	idʒarɨdʒate	dʒarɨdʒ	NOUN	n	Foc=Yes|Rel=NCont	4	nsubj	_	_
+4	omãʔẽ	mãʔẽ	VERB	v	Person=3	0	root	_	_
+5	ehe	ehe	ADP	posp	Rel=NCont	4	obl	_	_
+
+# sent_id = 01.455
+# text = nani lekolazarakom iawu
+# text_fr = C'est ainsi que parlent les instituteurs. (litt : les instituteurs ont leur parole ainsi.) (GE, 195:542)
+1	nani	nani	ADV	adv	_	4	advmod	_	_
+2-3	lekolazarakom	_	_	_	_	_	_	_	_
+2	lekola	lekol	NOUN	n	Case=Ref	3	nmod	_	_
+3	zarakom	zar	NOUN	n	Case=Ref|Number=Plur	4	nsubj	_	_
+4	iawu	awu	NOUN	n	Rel=NCont	0	root	_	_
+
+# sent_id = 01.456
+# text = imenoŋ
+# text_fr = Elles ont des maris. (GE, 196:544)
+1	imenoŋ	men	NOUN	n	Number=Plur|Rel=NCont	0	root	_	_
+
+# sent_id = 01.457
+# text = erapɨdʒtar
+# text_fr = J'aurai une maison. (GE, 196:546)
+1	erapɨdʒtar	apɨdʒ	NOUN	n	Number=Sing|Person=1|Rel=Cont|Tense=Fut	0	root	_	_
+
+# sent_id = 01.458
+# text = Bopea taʔɨrpɨrɨ ikuɲawi
+# text_fr = Monpera a plus d'enfants que sa sœur (à quelqu'un d'autre). (GE, 197:552)
+1	Bopea	Bopea	PROPN	propn	_	2	nsubj	_	_
+2	taʔɨrpɨrɨ	aʔɨr	NOUN	n	Degree=Cmp|Intens=Yes|Rel=Abs	0	root	_	_
+3	ikuɲawi	kuɲa	NOUN	n	Case=Abl|Corf=Yes|Person=3	2	obl	_	_
+
+# sent_id = 01.459
+# text = idʒakaŋaʔar eiba owur
+# text_fr = Le petit chien est monté sur sa tête. (GE, 197:554)
+1	idʒakaŋaʔar	dʒakaŋ	NOUN	n	Case=Loc|Rel=NCont	3	obl	_	_
+2	eiba	eiba	NOUN	n	_	3	nsubj	_	_
+3	owur	wur	VERB	v	Person=3	0	root	_	_
+
+# sent_id = 01.460
+# text = kob ibaridʒa
+# text_fr = Il a un couteau. (GE, 197:555)
+1	kob	kob	AUX	aux	_	2	cop	_	_
+2	ibaridʒa	baridʒa	NOUN	n	Rel=NCont	0	root	_	_
+
+# sent_id = 01.461
+# text = ibaridʒa
+# text_fr = Il a un couteau. (GE, 197:556)
+1	ibaridʒa	baridʒa	NOUN	n	Rel=NCont	0	root	_	_
+
+# sent_id = 01.462
+# text = ibaridʒa K.
+# text_fr = K. a un couteau. (GE, 197:557)
+1	ibaridʒa	baridʒa	NOUN	n	Rel=NCont	0	root	_	_
+2	K.	K.	PROPN	propn	_	1	nsubj	_	_
+
+# sent_id = 01.463
+# text = ibaridʒate
+# text_fr = C'est son couteau. (GE, 198:558)
+1	ibaridʒate	baridʒa	NOUN	n	Foc=Yes|Rel=NCont	0	root	_	_
+
+# sent_id = 01.466
+# text = kobtar ereiba
+# text_fr = J'aurai un animal. (GE, 198:561)
+1	kobtar	kob	AUX	aux	Tense=Fut	2	cop	_	_
+2	ereiba	iba	NOUN	n	Nmzr=Rel|Number=Plur|Person=1	0	root	_	_
+
+# sent_id = 01.467
+# text = datikatu dezeburupa
+# text_fr = Tu n'as aucun ami. (GE, 198:562)
+1	datikatu	dati	AUX	aux	Intens=Yes	2	cop	_	_
+2	dezeburupa	zeburupa	NOUN	n	Number=Sing|Person=2	0	root	_	_
+
+# sent_id = 01.468
+# text = dati emen
+# text_fr = Je n'ai pas de mari. (GE, 198:564)
+1	dati	dati	AUX	aux	Polarity=Neg	2	cop	_	_
+2	emen	men	NOUN	n	Number=Sing|Person=1	0	root	_	_
+
+# sent_id = 01.469
+# text = dikarakuriaɨdʒi
+# text_fr = Il n'a pas beaucoup d'argent. (GE, 202:571)
+1	dikarakuriaɨdʒi	karakuri	NOUN	n	Intens=Yes|Polarity=Neg|Rel=NCont	0	root	_	_
+
+# sent_id = 01.470
+# text = didʒamãʔẽaɨdʒi
+# text_fr = On ne les voit pas beaucoup. (GE, 202:572)
+1	didʒamãʔẽaɨdʒi	mãʔẽ	VERB	v	Imprs=Yes|Intens=Yes|Polarity=Neg	0	root	_	_
+
+# sent_id = 01.471
+# text = areko kasuru
+# text_fr = J'ai des colliers. (GE, 203:573)
+1	areko	eko	VERB	v	Number=Sing|Person=1|Voice=SCau	0	root	_	_
+2	kasuru	kasuru	NOUN	n	_	1	obj	_	_
+
+# sent_id = 01.472
+# text = pekuar wãĩwĩam tareko
+# text_fr = Trouvez une femme pour que je l'épouse. (GE, 203:574)
+1	pekuar	kuar	VERB	v	Mood=Imp|Number=Plur|Person=2	0	root	_	_
+2	wãĩwĩam	wãĩwĩam	NOUN	n	Case=Tra	1	obj	_	_
+3	tareko	eko	VERB	v	Mood=Per|Number=Sing|Person=1|Voice=SCau	1	advcl	_	_
+
+# sent_id = 01.473
+# text = lekolazarate aŋ tapɨdʒ oiruo
+# text_fr = C'est l'instituteur qui a cette maison. (GE, 204:575)
+1-2	lekolazarate	_	_	_	_	_	_	_	_
+1	lekola	lekol	NOUN	n	Case=Ref	2	nmod	_	_
+2	zarate	zar	NOUN	n	Case=Ref|Foc=Yes	5	nsubj	_	_
+3	aŋ	aŋ	DET	dem	_	4	det	_	_
+4	tapɨdʒ	apɨdʒ	NOUN	n	Rel=Abs	5	obj	_	_
+5	oiruo	iru	VERB	v	Aspect=Cont|Person=3	0	root	_	_
+
+# sent_id = 01.474
+# text = ɨar airuɲmãʔẽ ozeka
+# text_fr = La pirogue que j'ai est cassée. (GE, 204:576)
+1	ɨar	ɨar	NOUN	n	_	3	nsubj	_	_
+2	airuɲmãʔẽ	iru	VERB	v	Aspect=Cont|Nmzr=Rel|Number=Sing|Person=1	3	acl	_	_
+3	ozeka	zeka	VERB	v	Person=3	0	root	_	_
+
+# sent_id = 01.476
+# text = kobazepe idʒupe karakuri , ...
+# text_fr = Même s'il a de l'argent, ... (litt : Même s'il y a de l'argent à lui, ...) (GE, 204:578)
+1	kobazepe	kob	AUX	aux	Case=Ref|Concs=Yes	2	cop	_	_
+2	idʒupe	dʒupe	ADP	posp	Case=Dat|Rel=NCont	0	root	_	_
+3	karakuri	karakuri	NOUN	n	_	2	obj	_	_
+4	,	,	PUNCT	punct	_	2	punct	_	_
+5	...	...	PUNCT	punct	_	2	punct	_	_

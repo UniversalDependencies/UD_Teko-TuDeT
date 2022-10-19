@@ -193,14 +193,14 @@
 # text = iɲuʔaŋoŋ
 # text_fr = Ils ont froid.(GE, 36:46)
 # text_eng = They are cold.
-1	iɲuʔaŋoŋ	ɲuʔaŋ	NOUN	n	Number=Plur|Rel=NCont	0	root	_	_
+1	iɲuʔaŋoŋ	ɲuʔaŋ	NOUN	n	Number[subj]=Plur|Rel=NCont	0	root	_	_
 
 # sent_id = 01.032
 # text = pɨawe okuʔeŋ
 # text_fr = Ils se sont réveillés à l'aube.(GE, 36:47)
 # text_eng = They woke up at dawn.
 1	pɨawe	pɨawe	ADV	adv	_	2	advmod	_	_
-2	okuʔeŋ	kuʔe	VERB	v	Number=Plur|Person=3	0	root	_	_
+2	okuʔeŋ	kuʔe	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 
 # sent_id = 01.033
 # text = debaʔewari
@@ -556,7 +556,10 @@
 # text_fr = Je travaille avec des hommes.(GE, 50:108)
 # text_eng = I work with men.
 1	atarawadʒ	tarawadʒ	VERB	v	Number=Sing|Person=1	0	root	_	_
-2	awakʷərarehedʒi	awakʷər	NOUN	n	Case=Ref|Mood=Sub	1	obl	_	_
+2	awakʷəra	awakʷər	NOUN	n	Case=Ref|Mood=Sub	1	obl	_	_
+3-4	rehedʒi	_	_	_	_	_	_	_	_
+3	rehe	awakʷər	NOUN	n	Case=Ref|Mood=Sub	2	case	_	_
+4	dʒi	awakʷər	NOUN	n	Case=Ref|Mood=Sub	3	dep	_	_
 
 # sent_id = 01.090
 # text = kor kɨto raʔɨr oiɲuŋ baʔepopedʒi , bokalapedʒi oiɲuŋ
@@ -1871,7 +1874,7 @@
 # sent_id = 01.282
 # text = aʔenam dati docteur , aipo kob docteur oʔoramte infirmier
 # text_fr = A cette époque, il n'y avait pas de médecin, maintenant il y a un médecin et un infirmier. (GE, 133:326)
-1	aʔenam	aʔe	ADV	adv	Subord=Yes	3	advmod	_	_
+1	aʔenam	aʔe	ADV	adv	_	3	advmod	_	_
 2	dati	dati	AUX	aux	Polarity=Neg	3	cop	_	_
 3	docteur	docteur	NOUN	n	_	0	root	_	_
 4	,	,	PUNCT	punct	_	3	punct	_	_
@@ -1936,7 +1939,7 @@
 # sent_id = 01.292
 # text = en.92anam , Polorekojaram adʒu
 # text_fr = En 92, je deviens le remplaçant de Paulo. (GE, 138:335)
-1	en.92anam	en.92	NUM	num	Case=Ref|Subord=Yes	4	obl	_	_
+1	en.92anam	en.92	ADV	adv	_	4	obl	_	_
 2	,	,	PUNCT	punct	_	4	punct	_	_
 3-4	Polorekojaram	_	_	_	_	_	_	_	_
 3	Polo	Polo	PROPN	propn	_	4	nmod	_	_
@@ -2244,7 +2247,7 @@
 # sent_id = 01.335
 # text = aʔenam , ikemɨnanam , dati mokoneãhã lekol
 # text_fr = En ce temps-là, à cette époque, il n'y avait pas beaucoup de classes. (GE, 153:393)
-1	aʔenam	aʔe	ADV	adv	Subord=Yes	7	discourse	_	_
+1	aʔenam	aʔe	ADV	adv	_	7	discourse	_	_
 2	,	,	PUNCT	punct	_	1	punct	_	_
 3	ikemɨnanam	ikemɨn	ADV	adv	Case=Ref|Subord=Yes	7	discourse	_	_
 4	,	,	PUNCT	punct	_	3	punct	_	_
@@ -3203,8 +3206,9 @@
 # sent_id = 01.476
 # text = kobazepe idʒupe karakuri , ...
 # text_fr = Même s'il a de l'argent, ... (litt : Même s'il y a de l'argent à lui, ...) (GE, 204:578)
-1	kobazepe	kob	AUX	aux	Case=Ref|Concs=Yes	2	cop	_	_
-2	idʒupe	dʒupe	ADP	posp	Case=Dat|Rel=NCont	0	root	_	_
-3	karakuri	karakuri	NOUN	n	_	2	obj	_	_
-4	,	,	PUNCT	punct	_	2	punct	_	_
-5	...	...	PUNCT	punct	_	2	punct	_	_
+1	kobazepe	kob	AUX	aux	Case=Ref|Conces=Yes	3	cop	_	_
+2	idʒupe	dʒupe	ADP	posp	Case=Dat|Rel=NCont	3	obl	_	_
+3	karakuri	karakuri	NOUN	n	_	0	root	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_
+5	...	...	PUNCT	punct	_	3	punct	_	_
+

@@ -374,12 +374,13 @@
 4	bɨgi	bɨg	NOUN	n	Pred=Yes	3	nmod	_	_
 
 # sent_id = 01.061
-# text = omãʔẽ bɨgi owarehe
+# text = omãʔẽ bɨgi owa rehe
 # text_fr = Elle voit le visage noir.(GE, 43:82)
 # text_eng = She sees the black face.
 1	omãʔẽ	mãʔẽ	NOUN	n	Rel=NCont	0	root	_	_
 2	bɨgi	bɨg	NOUN	n	Pred=Yes	3	nmod	_	_
-3	owarehe	NOUN	NOUN	n	Mood=Sub|Rel=Cont	1	obl	_	_
+3	owa	owa	NOUN	n	Mood=Sub|Rel=Cont	1	obl	_	_
+4	rehe	rehe	NOUN	n	Mood=Sub|Rel=Cont	3	case	_	_
 
 # sent_id = 01.062
 # text = sə tapiʔir otuirupiwe , wãĩwĩkom səsəwe otuiŋ

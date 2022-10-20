@@ -3319,7 +3319,7 @@
 4	okaʔu	kaʔu	VERB	v	Person=3	0	root	_	_
 
 # sent_id = 01.492
-# text = panaĩsĩkomarupidʒi zaikorehete , nani zadʒapɨaka
+# text = panaĩsĩkomarupidʒi zaiko rehete , nani zadʒapɨaka
 # text_fr = On pense ainsi parce qu'on vit comme les Blancs. (GE, 208:604)
 1-3	panaĩsĩkomarupidʒi	_	_	_	_	_	_	_	_
 1	panaĩsĩkoma	panaĩsĩ	NOUN	n	Case=Ref|Number=Plur	4	obl	_	_
@@ -3341,7 +3341,7 @@
 5	surinamapope	Surinam	PROPN	propn	Case=Loc	4	obl	_	_
 
 # sent_id = 01.494
-# text = aʔuwe dikaruginam, azewirtar
+# text = aʔuwe dikaruginam , azewirtar
 # text_fr = Je reviendrai quand il ne fera pas encore nuit. (GE, 209:608)
 1	aʔuwe	aʔuwe	ADV	adv	_	2	advmod	_	_
 2	dikaruginam	karug	ADV	adv	Polarity=Neg|Subord=Yes	4	advcl	_	_

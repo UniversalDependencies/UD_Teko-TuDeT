@@ -3331,7 +3331,6 @@
 7	nani	nani	ADV	adv	_	8	advmod	_	_
 8	zadʒapɨaka	dʒapɨaka	VERB	v	Imprs=Yes	0	root	_	_
 
-
 # sent_id = 01.493
 # text = vendredi pɨanamara Françoise oho surinamapope
 # text_fr = Vendredi soir, Françoise est allée au Surinam. (GE, 209:607)
@@ -3339,7 +3338,7 @@
 2	pɨanamara	pɨa	ADV	adv	Accomp=Yes|Case=Ref	1	advmod	_	_
 3	Françoise	Françoise	PROPN	propn	_	4	nsubj	_	_
 4	oho	ho	VERB	v	Person=3	0	root	_	_
-5	Surinamapope	Surinam	PROPN	propn	Case=Loc	4	obl	_	_
+5	surinamapope	Surinam	PROPN	propn	Case=Loc	4	obl	_	_
 
 # sent_id = 01.494
 # text = aʔuwe dikaruginam, azewirtar

@@ -392,7 +392,7 @@
 4	,	,	PUNCT	punct	_	3	punct	_	_
 5	wãĩwĩkom	wãĩwĩ	NOUN	n	Number=Plur	7	nsubj	_	_
 6	səsəwe	sə	NOUN	n	Also=Yes|Red=Yes	7	xcomp	_	_
-7	otuiŋ	tui	VERB	v	Number=Plur|Person=3	0	root	_	_
+7	otuiŋ	tui	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 
 # sent_id = 01.063
 # text = epɨbɨrɨ Camopipori Cayenneawinẽ
@@ -607,7 +607,7 @@
 # text_fr = Ils marchent les uns derrière les autres (GE, 50:113)
 # text_eng = They walk behind each other
 1	zeakapɨreri	akapɨrer	ADV	adv	Reflex=Yes	2	advmod	_	_
-2	owataŋ	wata	VERB	v	Number=Plur|Person=3	0	root	_	_
+2	owataŋ	wata	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 
 # sent_id = 01.096
 # text = sidʒaonẽ siʔe nõde , nõderaɨhɨpadʒira
@@ -964,14 +964,14 @@
 # sent_id = 01.152
 # text = opaʔamoŋ
 # text_fr = Ils sont debout. (GE, 84:178)
-1	opaʔamoŋ	paʔam	VERB	v	Number=Plur|Person=3	0	root	_	_
+1	opaʔamoŋ	paʔam	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 
 # sent_id = 01.153
 # text = wiro tapɨdʒ obaʔeŋ
 # text_fr = Ils ont fait une maison de feuilles de palmier. (GE, 84:179)
 1	wiro	wiro	NOUN	n	_	3	obj	_	_
 2	tapɨdʒ	apɨdʒ	NOUN	n	Rel=Abs	1	nmod	_	_
-3	obaʔeŋ	baʔe	VERB	v	Number=Plur|Person=3	0	root	_	_
+3	obaʔeŋ	baʔe	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 
 # sent_id = 01.154
 # text = apamaʔesiparate nõderapɨdʒam
@@ -1023,8 +1023,8 @@
 # text_fr = A cette soirée-là, ils l'ont frappée (la liane). (GE, 86:186)
 1	aʔe	aʔe	DET	dem	_	2	det	_	_
 2	karugapopewe	karug	NOUN	n	Also=Yes|Case=Loc	3	dislocated	_	_
-3	onũpãŋ	nũpã	VERB	v	Number=Plur|Person=3	0	root	_	_
-4	onũpãŋ	nũpã	VERB	v	Number=Plur|Person=3	3	discourse	_	_
+3	onũpãŋ	nũpã	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
+4	onũpãŋ	nũpã	VERB	v	Number[subj]=Plur|Person=3	3	discourse	_	_
 
 # sent_id = 01.161
 # text = arehete ...
@@ -1141,7 +1141,7 @@
 # text = oɨruanẽʔe oiɲuŋoŋ
 # text_fr = Ils portent des vêtements. (GE, 92:204)
 1	oɨruanẽʔe	ɨru	NOUN	n	Case=Ref|Contrast=Yes|Emph=Yes|Rel=NCont	2	obj	_	_
-2	oiɲuŋoŋ	iɲuŋ	VERB	v	Number=Plur|Person=3	0	root	_	_
+2	oiɲuŋoŋ	iɲuŋ	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 
 # sent_id = 01.180
 # text = oeraho oɨrumõde
@@ -1221,7 +1221,7 @@
 2	oho	ho	VERB	v	Person=3	4	xcomp	_	_
 3-4	baipuriresagoŋ	_	_	_	_	_	_	_	_
 3	baipuri	baipuri	NOUN	n	_	4	obj	_	_
-4	resagoŋ	esag	VERB	v	Number=Plur|Rel=Cont	0	root	_	_
+4	resagoŋ	esag	VERB	v	Number[subj]=Plur|Rel=Cont	0	root	_	_
 
 # sent_id = 01.190
 # text = orɨru
@@ -1243,31 +1243,31 @@
 # text_fr = Ils ont attrapé le tapir quand il était petit. (GE, 106:225)
 1	sikãĩnam	sikãĩ	NOUN	n	Subord=Yes	3	advcl	_	_
 2	baipuri	baipuri	NOUN	n	_	3	obj	_	_
-3	opɨhɨgoŋ	pɨhɨg	VERB	v	Number=Plur|Person=3	0	root	_	_
+3	opɨhɨgoŋ	pɨhɨg	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 
 # sent_id = 01.194
 # text = aʔekom kudʒaburuam ohoŋ
 # text_fr = Celles-ci sont devenues des sirènes. (GE, 106:226)
 1	aʔekom	aʔe	DET	dem	Number=Plur	3	nsubj	_	_
 2	kudʒaburuam	kudʒaburu	NOUN	n	Case=Tra	1	obl	_	_
-3	ohoŋ	ho	VERB	v	Number=Plur|Person=3	0	root	_	_
+3	ohoŋ	ho	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 
 # sent_id = 01.195
 # text = epotaroŋ
 # text_fr = Ils m'aiment. (GE, 106:228)
-1	epotaroŋ	potar	NOUN	n	Number=Plur|Number[psor]=Sing|Person[psor]=1	0	root	_	_
+1	epotaroŋ	potar	NOUN	n	Number[subj]=Plur|Number[psor]=Sing|Person[psor]=1	0	root	_	_
 
 # sent_id = 01.196
 # text = wɨtʃɨnẽ nõdemõdokaroŋ
 # text_fr = Ils nous ont envoyé loin. (GE, 106:229)
 1	wɨtʃɨnẽ	wɨtʃɨ	ADV	adv	Contrast=Yes	2	advmod	_	_
-2	nõdemõdokaroŋ	mõdokar	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1	0	root	_	_
+2	nõdemõdokaroŋ	mõdokar	NOUN	n	Clusivity=In|Number[subj]=Plur|Person[psor]=1	0	root	_	_
 
 # sent_id = 01.197
 # text = maŋ ebɨgoŋ
 # text_fr = Les mangues sont sucrées. (GE, 107:231)
 1	maŋ	maŋ	NOUN	n	_	2	nsubj	_	_
-2	ebɨgoŋ	ebɨg	NOUN	n	Number=Plur	0	root	_	_
+2	ebɨgoŋ	ebɨg	NOUN	n	Number[subj]=Plur	0	root	_	_
 
 # sent_id = 01.198
 # text = wãĩwĩkomenam owɨkɨrog owɨkɨrog
@@ -1280,35 +1280,35 @@
 # text = obaʔe pariamoŋ
 # text_fr = Elles font un boucan. (GE, 107:233)
 1	obaʔe	baʔe	VERB	v	Person=3	0	root	_	_
-2	pariamoŋ	pari	NOUN	n	Case=Tra|Number=Plur	1	obj	_	_
+2	pariamoŋ	pari	NOUN	n	Case=Tra|Number[subj]=Plur	1	obj	_	_
 
 # sent_id = 01.200
 # text = apɨdʒoŋ
 # text_fr = Ils ont une maison. (GE, 107:235)
-1	apɨdʒoŋ	apɨdʒ	NOUN	n	Number=Plur|Rel=NCont	0	root	_	_
+1	apɨdʒoŋ	apɨdʒ	NOUN	n	Number[subj]=Plur|Rel=NCont	0	root	_	_
 
 # sent_id = 01.201
 # text = iawuŋ ikiʔɨ
 # text_fr = Maintenant ils parlent. (GE, 107:236)
-1	iawuŋ	awu	NOUN	n	Number=Plur|Rel=NCont	0	root	_	_
+1	iawuŋ	awu	NOUN	n	Number[subj]=Plur|Rel=NCont	0	root	_	_
 2	ikiʔɨ	ikiʔɨ	ADV	adv	_	1	advmod	_	_
 
 # sent_id = 01.202
 # text = mokoɲoŋ
 # text_fr = Ils sont deux. (GE, 107:237)
-1	mokoɲoŋ	mokoɲ	NUM	num	Number=Plur	0	root	_	_
+1	mokoɲoŋ	mokoɲ	NUM	num	Number[subj]=Plur	0	root	_	_
 
 # sent_id = 01.203
 # text = iwɨrakotɨenam bedʒu oiɲuŋtaroŋ
 # text_fr = En dessous, ils vont faire des cassaves. (GE, 108:238)
 1	iwɨrakotɨenam	wɨrakotɨ	NOUN	n	Rel=NCont|Top=Yes	3	discourse	_	_
 2	bedʒu	bedʒu	NOUN	n	_	3	obj	_	_
-3	oiɲuŋtaroŋ	iɲuŋ	VERB	v	Number=Plur|Person=3|Tense=Fut	0	root	_	_
+3	oiɲuŋtaroŋ	iɲuŋ	VERB	v	Number[subj]=Plur|Person=3|Tense=Fut	0	root	_	_
 
 # sent_id = 01.204
 # text = dozaʔogiŋ
 # text_fr = Elles ne sortent pas (de l'eau). (GE, 108:239)
-1	dozaʔogiŋ	zaʔog	VERB	v	Number=Plur|Person=3|Polarity=Neg	0	root	_	_
+1	dozaʔogiŋ	zaʔog	VERB	v	Number[subj]=Plur|Person=3|Polarity=Neg	0	root	_	_
 
 # sent_id = 01.205
 # text = oboʔi baipurirɨeŋ
@@ -1316,20 +1316,20 @@
 1	oboʔi	boʔi	VERB	v	Person=3	0	root	_	_
 2-3	baipurirɨeŋ	_	_	_	_	_	_	_	_
 2	baipuri	baipuri	NOUN	n	_	3	nmod	_	_
-3	rɨeŋ	ɨe	NOUN	n	Number=Plur|Rel=Cont	1	obj	_	_
+3	rɨeŋ	ɨe	NOUN	n	Number[subj]=Plur|Rel=Cont	1	obj	_	_
 
 # sent_id = 01.206
 # text = omeʔeŋgatu siparam idʒupeŋ
 # text_fr = Ils lui donnent bien du fer. (GE, 108:241)
 1	omeʔeŋgatu	meʔeŋ	VERB	v	Intens=Yes|Person=3	0	root	_	_
 2	siparam	sipara	NOUN	n	Case=Tra	1	obl	_	_
-3	idʒupeŋ	dʒupe	ADP	posp	Number=Plur|Rel=NCont	1	obl	_	_
+3	idʒupeŋ	dʒupe	ADP	posp	Number[subj]=Plur|Rel=NCont	1	obl	_	_
 
 # sent_id = 01.207
 # text = oho ikotɨŋ
 # text_fr = Elles vont chez lui. (GE, 108:242)
 1	oho	ho	VERB	v	Person=3	0	root	_	_
-2	ikotɨŋ	kotɨ	ADV	adv	Number=Plur|Person=1|Rel=NCont	1	advmod	_	_
+2	ikotɨŋ	kotɨ	ADV	adv	Number[subj]=Plur|Person=1|Rel=NCont	1	advmod	_	_
 
 # sent_id = 01.208
 # text = lekolazarakom oʔurtar ekotɨŋ
@@ -1350,7 +1350,7 @@
 # text_fr = Les instituteurs vont venir chez moi. (GE, 108:245)
 1	ekotɨ	kotɨ	ADV	adv	Number=Sing|Person=1	3	advmod	_	_
 2	lekolazarakom	lekolazar	NOUN	n	Case=Ref|Number=Plur	3	nsubj	_	_
-3	oʔurtaroŋ	ʔur	VERB	v	Number=Plur|Person=3|Tense=Fut	0	root	_	_
+3	oʔurtaroŋ	ʔur	VERB	v	Number[subj]=Plur|Person=3|Tense=Fut	0	root	_	_
 
 # sent_id = 01.211
 # text = ekotɨ lekolazarakom oʔutar
@@ -1364,7 +1364,7 @@
 # text_fr = Tous les jours, elles y vont jusqu'au soir. (GE, 108:246)
 1	zewe	zewe	ADV	adv	_	3	advmod	_	_
 2	nani	nani	ADV	adv	_	1	compound	_	_
-3	ohoŋ	ho	VERB	v	Number=Plur|Person=3	0	root	_	_
+3	ohoŋ	ho	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 4	ikarug	karug	NOUN	n	Rel=NCont	3	obl	_	_
 
 # sent_id = 01.213
@@ -1372,27 +1372,27 @@
 # text_fr = L'après-midi, elles sortent. (GE, 109:248)
 1	munuʔaŋanate	munuʔaŋ	ADV	adv	Case=Ref|Mood=Sub	2	advmod	_	_
 2	ohẽhem	hem	VERB	v	Person=3|Red=Yes	0	root	_	_
-3	ohoŋ	ho	VERB	v	Number=Plur|Person=3	2	dep	_	_
+3	ohoŋ	ho	VERB	v	Number[subj]=Plur|Person=3	2	dep	_	_
 
 # sent_id = 01.215
 # text = zeporikatu oapɨgo kupao
 # text_fr = Elles s'assoient l'une à côté de l'autre. (GE, 110:251)
 1	zeporikatu	pori	ADV	adv	Intens=Yes|PronType=Rcp	2	advmod	_	_
 2	oapɨgo	apɨg	VERB	v	Aspect=Cont|Person=3	0	root	_	_
-3	kupao	o	PART	prcl	Aspect=Cont|Number=Plur	2	obl	_	_
+3	kupao	o	PART	prcl	Aspect=Cont|Number[subj]=Plur	2	obl	_	_
 
 # sent_id = 01.216
 # text = okeokero kupaɲ
 # text_fr = Ils dorment. (GE, 110:252)
 1	okeokero	ker	VERB	v	Aspect=Cont|Person=3|Red=Yes	0	root	_	_
-2	kupaɲ	ɲ	PART	prcl	Aspect=Cont|Number=Plur	1	obl	_	_
+2	kupaɲ	ɲ	PART	prcl	Aspect=Cont|Number[subj]=Plur	1	obl	_	_
 
 # sent_id = 01.217
 # text = aʔe ozewɨro kupanam , ...
 # text_fr = Quand ils revinrent,... (GE, 110:253)
 1	aʔe	aʔe	DET	dem	_	2	det	_	_
 2	ozewɨro	zewɨr	VERB	v	Aspect=Cont|Person=3	0	root	_	_
-3	kupanam	nam	PART	prcl	Number=Plur|Subord=Yes	2	obl	_	_
+3	kupanam	nam	PART	prcl	Number[subj]=Plur|Subord=Yes	2	obl	_	_
 4	,	,	PUNCT	punct	_	2	punct	_	_
 5	...	...	PUNCT	punct	_	2	punct	_	_
 
@@ -1405,7 +1405,7 @@
 4-5	baipurirɨepopenẽ	_	_	_	_	_	_	_	_
 4	baipuri	baipuri	NOUN	n	_	3	obl	_	_
 5	rɨepopenẽ	ɨe	NOUN	n	Case=Loc|Contrast=Yes|Rel=Cont	4	nmod	_	_
-6	kupao	o	PART	prcl	Number=Plur	3	obl	_	_
+6	kupao	o	PART	prcl	Number[subj]=Plur	3	obl	_	_
 
 # sent_id = 01.219
 # text = kʷiena oronekomuwe perupi orohotaruwe
@@ -1540,7 +1540,7 @@
 # text_fr = De là, des fusils tiraient des balles. (GE, 115:272)
 1	ɨɲawite	ɨɲ	DET	dem	Case=Abl|Foc=Yes	2	obl	_	_
 2	arakapusauhu	arakapusa	NOUN	n	Augm=Yes	3	nsubj	_	_
-3	omõduroŋ	mõdur	VERB	v	Number=Plur|Person=3	0	root	_	_
+3	omõduroŋ	mõdur	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 4	bal	bal	NOUN	n	_	3	obj	_	_
 
 # sent_id = 01.238
@@ -1782,7 +1782,7 @@
 2	,	,	PUNCT	punct	_	5	punct	_	_
 3	pɨawe	pɨawe	ADV	adv	_	5	advmod	_	_
 4	2heuresanam	2heures	NOUN	n	Subord=Yes	5	obl	_	_
-5	okuʔeŋ	kuʔe	VERB	v	Number=Plur|Person=3	0	root	_	_
+5	okuʔeŋ	kuʔe	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 
 # sent_id = 01.270
 # text = wanekuwa am zatarawadʒ
@@ -2146,7 +2146,7 @@
 # text_fr = Ils se réveillent ensemble avec le chien. (GE, 148:378)
 1	zeʔoram	ʔoram	CCONJ	cc	PronType=Rcp	3	cc	_	_
 2	zawararehe	zawar	NOUN	n	Mood=Sub|Rel=Cont	3	obl	_	_
-3	okuʔeŋ	kuʔe	VERB	v	Number=Plur|Person=3	0	root	_	_
+3	okuʔeŋ	kuʔe	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 
 # sent_id = 01.322
 # text = deroʔoram ahotar
@@ -2223,17 +2223,17 @@
 3	oho	ho	VERB	v	Person=3	4	dep	_	_
 4	oweta	weta	VERB	v	Person=3	0	root	_	_
 5	beku	beku	NOUN	n	_	4	obj	_	_
-6	oiruroŋ	irur	VERB	v	Number=Plur|Person=3	4	conj	_	_
+6	oiruroŋ	irur	VERB	v	Number[subj]=Plur|Person=3	4	conj	_	_
 
 # sent_id = 01.332
 # text = imani ɨaroŋarehe , ozikazepeŋ iwaɲete ozikapaŋ
 # text_fr = Malgré les nombreuses pirogues, les gens tuaient, mais ils n'arrivaient pas à tout tuer. (litt : parce qu'il y avait beaucoup de pirogues, ils ne tuaient pourtant pas, ils n'arrivaient pas à tout tuer.) (GE, 152:391)
 1	imani	imani	ADV	adv	_	2	obl	_	_
-2	ɨaroŋarehe	ɨar	NOUN	n	Case=Ref|Mood=Sub|Number=Plur|Rel=Cont	4	dep	_	_
+2	ɨaroŋarehe	ɨar	NOUN	n	Case=Ref|Mood=Sub|Number[subj]=Plur|Rel=Cont	4	dep	_	_
 3	,	,	PUNCT	punct	_	2	punct	_	_
-4	ozikazepeŋ	zika	VERB	v	Number=Plur|Person=3|Subord=Yes	5	advcl	_	_
+4	ozikazepeŋ	zika	VERB	v	Number[subj]=Plur|Person=3|Subord=Yes	5	advcl	_	_
 5	iwaɲete	waɲe	NOUN	n	Foc=Yes|Rel=NCont	0	root	_	_
-6	ozikapaŋ	zika	VERB	v	Aspect=Compl|Number=Plur|Person=3	5	xcomp	_	_
+6	ozikapaŋ	zika	VERB	v	Aspect=Compl|Number[subj]=Plur|Person=3	5	xcomp	_	_
 
 # sent_id = 01.334
 # text = opɨhɨpa iwaɲete zapɨhɨpa imaniaɨ pirarehe
@@ -2313,7 +2313,7 @@
 3	pɨawe	pɨawe	ADV	adv	_	6	advmod	_	_
 4	pɨawe	pɨawe	ADV	adv	_	3	discourse	_	_
 5	deuxheuresanam	deuxheures	NOUN	n	Subord=Yes	6	obl	_	_
-6	okuʔeŋ	kuʔe	VERB	v	Number=Plur|Person=3	0	root	_	_
+6	okuʔeŋ	kuʔe	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 
 # sent_id = 01.344
 # text = Nebʃa ozikamãʔẽ wɨɲ siʔu
@@ -2351,7 +2351,7 @@
 1	baripa	baripa	PROPN	propn	_	2	nsubj	_	_
 2	eʔi	eʔi	VERB	v	Person=3	0	root	_	_
 3-4	idʒupekupamãʔẽpuri	_	_	_	_	_	_	_	_
-3	idʒupekupamãʔẽ	dʒupe	ADP	posp	Nmzr=Rel|Number=Plur|Rel=NCont	2	obl	_	_
+3	idʒupekupamãʔẽ	dʒupe	ADP	posp	Nmzr=Rel|Number[subj]=Plur|Rel=NCont	2	obl	_	_
 4	puri	puri	ADP	posp	_	3	case	_	_
 
 # sent_id = 01.350
@@ -2540,7 +2540,7 @@
 # text = tapiʔirarehe eibaŋ kudʒatãĩkɨrakom
 # text_fr = Les jeunes filles avaient un tapir comme animal domestique. (GE, 166:444)
 1	tapiʔirarehe	tapiʔir	NOUN	n	Case=Ref|Mood=Sub|Rel=Cont	3	obj	_	_
-2	eibaŋ	iba	NOUN	n	Number=Plur|Rel=NCont	1	appos	_	_
+2	eibaŋ	iba	NOUN	n	Number[subj]=Plur|Rel=NCont	1	appos	_	_
 3	kudʒatãĩkɨrakom	kudʒatãĩkɨr	NOUN	n	Case=Ref|Number=Plur	0	root	_	_
 
 # sent_id = 01.377
@@ -2568,7 +2568,7 @@
 # sent_id = 01.382
 # text = opaʔamoŋ ikiʔɨ
 # text_fr = Ils sont debout maintenant. (GE, 175:454)
-1	opaʔamoŋ	paʔam	VERB	v	Number=Plur|Person=3	0	root	_	_
+1	opaʔamoŋ	paʔam	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 2	ikiʔɨ	kiʔɨ	ADV	adv	_	1	advmod	_	_
 
 # sent_id = 01.384
@@ -3254,12 +3254,12 @@
 # text = bapɨr kotɨŋ
 # text_fr = Ils sont trois là-bas. (GE, 207:593)
 1	bapɨr	bapɨr	NUM	num	_	0	root	_	_
-2	kotɨŋ	kotɨ	ADV	adv	Number=Plur	1	advmod	_	_
+2	kotɨŋ	kotɨ	ADV	adv	Number[subj]=Plur	1	advmod	_	_
 
 # sent_id = 01.483
 # text = mokoɲtaroŋ
 # text_fr = Ils seront deux. (GE, 207:594)
-1	mokoɲtaroŋ	mokoɲ	NUM	num	Number=Plur|Tense=Fut	0	root	_	_
+1	mokoɲtaroŋ	mokoɲ	NUM	num	Number[subj]=Plur|Tense=Fut	0	root	_	_
 
 # sent_id = 01.484
 # text = dimokoɲi

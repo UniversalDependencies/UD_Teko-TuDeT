@@ -617,7 +617,7 @@
 2	siʔe	siʔe	PART	prcl	_	3	discourse	_	_
 3	nõde	nõde	PRON	pron	Clusivity=In|Number=Plur|Person=1	1	nsubj	_	_
 4	,	,	PUNCT	punct	_	1	punct	_	_
-5	nõderaɨhɨpadʒira	aɨhɨ	NOUN	n	Antr=Yes|Aspect=Compl|Clusivity=In|Person=1|Polarity=Neg|Rel=Cont	1	advcl	_	_
+5	nõderaɨhɨpadʒira	aɨhɨ	NOUN	n	Accomp=Yes|Aspect=Compl|Clusivity=In|Person=1|Polarity=Neg|Rel=Cont	1	advcl	_	_
 
 # sent_id = 01.097
 # text = Mama , orohotar baipuri orozopodʒ

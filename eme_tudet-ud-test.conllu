@@ -558,8 +558,8 @@
 1	atarawadʒ	tarawadʒ	VERB	v	Number=Sing|Person=1	0	root	_	_
 2	awakʷəra	awakʷər	NOUN	n	Case=Ref	1	obl	_	_
 3-4	rehedʒi	_	_	_	_	_	_	_	_
-3	rehe	awakʷər	NOUN	n	Case=Ref	2	case	_	_
-4	dʒi	awakʷər	NOUN	n	Case=Ref	3	dep	_	_
+3	rehe	awakʷər	NOUN	n	_	2	case	_	_
+4	dʒi	dʒi	X	x	_	2	dep	_	_
 
 # sent_id = 01.090
 # text = kor kɨto raʔɨr oiɲuŋ baʔepopedʒi , bokalapedʒi oiɲuŋ

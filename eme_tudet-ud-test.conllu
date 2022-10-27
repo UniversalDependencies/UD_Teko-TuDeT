@@ -1255,7 +1255,7 @@
 # sent_id = 01.195
 # text = epotaroŋ
 # text_fr = Ils m'aiment. (GE, 106:228)
-1	epotaroŋ	potar	NOUN	n	Number[subj]=Plur|Number[psor]=Sing|Person[psor]=1	0	root	_	_
+1	epotaroŋ	potar	NOUN	n	Number[psor]=Sing|Number[subj]=Plur|Person[psor]=1	0	root	_	_
 
 # sent_id = 01.196
 # text = wɨtʃɨnẽ nõdemõdokaroŋ

@@ -1,12 +1,12 @@
 
 # Summary
 
-UD_Teko-TuDeT is a collection of annotated sentences in <a href="https://glottolog.org/resource/languoid/id/emer1243"> Tekó (Emérillon) </a>. The sentences stem from the only grammatical description of the language (Rose, 2011). Sentence annotation and documantation by Fabrício Ferraz Gerardi and Uliana Vedenina.
+UD_Teko-TuDeT is a collection of annotated sentences in <a href="https://glottolog.org/resource/languoid/id/emer1243"> Tekó (Emérillon) </a>. The sentences stem from the only grammatical description of the language (Rose, 2011). Sentence annotation and documantation by Uliana Vedenina and Fabrício Ferraz Gerardi.
 
 
 # Introduction
 
-UD_Teko-TuDeT is a collection of annotated sentences in <a href="https://glottolog.org/resource/languoid/id/emer1243"> Tekó (Emérillon) </a>. It is part of [TuLaR](https://tular.clld.org), Tupían Language Resources. The project is work-in-progress and the treebank is being updated on a regular basis. Sentence annotation and documantation by Fabrício Ferraz Gerardi and Uliana Vedenina.
+UD_Teko-TuDeT is a collection of annotated sentences in <a href="https://glottolog.org/resource/languoid/id/emer1243"> Tekó (Emérillon) </a>. It is part of [TuLaR](https://tular.clld.org), Tupían Language Resources. The project is work-in-progress and the treebank is being updated on a regular basis. Sentence annotation and documantation by Uliana Vedenina and Fabrício Ferraz Gerardi.
 
 
 
@@ -30,13 +30,13 @@ The development of this treebank is supported by the by European Research Counci
 Data available since: UD v2.10
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: nonfiction news
+Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Gerardi, Fabrício Ferraz; Vedenina, Uliana
+Contributors: Vedenina, Uliana; Gerardi, Fabrício Ferraz 
 Contributing: here
 Contact: fabricio.gerardi@uni-tuebingen.de
 ===============================================================================

@@ -3910,7 +3910,7 @@
 4	raʔɨrate	aʔɨr	NOUN	n	Case=Ref|Foc=Yes|Rel=Cont	2	obl	_	_
 5	rehe	ehe	NOUN	n	Rel=Cont	4	case	_	_
 
-# sent_id = 01.571
+# sent_id = 01.570
 # text = datɨpɨdʒi aʔebarehete , wane odʒarapaʔameʔe
 # text_fr = Comme cet endroit n'était pas profond, ils se sont bien relevés. (GE, 233:723)
 1	datɨpɨdʒi	tɨpɨ	VERB	v	Polarity=Neg	7	advcl	_	_

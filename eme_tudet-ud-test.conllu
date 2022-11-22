@@ -4518,3 +4518,172 @@
 # text_fr = Il le fait dormir/s'endormir. (GE, 261:844)
 1	omõgerokar	ger	VERB	v	Person=3|Voice=Cau	0	root	_	SpacesAfter=\n
 
+# sent_id = 01.665
+# text = ijɨ omozaugokar pitaŋ izazape
+# text_fr = Sa mère fait laver l'enfant à sa sœur aînée. (GE, 261:845)
+1	ijɨ	jɨ	NOUN	n	Rel=NCont	2	nsubj	_	_
+2	omozaugokar	zaug	VERB	v	Person=3|Voice=Cau	0	root	_	_
+3	pitaŋ	pitaŋ	NOUN	n	_	2	obj	_	_
+4	izazape	zaza	NOUN	n	Case=Dat|Rel=NCont	2	obl	_	SpacesAfter=\n
+
+# sent_id = 01.666
+# text = eremozaugokar orereɲ
+# text_fr = Tu l'as fait nous laver. (GE, 261:846)
+1	eremozaugokar	zaug	VERB	v	Number=Sing|Person=2|Voice=Cau	0	root	_	_
+2	orereɲ	orereɲ	PRON	pron	Clusivity=In|Number=Plur|Person=1	1	obl	_	SpacesAfter=\n
+
+# sent_id = 01.667
+# text = ezeburupa
+# text_fr = J'ai des amis. (GE, 262:847)
+1	ezeburupa	zeburupa	NOUN	n	Number=Sing|Person=1	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.668
+# text = izonaɲ
+# text_fr = Il a une orange. (GE, 262:848)
+1	izonaɲ	zonaɲ	NOUN	n	Rel=NCont	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.669
+# text = F. emozeburupakomokar am
+# text_fr = F. m'a fait avoir des amis ici. (GE, 262:849)
+1	F.	F.	PROPN	propn	_	2	nsubj	_	_
+2	emozeburupakomokar	zeburupa	NOUN	n	Number[obj]=Plur|Number[subj]=Sing|Person[subj]=1|Voice=Cau	0	root	_	_
+3	am	am	ADV	adv	_	2	advmod	_	SpacesAfter=\n
+
+# sent_id = 01.670
+# text = oromozonaɲokar
+# text_fr = Je t'ai fait avoir une orange. (GE, 262:850)
+1	oromozonaɲokar	zonaɲ	NOUN	n	Number=Sing|Person=2|Voice=Cau	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.671
+# text = aku
+# text_fr = Il fait chaud / C'est chaud. (GE, 262:851)
+1	aku	aku	NOUN	n	Rel=NCont	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.672
+# text = ibaʔewar
+# text_fr = Il a faim. (GE, 263:852)
+1	ibaʔewar	baʔewar	NOUN	n	Rel=NCont	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.674
+# text = amõbɨg apɨka
+# text_fr = J'ai noirci le banc. (GE, 263:858)
+1	amõbɨg	bɨg	VERB	v	Number=Sing|Person=1|Voice=Cau	0	root	_	_
+2	apɨka	apɨka	NOUN	n	_	1	obj	_	SpacesAfter=\n
+
+# sent_id = 01.675
+# text = zazemõapampa ikeʔɨ
+# text_fr = On est devenu comme les étrangers maintenant. (litt : on s'est fait devenir comme les étrangers.) (GE, 264:860)
+1	zazemõapampa	apam	NOUN	n	Aspect=Compl|Imprs=Yes|Reflex=Yes|Voice=Cau	0	root	_	_
+2	ikeʔɨ	ikeʔɨ	ADV	adv	_	1	advmod	_	SpacesAfter=\n
+
+# sent_id = 01.676
+# text = anamiaha
+# text_fr = Je lui ai percé les oreilles. (GE, 265:863)
+1-2	anamiaha	_	_	_	_	_	_	_	_
+1	anami	nami	NOUN	n	Number=Sing|Person=1	2	dep	_	_
+2	aha	aha	VERB	v	_	0	root	_	_
+
+# sent_id = 01.677
+# text = apõʔãnoŋ
+# text_fr = Je lui ai attaché les mains. (GE, 265:864)
+1-2	apõʔãnoŋ	_	_	_	_	_	_	_	_
+1	apõʔã	põʔã	NOUN	n	Number=Sing|Person=1	2	dep	_	_
+2	noŋ	noŋ	VERB	v	_	0	root	_	_
+
+# sent_id = 01.678
+# text = akaʔanũpã
+# text_fr = J'ai défriché. (GE, 265:865)
+1-2	akaʔanũpã	_	_	_	_	_	_	_	_
+1	akaʔa	kaʔa	NOUN	n	Number=Sing|Person=1	2	dep	_	_
+2	nũpã	nũpã	VERB	v	_	0	root	_	_
+
+# sent_id = 01.679
+# text = abaʔepotɨrpoʔo
+# text_fr = Je fais la cueillette des fruits. (GE, 265:866)
+1-2	abaʔepotɨrpoʔo	_	_	_	_	_	_	_	_
+1	abaʔepotɨr	baʔepotɨr	NOUN	n	Number=Sing|Person=1	2	dep	_	_
+2	poʔo	poʔo	VERB	v	_	0	root	_	_
+
+# sent_id = 01.680
+# text = kõʔem akaʔutariɲ
+# text_fr = Demain je vais boire du cachiri. (GE, 266:869)
+1	kõʔem	kõʔem	ADV	adv	_	2	advmod	_	_
+2	akaʔutariɲ	kaʔu	VERB	v	Aspect=Cont|Number=Sing|Person=1|Tense=Fut	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.681
+# text = ozewapihipihiŋ
+# text_fr = Ils se passent de l'eau sur le visage. (GE, 267:871)
+1-2	ozewapihipihiŋ	_	_	_	_	_	_	_	_
+1	ozewa	wa	NOUN	n	Person=3|Reflex=Yes	2	dep	_	_
+2	pihipihiŋ	pihi	VERB	v	Number[subj]=Plur|Red=Yes	0	root	_	_
+
+# sent_id = 01.682
+# text = ozekɨesago kupao
+# text_fr = Elles se cherchent les poux. (GE, 267:872)
+1-2	ozekɨesago	_	_	_	_	_	_	_	_
+1	ozekɨ	kɨ	NOUN	n	Person=3|Reflex=Yes	2	dep	_	_
+2	esago	esag	VERB	v	Aspect=Cont	0	root	_	_
+3	kupao	kupao	PART	prcl	Number[subj]=Plur	2	dep	_	_
+
+# sent_id = 01.683
+# text = tekeʔɨrãhã orekʷarmeʔeŋoŋ
+# text_fr = Ils ont donné une épouse à son frère seulement. (GE, 267:873)
+1-2	tekeʔɨrãhã	_	_	_	_	_	_	_	_
+1	tekeʔɨr	ekeʔɨr	NOUN	n	Rel=NCont	4	obj	_	_
+2	ãhã	ãhã	ADV	adv	_	1	advmod	_	_
+3-4	orekʷarmeʔeŋoŋ	_	_	_	_	_	_	_	_
+3	orekʷar	rekʷar	NOUN	n	Person=3	4	dep	_	_
+4	meʔeŋoŋ	meʔeŋ	VERB	v	Number[subj]=Plur	0	root	_	_
+
+# sent_id = 01.684
+# text = eakãnũpã
+# text_fr = Il m'a frappé à la tête. (GE, 267:874)
+1-2	eakãnũpã	_	_	_	_	_	_	_	_
+1	eakã	akã	NOUN	n	Number=Sing|Person=1	2	dep	_	_
+2	nũpã	nũpã	NOUN	n	_	0	root	_	_
+
+# sent_id = 01.685
+# text = oropõʔãeta
+# text_fr = Je t'ai coupé un doigt. (GE, 267:875)
+1-2	oropõʔãeta	_	_	_	_	_	_	_	_
+1	oropõʔã	põʔã	NOUN	n	Number=Sing|Person=2	2	dep	_	_
+2	eta	eta	VERB	v	_	0	root	_	_
+
+# sent_id = 01.686
+# text = oɨ oɨrumõde
+# text_fr = Il a habillé sa mère. (Litt. il vêtements-met sa mère.) (GE, 269:876)
+1	oɨ	ɨ	NOUN	n	Corf=Yes|Person=3	3	obj	_	_
+2-3	oɨrumõde	_	_	_	_	_	_	_	_
+2	oɨru	ɨru	NOUN	n	Person=3	3	dep	_	_
+3	mõde	mõde	VERB	v	_	0	root	_	_
+
+# sent_id = 01.687
+# text = oɨrɨru omõde
+# text_fr = Il met les vêtements de sa mère. (GE, 269:877)
+1-2	oɨrɨru	_	_	_	_	_	_	_	_
+1	oɨ	ɨ	NOUN	n	Corf=Yes|Person=3	2	nmod	_	_
+2	rɨru	ɨru	NOUN	n	Rel=Cont	3	obj	_	_
+3	omõde	mõde	VERB	v	Person=3	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.688
+# text = okuar am idʒupe okẽhemʔog
+# text_fr = Alors ils lui en trouvent une (de maison) et ouvrent la porte. (GE, 269:878)
+1	okuar	kuar	VERB	v	Person=3	0	root	_	_
+2	am	am	PRON	pron	_	1	obj	_	_
+3	idʒupe	dʒupe	ADP	posp	Case=Dat|Rel=NCont	1	obl	_	_
+4-6	okẽhemʔog	_	_	_	_	_	_	_	_
+4	okẽ	kẽ	NOUN	n	Person=3	6	dep	_	_
+5	hem	hem	VERB	v	_	6	dep	_	_
+6	ʔog	ʔog	VERB	v	_	1	parataxis	_	_
+
+# sent_id = 01.689
+# text = ozemokasinẽ
+# text_fr = Il s'est rendu fort. (GE, 271:879)
+1	ozemokasinẽ	kasi	VERB	v	Contrast=Yes|Person=3|Reflex=Yes|Voice=Cau	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.690
+# text = zawararehe ozemõborɨ
+# text_fr = Il s'amuse avec le chien. (GE, 271:880)
+1	zawararehe	zawar	NOUN	n	Case=Ref|Rel=Cont	2	obl	_	_
+2	ozemõborɨ	borɨ	VERB	v	Person=3|Reflex=Yes|Voice=Cau	0	root	_	SpacesAfter=\n
+

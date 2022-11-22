@@ -4687,3 +4687,64 @@
 1	zawararehe	zawar	NOUN	n	Case=Ref|Rel=Cont	2	obl	_	_
 2	ozemõborɨ	borɨ	VERB	v	Person=3|Reflex=Yes|Voice=Cau	0	root	_	SpacesAfter=\n
 
+# sent_id = 01.691
+# text = ozeʔupakaroŋ
+# text_fr = Ils se sont tous fait manger. (GE, 271:882)
+1	ozeʔupakaroŋ	ʔu	VERB	v	Aspect=Compl|Number[subj]=Plur|Person=3|Reflex=Yes|Voice=Cau	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.692
+# text = emozemohun
+1	emozemohun	hun	NOUN	n	Number=Sing|Person=1|Reflex=Yes|Voice=Cau	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.693
+# text = apoʔãetaokar
+# text_fr = Je lui ai fait couper la main. (GE, 272:886)
+1-2	apoʔãetaokar	_	_	_	_	_	_	_	_
+1	apoʔã	poʔã	NOUN	n	Number=Sing|Person=1	2	dep	_	_
+2	etaokar	eta	VERB	v	Voice=Cau	0	root	_	_
+
+# sent_id = 01.694
+# text = azenamiahaokar
+# text_fr = Je me suis fait percer les oreilles. (GE, 272:887)
+1-2	azenamiahaokar	_	_	_	_	_	_	_	_
+1	azenami	nami	NOUN	n	Number=Sing|Person=1|Reflex=Yes	2	dep	_	_
+2	ahaokar	aha	VERB	v	Voice=Cau	0	root	_	_
+
+# sent_id = 01.695
+# text = ekʷa wɨtʃɨ
+# text_fr = Va-t-en loin. (GE, 273:888)
+1	ekʷa	kʷa	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+2	wɨtʃɨ	wɨtʃɨ	ADV	adv	_	1	advmod	_	_
+
+# sent_id = 01.696
+# text = pedʒapɨakaõwã aipo nõdezarakotɨ
+# text_fr = Maintenant pensez un peu à notre maître. (GE, 273:890)
+1	pedʒapɨakaõwã	dʒapɨaka	VERB	v	Emph=Yes|Mood=Imp|Number=Plur|Person=2	0	root	_	_
+2	aipo	aipo	ADV	adv	_	1	advmod	_	_
+3	nõdezarakotɨ	zar	NOUN	n	Case=All|Clusivity=In|Number=Plur|Person=1	1	obl	_	SpacesAfter=\n
+
+# sent_id = 01.697
+# text = pekoar tapɨdʒam taike
+# text_fr = Trouvez-moi une maison pour que je rentre. (GE, 274:891)
+1	pekoar	koar	VERB	v	Mood=Imp|Number=Plur|Person=2	0	root	_	_
+2	tapɨdʒam	apɨdʒ	NOUN	n	Case=Tra|Rel=Abs	1	obl	_	_
+3	taike	ike	VERB	v	Mood=Per|Number=Sing|Person=1	1	xcomp	_	SpacesAfter=\n
+
+# sent_id = 01.698
+# text = eraho ereɲ ikiʔɨ
+# text_fr = Porte-moi maintenant. (GE, 274:892)
+1	eraho	raho	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+2	ereɲ	ereɲ	PRON	pron	Number=Sing|Person=1	1	obj	_	_
+3	ikiʔɨ	ikiʔɨ	ADV	adv	_	1	advmod	_	SpacesAfter=\n
+
+# sent_id = 01.699
+# text = ekerakoɲ
+# text_fr = Dors. (GE, 274:893)
+1	ekerakoɲ	ker	VERB	v	Aspect=Cont|Mood=Imp|Number=Sing|Person=2	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.700
+# text = ewurana ezo
+# text_fr = Monte. (GE, 274:895)
+1	ewurana	wur	VERB	v	Case=Ref|Mood=Imp|Number=Sing|Person=2	0	root	_	_
+2	ezo	zo	VERB	v	Mood=Imp|Number=Sing|Person=2	1	parataxis	_	SpacesAfter=\n
+

@@ -4748,3 +4748,300 @@
 1	ewurana	wur	VERB	v	Case=Ref|Mood=Imp|Number=Sing|Person=2	0	root	_	_
 2	ezo	zo	VERB	v	Mood=Imp|Number=Sing|Person=2	1	parataxis	_	SpacesAfter=\n
 
+# sent_id = 01.701
+# text = derapɨdʒnane
+# text_fr = Aie donc une maison. (GE, 274:896)
+1	derapɨdʒnane	apɨdʒ	NOUN	n	Mood=Jus|Number=Sing|Person=2|Rel=Cont	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.702
+# text = pewɨkəko
+# text_fr = Ayez des hameçons. (GE, 274:897)
+1	pewɨkəko	wɨkə	NOUN	n	Mood=Imp|Number=Plur|Person=2	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.703
+# text = derorɨ
+# text_fr = Sois content. (GE, 274:898)
+1	derorɨ	orɨ	NOUN	n	Number=Sing|Person=2|Rel=Cont	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.704
+# text = taowe erapararaha
+# text_fr = Il faut que j'aille chercher mes flèches. (GE, 275:899)
+1	taowe	o	VERB	v	Also=Yes|Mood=Nec|Number=Sing|Person=1	0	root	_	_
+2-3	erapararaha	_	_	_	_	_	_	_	_
+2	erapara	apar	NOUN	n	Number=Sing|Person=1|Rel=Cont	3	dep	_	_
+3	raha	aha	VERB	v	Rel=Cont	1	parataxis	_	_
+
+# sent_id = 01.705
+# text = " tazepir wɨrarehe " eʔi zawar
+# text_fr = Le chien dit : "Que je monte sur l'arbre." (GE, 275:900)
+1	"	"	PUNCT	punct	_	2	punct	_	_
+2	tazepir	zepir	VERB	v	Mood=Nec|Number=Sing|Person=1	5	ccomp	_	_
+3	wɨrarehe	wɨra	NOUN	n	Rel=Cont	2	obl	_	_
+4	"	"	PUNCT	punct	_	2	punct	_	_
+5	eʔi	eʔi	VERB	v	Person=3	0	root	_	_
+6	zawar	zawar	NOUN	n	_	5	nsubj	_	_
+
+# sent_id = 01.706
+# text = aŋ tozeʔukapagatu
+# text_fr = Que ceux-ci se fassent tous manger ! (GE, 275:902)
+1	aŋ	aŋ	DET	dem	_	2	det	_	_
+Nec2	tozeʔukapagatu	ʔu	VERB	v	Aspect=Compl|Intens=Yes|Mood=Nec|Person=3|Reflex=Yes|Voice=Cau	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.707
+# text = tokerako pitakom
+# text_fr = Il faut que les enfants dorment. (GE, 275:904)
+1	tokerako	ker	VERB	v	Case=Ref|Mood=Nec|Person=3	0	root	_	_
+2	pitakom	pita	NOUN	n	Number=Plur	1	nsubj	_	SpacesAfter=\n
+
+# sent_id = 01.708
+# text = aʔuwe dazaugpadʒi , tazaugpanane
+# text_fr = Je n'ai pas encore fini de me baigner, laisse-moi finir de me baigner. (GE, 275:905)
+1	aʔuwe	aʔuwe	ADV	adv	_	2	advmod	_	_
+2	dazaugpadʒi	zaug	VERB	v	Aspect=Compl|Number=Sing|Person=1|Polarity=Neg	0	root	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	tazaugpanane	zaug	VERB	v	Aspect=Compl|Mood=Nec|Number=Sing|Person=1	2	parataxis	_	SpacesAfter=\n
+
+# sent_id = 01.709
+# text = deraɨhɨpadʒi
+# text_fr = Ils ne m'aiment pas. (GE, 278:910)
+1	deraɨhɨpadʒi	aɨhɨ	NOUN	n	Aspect=Compl|Number=Sing|Person=2|Polarity=Neg|Rel=Cont	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.710
+# text = nõdeawutari
+# text_fr = Nous ne parlerons pas. (GE, 278:911)
+1	nõdeawutari	awu	NOUN	n	Clusivity=In|Number=Plur|Person=1|Polarity=Neg|Tense=Fut	0	root	_	SpacesAfter=
+
+# sent_id = 01.711
+# text = daorɨdʒi
+# text_fr = Il n'est pas content. (GE, 278:913)
+1	daorɨdʒi	orɨ	VERB	v	Polarity=Neg|Rel=NCont	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.712
+# text = datɨpɨdʒi
+# text_fr = Ce n'est pas profond. (GE, 278:914)
+1	datɨpɨdʒi	tɨpɨ	VERB	v	Polarity=Neg	0	root	_	_
+
+# sent_id = 01.713
+# text = dosuʔutarinam , dosuʔutari
+# text_fr = Si ça ne mord pas, ça ne mord pas. (GE, 279:917)
+1	dosuʔutarinam	suʔu	VERB	v	Person=3|Polarity=Neg|Subord=Yes|Tense=Fut	3	advcl	_	_
+2	,	,	PUNCT	punct	_	3	punct	_	_
+3	dosuʔutari	suʔu	VERB	v	Person=3|Polarity=Neg|Tense=Fut	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.714
+# text = nomãʔẽtaraɨdʒimãʔẽte , nõdurtari ekotɨ
+# text_fr = Ceux qui ne veulent pas me voir viendront chez moi. (GE, 279:918)
+1	nomãʔẽtaraɨdʒimãʔẽte	mãʔẽ	VERB	v	Foc=Yes|Intens=Yes|Nmzr=Rel|Person=3|Polarity=Neg|Tense=Fut	0	root	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	nõdurtari	dur	VERB	v	Person=3|Polarity=Neg|Tense=Fut	1	parataxis	_	_
+4	ekotɨ	kotɨ	ADV	adv	Number=Sing|Person=1	3	advmod	_	SpacesAfter=\n
+
+# sent_id = 01.715
+# text = nomãʔẽtaraɨdʒimãʔẽte , nõdutari ekotɨ
+# text_fr = Ceux qui ne veulent pas me voir viendront chez moi. (GE, 279:918)
+1	nomãʔẽtaraɨdʒimãʔẽte	mãʔẽ	VERB	v	Foc=Yes|Intens=Yes|Nmzr=Rel|Person=3|Polarity=Neg|Tense=Fut	0	root	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	nõdutari	du	VERB	v	Person=3|Polarity=Neg|Tense=Fut	1	parataxis	_	_
+4	ekotɨ	kotɨ	ADV	adv	Number=Sing|Person=1	3	advmod	_	SpacesAfter=\n
+
+# sent_id = 01.716
+# text = depezezikatari
+# text_fr = Vous n'allez pas vous tuer. (GE, 279:919)
+1	depezezikatari	zika	VERB	v	Number=Plur|Person=2|Polarity=Neg|Reflex=Yes|Tense=Fut	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.717
+# text = aʔuwe dozemõdɨʔariŋ
+# text_fr = Elles n'avaient pas encore leurs règles. (GE, 279:920)
+1	aʔuwe	aʔuwe	ADV	adv	_	2	advmod	_	_
+2	dozemõdɨʔariŋ	zemõdɨʔar	VERB	v	Number[subj]=Plur|Person=3|Polarity=Neg	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.718
+# text = dadʒaʔodʒiɲ
+# text_fr = Je ne suis pas en train de pleurer. (GE, 279:921)
+1	dadʒaʔodʒiɲ	dʒaʔo	VERB	v	Aspect=Cont|Number=Sing|Person=1|Polarity=Neg	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.719
+# text = noidudʒiso ?
+# text_fr = Est-ce qu'il n'entend pas ? (GE, 279:922)
+1	noidudʒiso	idu	VERB	v	Int=Yes|Person=3|Polarity=Neg	0	root	_	_
+2	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 01.720
+# text = wɨrakaranũwãʔe zowomaʔẽkom obaʔe
+# text_fr = Ce n'est pas Dieu qui a créé les Wayanas! (GE, 280:923)
+1	wɨrakaranũwãʔe	wɨrakara	NOUN	n	Int=Yes|Polarity=Neg	3	nsubj	_	_
+2	zowomaʔẽkom	zowomaʔẽ	NOUN	n	Number=Plur	3	obj	_	_
+3	obaʔe	baʔe	VERB	v	Person=3	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.721
+# text = arehete aipo wanegatukuwa zadʒapɨaka
+# text_fr = C'est pour ça que maintenant, on devrait bien réfléchir. (GE, 133:324)
+1	arehete	arehete	DET	dem	Foc=Yes|Rel=Cont	4	obl	_	_
+2	aipo	aipo	ADV	adv	_	4	advmod	_	_
+3	wanegatukuwa	wane	ADV	adv	Intens=Yes|Mood=Irr	4	advmod	_	_
+4	zadʒapɨaka	dʒapɨaka	VERB	v	Imprs=Yes	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.722
+# text = oho tuʔum oʔu oʔoram tɨkadɨr iwoʔi
+# text_fr = Il est allé manger de la boue, ainsi que des fourmis et des vers. (GE, 148:375)
+1	oho	ho	VERB	v	Person=3	0	root	_	_
+2	tuʔum	tuʔum	NOUN	n	_	3	obj	_	_
+3	oʔu	ʔu	VERB	v	Person=3	1	parataxis	_	_
+4	oʔoram	oʔoram	CCONJ	cc	_	5	cc	_	_
+5	tɨkadɨr	tɨkadɨr	NOUN	n	_	2	conj	_	_
+6	iwoʔi	iwoʔi	NOUN	n	_	2	conj	_	SpacesAfter=\n
+
+# sent_id = 01.723
+# text = aʔenawe awakʷər oʔoram wãĩwĩkom zemenõ okuwaŋ
+# text_fr = C'est depuis ce moment que les hommes et les femmes surent faire l'amour. (litt : l’homme et la femme) (GE, 149:381)
+1	aʔenawe	aʔe	ADV	adv	Subord=Yes	6	advmod	_	_
+2	awakʷər	awakʷər	NOUN	n	_	6	nsubj	_	_
+3	oʔoram	oʔoram	CCONJ	cc	_	4	cc	_	_
+4	wãĩwĩkom	wãĩwĩ	NOUN	n	Number=Plur	2	conj	_	_
+5	zemenõ	menõ	VERB	v	PronType=Rcp	6	xcomp	_	_
+6	okuwaŋ	kuwa	VERB	v	Number[subj]=Plur|Person=3	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.724
+# text = aʔe urupẽhem odʒakaʔar
+# text_fr = Le tamis (dont on parle) est cassé. (GE, 159:418)
+1	aʔe	aʔe	DET	dem	_	2	det	_	_
+2	urupẽhem	urupẽhem	NOUN	n	_	3	nsubj	_	_
+3	odʒakaʔar	kaʔar	VERB	v	Imprs=Yes|Person=3	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.725
+# text = oeroker zawaro
+# text_fr = Il dort avec le chien. (GE, 257:827)
+1	oeroker	ker	VERB	v	Person=3|Voice=SCau	0	root	_	_
+2	zawaro	zawar	NOUN	n	Aspect=Cont	1	obj	_	_
+
+# sent_id = 01.726
+# text = ozeɨruʔog
+# text_fr = Il se déshabille. (GE, 267:870)
+1-2	ozeɨruʔog	_	_	_	_	_	_	_	_
+1	ozeɨru	ɨru	NOUN	n	Person=3|Reflex=Yes	2	dep	_	_
+2	ʔog	ʔog	VERB	v	_	0	root	_	_
+
+# sent_id = 01.727
+# text = atɨnẽ kededʒu , fre
+# text_fr = Mets-toi ici, frère. (GE, 274:894)
+1	atɨnẽ	atɨ	ADV	adv	Contrast=Yes	2	advmod	_	_
+2-3	kededʒu	_	_	_	_	_	_	_	_
+2	kede	ede	PRON	pron	Mood=Inj|Number=Sing|Person=2	0	root	_	_
+3	dʒu	dʒu	AUX	aux	_	2	cop	_	_
+4	,	,	PUNCT	punct	_	2	punct	_	_
+5	fre	fre	NOUN	n	_	2	discourse	_	SpacesAfter=\n
+
+# sent_id = 01.728
+# text = ikemɨnanam , nanenũwã
+# text_fr = Jadis, ce n'était pas ainsi. (GE, 280:925)
+1	ikemɨnanam	ikemɨn	ADV	adv	Case=Ref	3	advmod	_	_
+2	,	,	PUNCT	punct	_	3	punct	_	_
+3	nanenũwã	nane	ADV	adv	Case=Ref|Polarity=Neg	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.729
+# text = ereikɨdʒanũwã , demõdate
+# text_fr = Tu ne l'as pas acheté, tu l'as volé. (GE, 280:927)
+1	ereikɨdʒanũwã	ikɨdʒ	VERB	v	Case=Ref|Number=Sing|Person=2|Polarity=Neg	0	root	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	demõdate	mõda	NOUN	n	Foc=Yes|Number=Sing|Person=2	1	parataxis	_	SpacesAfter=\n
+
+# sent_id = 01.730
+# text = eretarawadʒenuwã
+# text_fr = Tu fais semblant de travailler. (litt : ce n'est pas travailler que tu fais!) (GE, 280:928)
+1	eretarawadʒenuwã	tarawadʒ	VERB	v	Case=Ref|Number=Sing|Person=2|Polarity=Neg	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.731
+# text = " wɨtʃɨ ekʷa , aʔenũwãso ? " , eʔi idʒupe
+# text_fr = "Ne t'ai-je pas déjà dit "va-t-en !" ?," lui dit-elle. (GE, 280:929)
+1	"	"	PUNCT	punct	_	3	punct	_	_
+2	wɨtʃɨ	wɨtʃɨ	ADV	adv	_	3	advmod	_	_
+3	ekʷa	kʷa	VERB	v	Mood=Imp|Number=Sing|Person=2	9	ccomp	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_
+5	aʔenũwãso	ʔe	VERB	v	Int=Yes|Number=Sing|Person=1|Polarity=Neg	3	parataxis	_	_
+6	?	?	PUNCT	punct	_	3	punct	_	_
+7	"	"	PUNCT	punct	_	3	punct	_	_
+8	,	,	PUNCT	punct	_	9	punct	_	_
+9	eʔi	eʔi	VERB	v	Person=3	0	root	_	_
+10	idʒupe	dʒupe	ADP	posp	Case=Dat|Rel=NCont	9	obl	_	_
+
+# sent_id = 01.732
+# text = " wɨtʃɨnũwãso oho ? "
+# text_fr = N'est-ce pas assez loin qu'il est parti ? (GE, 280:930)
+1	"	"	PUNCT	punct	_	3	punct	_	_
+2	wɨtʃɨnũwãso	wɨtʃɨ	ADV	adv	Int=Yes|Polarity=Neg	3	advmod	_	_
+3	oho	ho	VERB	v	Person=3	0	root	_	_
+4	?	?	PUNCT	punct	_	3	punct	_	_
+5	"	"	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 01.733
+# text = dizeburupadʒi
+# text_fr = Il n'a pas d'amis. (GE, 281:933)
+1	dizeburupadʒi	zeburupa	NOUN	n	Polarity=Neg|Rel=NCont	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.734
+# text = izeburupanũwã
+# text_fr = Ce n’est pas son ami. (GE, 281:934)
+1	izeburupanũwã	zeburupa	NOUN	n	Polarity=Neg|Rel=NCont	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.735
+# text = mame tareʔɨr eʔu
+# text_fr = Tu ne dois pas manger d'aïmara. (GE, 282:937)
+1	mame	mame	PART	prcl	Polarity=Neg	3	dep	_	_
+2	tareʔɨr	tareʔɨr	NOUN	n	_	3	obj	_	_
+3	eʔu	ʔu	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.736
+# text = mame kɨwo peitʃɨitʃɨg imõdo
+# text_fr = Arrêtez de les faire tomber ici sans cesse. (GE, 282:938)
+1	mame	mame	PART	prcl	Polarity=Neg	3	dep	_	_
+2	kɨwo	kɨwo	ADV	adv	_	3	advmod	_	_
+3	peitʃɨitʃɨg	itʃɨg	VERB	v	Mood=Imp|Number=Plur|Person=2|Red=Yes	0	root	_	_
+4	imõdo	mõdo	NOUN	n	Rel=NCont	3	parataxis	_	_
+
+# sent_id = 01.737
+# text = mamen tokɨr ikeʔɨ
+# text_fr = Il ne faut plus qu'il pleuve. (GE, 282:939)
+1	mamen	mamen	PART	prcl	Polarity=Neg	2	dep	_	_
+2	tokɨr	kɨr	VERB	v	Person=3|Mood=Nec	0	root	_	_
+3	ikeʔɨ	ikeʔɨ	ADV	adv	_	2	advmod	_	SpacesAfter=\n
+
+# sent_id = 01.738
+# text = mamenako sizeroʔar
+# text_fr = Il ne faut vraiment pas que nous nous battions. (GE, 282:940)
+1	mamenako	mamen	PART	prcl	Mood=Inj|Case=Ref|Polarity=Neg	2	dep	_	_
+2	sizeroʔar	ʔar	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes|Voice=SCau	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.739
+# text = mamenasinã dawarimãʔẽ pebaʔe
+# text_fr = Ne faîtes donc pas ce qui n'est pas bien. (GE, 282:941)
+1	mamenasinã	mamen	PART	prcl	Case=RefPolarity=Neg	3	dep	_	_
+2	dawarimãʔẽ	dawari	NOUN	n	Nmzr=Rel	3	obj	_	_
+3	pebaʔe	baʔe	VERB	v	Mood=Imp|Number=Plur|Person=2	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.740
+# text = waɨ abɨr ahotar ikiʔɨ , mamã
+# text_fr = Je ne pars plus, maman. (GE, 283:942)
+1	waɨ	waɨ	PART	prcl	Polarity=Neg	3	dep	_	_
+2	abɨr	bɨr	X	x	_	3	dep	_	_
+3	ahotar	ho	VERB	v	Number=Sing|Person=1|Tense=Fut	0	root	_	_
+4	ikiʔɨ	ikiʔɨ	ADV	adv	Case=Loc|Rel=NCont	3	advmod	_	_
+5	,	,	PUNCT	punct	_	3	punct	_	_
+6	mamã	mamã	NOUN	n	_	3	discourse	_	SpacesAfter=\n
+
+# sent_id = 01.742
+# text = aipo tekokomarehe waɨ zamãʔẽũwã
+# text_fr = Et aujourd'hui, on ne peut plus voir les Emérillons. (GE, 283:945)
+1	aipo	aipo	ADV	adv	_	4	advmod	_	_
+2	tekokomarehe	teko	NOUN	n	Case=Ref|Number=Plur|Rel=Cont	4	obl	_	_
+3	waɨ	waɨ	PART	prcl	Polarity=Neg	4	dep	_	_
+4	zamãʔẽũwã	mãʔẽ	VERB	v	Imprs=Yes|Polarity=Neg	0	root	_	_
+
+# sent_id = 01.743
+# text = opokadʒaitʃe, waɨ okoaraõwã
+# text_fr = Il a beau crier, il ne la trouve pas. (GE, 283:947)
+1	opokadʒaitʃe	_	_	_	_	_	_	_	_
+2	,	,	PUNCT	punct	_	_	_	_	_
+3	waɨ	waɨ	PART	prcl	Polarity=Neg	_	_	_	_
+4	okoaraõwã	_	_	_	_	_	_	_	_
+
+

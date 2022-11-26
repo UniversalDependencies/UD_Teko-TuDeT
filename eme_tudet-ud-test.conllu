@@ -4785,7 +4785,7 @@
 # text = aŋ tozeʔukapagatu
 # text_fr = Que ceux-ci se fassent tous manger ! (GE, 275:902)
 1	aŋ	aŋ	DET	dem	_	2	det	_	_
-Nec2	tozeʔukapagatu	ʔu	VERB	v	Aspect=Compl|Intens=Yes|Mood=Nec|Person=3|Reflex=Yes|Voice=Cau	0	root	_	SpacesAfter=\n
+2	tozeʔukapagatu	ʔu	VERB	v	Aspect=Compl|Intens=Yes|Mood=Nec|Person=3|Reflex=Yes|Voice=Cau	0	root	_	SpacesAfter=\n
 
 # sent_id = 01.707
 # text = tokerako pitakom
@@ -5002,19 +5002,19 @@ Nec2	tozeʔukapagatu	ʔu	VERB	v	Aspect=Compl|Intens=Yes|Mood=Nec|Person=3|Reflex
 # text = mamen tokɨr ikeʔɨ
 # text_fr = Il ne faut plus qu'il pleuve. (GE, 282:939)
 1	mamen	mamen	PART	prcl	Polarity=Neg	2	dep	_	_
-2	tokɨr	kɨr	VERB	v	Person=3|Mood=Nec	0	root	_	_
+2	tokɨr	kɨr	VERB	v	Mood=Nec|Person=3	0	root	_	_
 3	ikeʔɨ	ikeʔɨ	ADV	adv	_	2	advmod	_	SpacesAfter=\n
 
 # sent_id = 01.738
 # text = mamenako sizeroʔar
 # text_fr = Il ne faut vraiment pas que nous nous battions. (GE, 282:940)
-1	mamenako	mamen	PART	prcl	Mood=Inj|Case=Ref|Polarity=Neg	2	dep	_	_
+1	mamenako	mamen	PART	prcl	Case=Ref|Mood=Inj|Polarity=Neg	2	dep	_	_
 2	sizeroʔar	ʔar	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes|Voice=SCau	0	root	_	SpacesAfter=\n
 
 # sent_id = 01.739
 # text = mamenasinã dawarimãʔẽ pebaʔe
 # text_fr = Ne faîtes donc pas ce qui n'est pas bien. (GE, 282:941)
-1	mamenasinã	mamen	PART	prcl	Case=RefPolarity=Neg	3	dep	_	_
+1	mamenasinã	mamen	PART	prcl	Case=Ref|Polarity=Neg	3	dep	_	_
 2	dawarimãʔẽ	dawari	NOUN	n	Nmzr=Rel	3	obj	_	_
 3	pebaʔe	baʔe	VERB	v	Mood=Imp|Number=Plur|Person=2	0	root	_	SpacesAfter=\n
 
@@ -5035,13 +5035,3 @@ Nec2	tozeʔukapagatu	ʔu	VERB	v	Aspect=Compl|Intens=Yes|Mood=Nec|Person=3|Reflex
 2	tekokomarehe	teko	NOUN	n	Case=Ref|Number=Plur|Rel=Cont	4	obl	_	_
 3	waɨ	waɨ	PART	prcl	Polarity=Neg	4	dep	_	_
 4	zamãʔẽũwã	mãʔẽ	VERB	v	Imprs=Yes|Polarity=Neg	0	root	_	_
-
-# sent_id = 01.743
-# text = opokadʒaitʃe, waɨ okoaraõwã
-# text_fr = Il a beau crier, il ne la trouve pas. (GE, 283:947)
-1	opokadʒaitʃe	_	_	_	_	_	_	_	_
-2	,	,	PUNCT	punct	_	_	_	_	_
-3	waɨ	waɨ	PART	prcl	Polarity=Neg	_	_	_	_
-4	okoaraõwã	_	_	_	_	_	_	_	_
-
-

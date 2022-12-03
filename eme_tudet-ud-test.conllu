@@ -1257,13 +1257,13 @@
 # sent_id = 01.195
 # text = epotaroŋ
 # text_fr = Ils m'aiment. (GE, 106:228)
-1	epotaroŋ	potar	NOUN	n	Number[psor]=Sing|Number[subj]=Plur|Person[psor]=1	0	root	_	_
+1	epotaroŋ	potar	NOUN	n	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=1	0	root	_	_
 
 # sent_id = 01.196
 # text = wɨtʃɨnẽ nõdemõdokaroŋ
 # text_fr = Ils nous ont envoyé loin. (GE, 106:229)
 1	wɨtʃɨnẽ	wɨtʃɨ	ADV	adv	Contrast=Yes	2	advmod	_	_
-2	nõdemõdokaroŋ	mõdokar	NOUN	n	Clusivity=In|Number[subj]=Plur|Person[psor]=1	0	root	_	_
+2	nõdemõdokaroŋ	mõdokar	NOUN	n	Clusivity=In|Number[subj]=Plur|Person[obj]=1	0	root	_	_
 
 # sent_id = 01.197
 # text = maŋ ebɨgoŋ
@@ -1338,14 +1338,14 @@
 # text_fr = Les instituteurs vont venir chez moi. (GE, 108:243)
 1	lekolazarakom	lekolazar	NOUN	n	Case=Ref|Number=Plur	2	nsubj	_	_
 2	oʔurtar	ʔur	VERB	v	Person=3|Tense=Fut	0	root	_	_
-3	ekotɨŋ	kotɨ	ADV	adv	Number[psor]=Sing|Number[subj]=Plur|Person[psor]=1	2	advmod	_	_
+3	ekotɨŋ	kotɨ	ADV	adv	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=1	2	advmod	_	_
 
 # sent_id = 01.209
 # text = lekolazarakom oʔutar ekotɨŋ
 # text_fr = Les instituteurs vont venir chez moi. (GE, 108:243)
 1	lekolazarakom	lekolazar	NOUN	n	Case=Ref|Number=Plur	2	nsubj	_	_
 2	oʔutar	ʔu	VERB	v	Person=3|Tense=Fut	0	root	_	_
-3	ekotɨŋ	kotɨ	ADV	adv	Number[psor]=Sing|Number[subj]=Plur|Person[psor]=1	2	advmod	_	_
+3	ekotɨŋ	kotɨ	ADV	adv	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=1	2	advmod	_	_
 
 # sent_id = 01.210
 # text = ekotɨ lekolazarakom oʔurtaroŋ
@@ -3983,11 +3983,11 @@
 # sent_id = 01.581
 # text = epotaroŋ ebɨʔaramoŋnõwã mais korate epotaroŋ ozaramoŋ
 # text_fr = Ils ne m'aiment pas comme un amant, mais ils m'aiment comme leur chef. (GE, 237:740)
-1	epotaroŋ	potar	NOUN	n	Number[psor]=Sing|Number[subj]=Plur|Person[psor]=1	0	root	_	_
+1	epotaroŋ	potar	NOUN	n	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=1	0	root	_	_
 2	ebɨʔaramoŋnõwã	ebɨʔar	NOUN	n	Case=Tra|Number[subj]=Plur|Polarity=Neg	1	obl	_	_
 3	mais	mais	CCONJ	cc	_	5	cc	_	_
 4	korate	kor	ADV	adv	Case=Ref|Foc=Yes	5	advmod	_	_
-5	epotaroŋ	potar	NOUN	n	Number[psor]=Sing|Number[subj]=Plur|Person[psor]=1	1	conj	_	_
+5	epotaroŋ	potar	NOUN	n	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=1	1	conj	_	_
 6	ozaramoŋ	zar	NOUN	n	Case=Tra|Corf=Yes|Number[subj]=Plur|Person=3	5	obl	_	SpacesAfter=\n
 
 # sent_id = 01.582
@@ -4365,7 +4365,7 @@
 # text = wɨtʃɨnẽ nõdemõdokaroŋ
 # text_fr = Ils nous ont (fait ?) envoyés là-bas. (GE, 254:816)
 1	wɨtʃɨnẽ	wɨtʃɨ	ADV	adv	Contrast=Yes	2	advmod	_	_
-2	nõdemõdokaroŋ	mõdo	NOUN	n	Clusivity=In|Number[psor]=Plur|Number[subj]=Plur|Person[psor]=1|Voice=Cau	0	root	_	SpacesAfter=\n
+2	nõdemõdokaroŋ	mõdo	NOUN	n	Clusivity=In|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=1|Voice=Cau	0	root	_	SpacesAfter=\n
 
 # sent_id = 01.643
 # text = Trois-Sautskotɨ aiɲuŋokartar ʒãdamam
@@ -4502,7 +4502,7 @@
 1	erepotaneso	potane	VERB	v	Int=Yes|Number=Sing|Person=2	0	root	_	_
 2	aŋ	aŋ	DET	dem	_	3	det	_	_
 3	duʔauhu	duʔa	NOUN	n	Augm=Yes	4	obj	_	_
-4	arowarowagamãʔẽkom	rowag	VERB	v	Case=Ref|Nmzr=Rel|Number[obj]=Plur|Number[subj]=Sing|Person[subj]=1|Red=Yes	1	xcomp	_	_
+4	arowarowagamãʔẽkom	rowag	VERB	v	Case=Ref|Nmzr=Rel|Number[obj]=Plur|Number[subj]=Sing|Person[subj]=1|Red=Yes	1	ccomp	_	_
 5	?	?	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
 
 # sent_id = 01.663
@@ -5105,4 +5105,333 @@
 1	dereibawesipo	iba	NOUN	n	Also=Yes|Excl=Yes|Int=Yes|Number=Sing|Person=2|Rel=Cont	2	obj	_	_
 2	eremenõɲ	menõ	VERB	v	Aspect=Cont|Number=Sing|Person=2	0	root	_	_
 3	?	?	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 01.751
+# text = erezikanẽ sede mamã ?
+# text_fr = As-tu vraiment pu tuer maman ? (GE, 286:956)
+1	erezikanẽ	zika	VERB	v	Contrast=Yes|Number=Sing|Person=2	0	root	_	_
+2	sede	ede	PRON	pron	Int=Yes|Number=Sing|Person=2	1	nsubj	_	_
+3	mamã	mamã	NOUN	n	_	1	obj	_	_
+4	?	?	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 01.752
+# text = wane seredʒuɲ ?
+# text_fr = Ça va ? (litt : Est-ce que tu es bien ?) (GE, 286:957)
+1	wane	wane	ADV	adv	_	2	advmod	_	_
+2	seredʒuɲ	dʒu	VERB	v	Aspect=Cont|Int=Yes|Number=Sing|Person=2	0	root	_	_
+3	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 01.753
+# text = tãõwãpo pedʒuɲ ?
+# text_fr = Comment vous portez-vous ? (GE, 286:958)
+1	tãõwãpo	tãõwã	INTJ	intj	Int=Yes	2	discourse	_	_
+2	pedʒuɲ	dʒu	VERB	v	Aspect=Cont|Number=Plur|Person=2	0	root	_	_
+3	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 01.754
+# text = debaʔewarapo ?
+# text_fr = Est-ce que tu as faim ? (GE, 287:959)
+1	debaʔewarapo	baʔewar	NOUN	n	Case=Ref|Int=Yes|Number=Sing|Person=2	0	root	_	_
+2	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 01.755
+# text = debaʔewaraso ?
+# text_fr = Est-ce que tu as faim ? (GE, 287:959)
+1	debaʔewaraso	baʔewar	NOUN	n	Case=Ref|Int=Yes|Number=Sing|Person=2	0	root	_	_
+2	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 01.756
+# text = edeatesipo naonan erezor ?
+# text_fr = C'est donc toi qui viens tout le temps ? (GE, 287:960)
+1	edeatesipo	ede	PRON	pron	Case=Ref|Excl=Yes|Foc=Yes|Number=Sing|Person=2	_	_	_	_
+2	naonan	naonan	ADV	adv	_	_	_	_	_
+3	erezor	zor	VERB	v	Number=Sing|Person=2	_	_	_	_
+4	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 01.757
+# text = pezeboaitesipo !
+# text_fr = Vous vous êtes transformées! (GE, 287:961)
+1	pezeboaitesipo	boai	VERB	v	Foc=Yes|Excl=Yes|Int=Yes|Number=Plur|Person=2|Reflex=Yes	0	root	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 01.758
+# text = baʔeto peekariɲ , eparɨkom ? 
+# text_fr = Que cherchez-vous, mes petits-enfants ? (GE, 288:962)
+1	baʔeto	baʔe	NOUN	n	Int=Yes	2	obj	_	_
+2	peekariɲ	ekar	VERB	v	Aspect=Cont|Number=Plur|Person=2|Reflex=Yes	0	root	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	eparɨkom	parɨ	NOUN	n	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=1	2	discourse	_	_
+5	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 01.759
+# text = baʔeto pekariɲ , eparɨkom ? 
+# text_fr = Que cherchez-vous, mes petits-enfants ? (GE, 288:962)
+1	baʔeto	baʔe	NOUN	n	Int=Yes	2	obj	_	_
+2	pekariɲ	kar	VERB	v	Aspect=Cont|Number=Plur|Person=2|Reflex=Yes	0	root	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	eparɨkom	parɨ	NOUN	n	Number[obj]=Sing|Number[subj]=Plur|Person[obj]=1	2	discourse	_	_
+5	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 01.760
+# text = baʔesipo naonan oʔur ?
+# text_fr = Qui vient tous les soirs ? (GE, 288:963)
+1	baʔesipo	baʔe	NOUN	n	Excl=Yes|Int=Yes	3	nsubj	_	_
+2	naonan	naonan	ADV	adv	_	3	advmod	_	_
+3	oʔur	ʔur	VERB	v	Person=3	0	root	_	_
+4	?	?	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 01.761
+# text = baʔe tede ?
+# text_fr = Qui es-tu ? (GE, 288:964)
+1	baʔe	baʔe	NOUN	n	_	2	obj	_	_
+2	tede	tede	PRON	pron	Int=Yes|Number=Sing|Person=2	0	root	_	_
+3	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 01.762
+# text = awata aŋ obaʔe ?
+# text_fr = Qui a fait ça ? (GE, 288:965)
+1	awata	awa	PRON	pron	Int=Yes	3	nsubj	_	_
+2	aŋ	aŋ	DET	dem	_	1	det	_	_
+3	obaʔe	baʔe	VERB	v	Person=3	0	root	_	_
+4	?	?	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 01.763
+# text = manãto naonanpɨrɨnẽ okɨr ?
+# text_fr = Comment se fait-il qu'il pleuve toujours plus ? (GE, 288:966)
+1	manãto	nã	ADV	adv	Int=Yes	3	advmod	_	_
+2	naonanpɨrɨnẽ	naonan	ADV	adv	Contrast=Yes|Intens=Yes	3	advmod	_	_
+3	okɨr	kɨr	VERB	v	Person=3	0	root	_	_
+4	?	?	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 01.764
+# text = awarapɨdʒato okadʒ ?
+# text_fr = La maison de qui a brûlé ? (GE, 288:967)
+1-2	awarapɨdʒato	_	_	_	_	_	_	_	_
+1	awa	awa	PRON	pron	_	2	nmod	_	_
+2	rapɨdʒato	apɨdʒ	NOUN	n	Case=Ref|Int=Yes|Rel=Cont	3	nsubj	_	_
+3	okadʒ	kadʒ	VERB	v	Person=3	0	root	_	_
+4	?	?	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 01.765
+# text = matɨsipo ereiba oho ?
+# text_fr = Où est donc passé mon animal ? (GE, 289:968)
+1	matɨsipo	matɨ	ADV	adv	Excl=Yes|Int=Yes	3	advmod	_	_
+2	ereiba	iba	NOUN	n	Nmzr=Rel|Number=Sing|Person=1	3	nsubj	_	_
+3	oho	ho	VERB	v	Person=3	0	root	_	_
+4	?	?	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 01.766
+# text = maŋ pairato atãpɨrɨ ?
+# text_fr = Quel arc est le plus solide ? (GE, 289:969)
+1	maŋ	maŋ	PRON	pron	_	2	nmod	_	_
+2	pairato	paira	NOUN	n	Intens=Yes	3	nsubj	_	_
+3	atãpɨrɨ	atã	NOUN	n	_	0	root	_	_
+4	?	?	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 01.767
+# text = maŋato atãpɨrɨ ?
+# text_fr = Lequel est le plus solide ? (GE, 289:970)
+1	maŋato	maŋ	PRON	pron	Case=Ref|Int=Yes	2	nsubj	_	_
+2	atãpɨrɨ	atã	NOUN	n	Intens=Yes	0	root	_	_
+3	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 01.768
+# text = mananãhãto deruɨar ?
+# text_fr = Combien de pirogues a ton père ? (litt : les pirogues de ton père sont combien ?) (GE, 289:971)
+1	mananãhãto	mananãhã	ADV	adv	Int=Yes	3	advmod	_	_
+2-3	deruɨar	_	_	_	_	_	_	_	_
+2	deru	u	NOUN	n	Number=Sing|Person=2|Rel=Cont	3	nmod	_	_
+3	ɨar	ɨar	NOUN	n	_	_	_	_	_
+4	?	?	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 01.769
+# text = baʔerehe terehotar ?
+# text_fr = Pourquoi vas-tu partir ? (GE, 289:972)
+1	baʔerehe	baʔe	NOUN	n	Rel=Cont	2	obl	_	_
+2	terehotar	ho	VERB	v	Int=Yes|Number=Sing|Person=2|Tense=Fut	0	root	_	_
+3	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 01.770
+# text = awapeto eru pakuʔa omeʔeŋ ?
+# text_fr = A qui mon père a donné des bananes ? (GE, 289:973)
+1	awapeto	awa	PRON	pron	Case=Dat|Int=Yes	4	obl	_	_
+2	eru	u	NOUN	n	Nimber=Sing|Person=1|Rel=Cont	4	nsubj	_	_
+3	pakuʔa	pakuʔa	NOUN	n	_	4	obj	_	_
+4	omeʔeŋ	meʔeŋ	VERB	v	Person=3	_	_	_	_
+5	?	?	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 01.771
+# text = baʔewi teresĩ ?
+# text_fr = De quoi as-tu honte ? (GE, 289:974)
+1	baʔewi	baʔe	NOUN	n	Case=Abl	2	obl	_	_
+2	teresĩ	sĩ	VERB	v	Int=Yes|Number=Sing|Person=2	_	_	_	_
+3	?	?	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 01.772
+# text = maziʔogape oho
+# text_fr = Elle va/alla chercher le manioc. (GE, 292:975)
+1	maziʔogape	maziʔog	NOUN	n	Case=Dat	2	obl	_	_
+2	oho	ho	VERB	v	Person=3	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.773
+# text = opoanba mɨdɨdʒunam , kija obaʔe
+# text_fr = Quand elle a filé tout le coton, elle fait le hamac. (GE, 292:976)
+1	opoanba	poan	VERB	v	Aspect=Compl|Person=3	5	advcl	_	_
+2	mɨdɨdʒunam	mɨdɨdʒu	NOUN	n	Subord=Yes	1	obj	_	_
+3	,	,	PUNCT	punct	_	1	punct	_	_
+4	kija	kija	NOUN	n	_	5	obj	_	_
+5	obaʔe	baʔe	VERB	v	Person=3	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.774
+# text = ohopaŋ
+1	ohopaŋ	ho	VERB	v	Aspect=Compl|Number[subj]=Plur|Person=3	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.775
+# text = oweroporahadʒpa
+# text_fr = Ils finissent de la faire danser. (GE, 293:981)
+1	oweroporahadʒpa	porahadʒ	VERB	v	Aspect=Compl|Person=3|Voice=SCau	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.776
+# text = oikɨdʒpa oiba eraho
+# text_fr = Il a déjà pris son animal et part avec. (GE, 293:982)
+1	oikɨdʒpa	ikɨdʒ	VERB	v	Aspect=Compl|Person=3	0	root	_	_
+2	oiba	iba	NOUN	n	Corf=Yes|Person=3	1	obj	_	_
+3	eraho	eraho	NOUN	n	Rel=NCont	1	parataxis	_	SpacesAfter=\n
+
+# sent_id = 01.777
+# text = oiɲuŋbanam , opukudʒ
+# text_fr = Quand elle a tout mis, elle remue. (GE, 293:983)
+1	oiɲuŋbanam	iɲuŋ	VERB	v	Aspect=Compl|Person=3|Subord=Yes	3	advcl	_	_
+2	,	,	PUNCT	punct	_	3	punct	_	_
+3	opukudʒ	pukudʒ	VERB	v	Person=3	_	_	_	_
+
+# sent_id = 01.780
+# text = kʷienam , nõderaʔɨrakomateenam napiararehe ozemĩnõtar
+# text_fr = Un jour, ce sont nos enfants qui seront fâchés de ces choses. (GE, 294:989)
+1	kʷienam	kʷi	ADV	adv	Top=Yes	5	advmod	_	_
+2	,	,	PUNCT	punct	_	5	punct	_	_
+3	nõderaʔɨrakomateenam	aʔɨr	NOUN	n	Case=Ref|Clusivity=In|Foc=Yes|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=1|Rel=Cont|Top=Yes	5	nsubj	_	_
+4	napiararehe	napiar	NOUN	n	Case=Ref|Rel=Cont	5	obl	_	_
+5	ozemĩnõtar	mĩnõ	VERB	v	Person=3|Reflex=Yes|Tense=Fut	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.781
+# text = koenam dabaʔepatari etarawadʒ
+# text_fr = Et bien à ce moment là (si on me tue),je ne finirai pas mon travail. (GE, 294:991)
+1	koenam	ko	ADV	adv	Top=Yes	2	advmod	_	_
+2	dabaʔepatari	baʔe	VERB	v	Aspect=Compl|Number=Sing|Person=1|Polarity=Neg|Tense=Fut	0	root	_	_
+3	etarawadʒ	tarawadʒ	VERB	v	Number=Sing|Person=1	2	xcomp	_	SpacesAfter=\n
+
+# sent_id = 01.782
+# text = nanaɨwərasipo pedʒutar !
+# text_fr = C'est comme ça que vous êtes devenues ! (GE, 295:992)
+1	nanaɨwərasipo	nan	ADV	adv	Case=Ref|Excl=Yes|Int=Yes	2	advmod	_	_
+2	pedʒutar	dʒu	VERB	v	Number=Plur|Person=2|Tense=Fut	0	root	_	_
+3	!	!	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 01.783
+# text = oiɲuŋ osapatokom
+# text_fr = Il met/mit ses chaussures. (GE, 295:993)
+1	oiɲuŋ	iɲuŋ	VERB	v	Person=3	0	root	_	_
+2	osapatokom	sapato	VERB	v	Corf=Yes|Number=Plur|Person=3	1	obj	_	SpacesAfter=\n
+
+# sent_id = 01.784
+# text = sidʒewɨranam , nõdebaʔekʷərarehete sidʒeboʔetar
+# text_fr = Quand on est revenu, ce sont nos traditions qu'on devait apprendre. (GE, 295:994)
+1	sidʒewɨranam	dʒewɨr	VERB	v	Case=Ref|Clusivity=In|Number=Plur|Person=1|Subord=Yes	4	advcl	_	_
+2	,	,	PUNCT	punct	_	4	punct	_	_
+3	nõdebaʔekʷərarehete	baʔekʷər	NOUN	n	Case=Ref|Clusivity=In|Number=Plur|Person=1|Foc=Yes|Rel=Cont	4	obl	_	_
+4	sidʒeboʔetar	boʔe	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes|Tense=Fut	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.785
+# text = erepotanẽso aŋ arowarowagamãʔẽkom ?
+# text_fr = Est-ce que tu veux que je retourne ça ? (GE, 295:997)
+1	erepotanẽso	pota	VERB	v	Contrast=Yes|Int=Yes|Number=Sing|Person=2	0	root	_	_
+2	aŋ	aŋ	DET	dem	_	3	det	_	_
+3	arowarowagamãʔẽkom	rowag	VERB	v	Case=Ref|Nmzr=Rel|Number[obj]=Plur|Number[subj]=Sing|Person[subj]=1|Red=Yes	1	ccomp	_	_
+4	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 01.787
+# text = erezaugtanẽpo ?
+# text_fr = Est-ce que tu veux te baigner ? (GE, 296:1000)
+1	erezaugtanẽpo	zaugtanẽpo	VERB	v	Number=Sing|Person=2	0	root	_	_
+2	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 01.788
+# text = iɲuʔaŋaɨ
+# text_fr = Il fait très froid. (GE, 296:1002)
+1	iɲuʔaŋaɨ	ɲuʔaŋ	NOUN	n	Intens=Yes|Rel=NCont	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.789
+# text = aʔuwe tapɨdʒarowər dobaʔepakatudʒi
+# text_fr = Ils n'ont pas encore vraiment fini le toit de la maison. (GE, 297:1004)
+1	aʔuwe	aʔuwe	ADV	adv	_	4	advmod	_	_
+2-3	tapɨdʒarowər	_	_	_	_	_	_	_	_
+2	tapɨdʒa	apɨdʒ	NOUN	n	Case=Ref|Rel=Abs	4	obj	_	_
+3	rowər	owər	NOUN	n	Rel=Cont	2	nmod	_	_
+4	dobaʔepakatudʒi	baʔe	VERB	v	Aspect=Compl|Intens=Yes|Person=3|Polarity=Neg	0	root	_	_
+
+# sent_id = 01.791
+# text = nõdeʔaragatu kʷaraɨ
+# text_fr = midi (GE, 297:1008)
+1	nõdeʔaragatu	ʔar	ADP	posp	Case=Ref|Clusivity=In|Intens=Yes|Number=Sing|Person=1	2	obl	_	_
+2	kʷaraɨ	kʷaraɨ	NOUN	n	_	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.793
+# text = owur ohoɲ watekotɨ
+# text_fr = Il monte en haut. (GE, 298:1012)
+1	owur	wur	VERB	v	Person=3	0	root	_	_
+2	ohoɲ	ho	VERB	v	Aspect=Cont|Person=3	1	dep	_	_
+3	watekotɨ	wate	NOUN	n	Case=All	1	obl	_	SpacesAfter=\n
+
+# sent_id = 01.794
+# text = oho ikotɨɲ
+# text_fr = Elle va chez lui. (GE, 298:1013)
+1	oho	ho	VERB	v	Person=3	0	root	_	_
+2	ikotɨɲ	kotɨ	ADP	posp	Aspect=Cont|Rel=NCont	1	obl	_	SpacesAfter=\n
+
+# sent_id = 01.795
+# text = wɨtʃɨkuwa zaho lekolape
+# text_fr = on irait loin à l'école. (GE, 298:1014)
+1	wɨtʃɨkuwa	wɨtʃɨ	ADV	adv	Mood=Irr	2	advmod	_	_
+2	zaho	ho	VERB	v	Imprs=Yes	0	root	_	_
+3	lekolape	lekol	NOUN	n	Case=Dat	2	obl	_	SpacesAfter=\n
+
+# sent_id = 01.796
+# text = nõdeawuawekuwaenam sikuwakatu
+# text_fr = on saurait bien notre langue. (GE, 299:1015)
+1	nõdeawuawekuwaenam	awu	NOUN	n	Also=Yes|Clusivity=In|Mood=Irr|Number=Plur|Person=1|Top=Yes	2	obj	_	_
+2	sikuwakatu	kuwa	VERB	v	Clusivity=In|Intens=Yes|Number=plur|Person=1	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.797
+# text = ijɨ baʔezaʔu omumuɲõ
+# text_fr = Sa mère cuit la nourriture. (GE, 299:1017)
+1	ijɨ	jɨ	NOUN	n	Rel=NCont	3	nsubj	_	_
+2	baʔezaʔu	baʔezaʔu	NOUN	n	_	3	obj	_	_
+3	omumuɲõ	mumuɲ	VERB	v	Aspect=Cont|Person=3	0	root	_	_
+
+# sent_id = 01.798
+# text = iɨ baʔezaʔu omumuɲõ
+# text_fr = Sa mère cuit la nourriture. (GE, 299:1017)
+1	iɨ	ɨ	NOUN	n	Rel=NCont	3	nsubj	_	_
+2	baʔezaʔu	baʔezaʔu	NOUN	n	_	3	obj	_	_
+3	omumuɲõ	mumuɲ	VERB	v	Aspect=Cont|Person=3	0	root	_	_
+
+# sent_id = 01.799
+# text = kaʔi watekotɨ otuio
+# text_fr = Le macaque est en haut. (GE, 299:1018)
+1	kaʔi	kaʔi	NOUN	n	_	2	nsubj	_	_
+2	watekotɨ	wate	NOUN	n	Case=All	0	root	_	_
+3	otuio	tui	AUX	aux	Aspect=Cont|Person=3	2	cop	_	SpacesAfter=\n
+
+# sent_id = 01.800
+# text = ijɨ ibaʔeraɨo
+# text_fr = Sa mère est malade. (GE, 299:1019)
+1	ijɨ	jɨ	NOUN	n	Rel=NCont	2	nsubj	_	_
+2	ibaʔeraɨo	baʔeraɨ	NOUN	n	Aspect=Cont|Rel=NCont	0	root	_	_
+
+# sent_id = 01.801
+# text = iɨ baʔeraɨo
+# text_fr = Sa mère est malade. (GE, 299:1019)
+1	iɨ	ɨ	NOUN	n	Rel=NCont	2	nsubj	_	_
+2	ibaʔeraɨo	baʔeraɨ	NOUN	n	Aspect=Cont|Rel=NCont	0	root	_	_
 

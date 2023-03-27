@@ -5002,7 +5002,7 @@
 # text = mamen tokɨr ikeʔɨ
 # text_fr = Il ne faut plus qu'il pleuve. (GE, 282:939)
 1	mamen	mamen	PART	prcl	Polarity=Neg	2	dep	_	_
-2	tokɨr	kɨr	VERB	v	Mood=Nec|Person=3	0	root	_	_
+2	tokɨr	kɨr	VERB	v	Mood=Per|Person=3	0	root	_	_
 3	ikeʔɨ	ikeʔɨ	ADV	adv	_	2	advmod	_	SpacesAfter=\n
 
 # sent_id = 01.738

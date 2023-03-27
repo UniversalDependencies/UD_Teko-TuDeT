@@ -4926,7 +4926,7 @@
 # text_fr = Mets-toi ici, frère. (GE, 274:894)
 1	atɨnẽ	atɨ	ADV	adv	Contrast=Yes	2	advmod	_	_
 2-3	kededʒu	_	_	_	_	_	_	_	_
-2	kede	ede	PRON	pron	Mood=Inj|Number=Sing|Person=2	0	root	_	_
+2	kede	ede	PRON	pron	Mood=Jus|Number=Sing|Person=2	0	root	_	_
 3	dʒu	dʒu	AUX	aux	_	2	cop	_	_
 4	,	,	PUNCT	punct	_	2	punct	_	_
 5	fre	fre	NOUN	n	_	2	discourse	_	SpacesAfter=\n
@@ -5008,7 +5008,7 @@
 # sent_id = 01.738
 # text = mamenako sizeroʔar
 # text_fr = Il ne faut vraiment pas que nous nous battions. (GE, 282:940)
-1	mamenako	mamen	PART	prcl	Case=Ref|Mood=Inj|Polarity=Neg	2	dep	_	_
+1	mamenako	mamen	PART	prcl	Case=Ref|Mood=Jus|Polarity=Neg	2	dep	_	_
 2	sizeroʔar	ʔar	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes|Voice=SCau	0	root	_	SpacesAfter=\n
 
 # sent_id = 01.739

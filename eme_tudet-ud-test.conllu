@@ -5255,7 +5255,7 @@
 # text = awapeto eru pakuʔa omeʔeŋ ?
 # text_fr = A qui mon père a donné des bananes ? (GE, 289:973)
 1	awapeto	awa	PRON	pron	Case=Dat|Int=Yes	4	obl	_	_
-2	eru	u	NOUN	n	Nimber=Sing|Person=1|Rel=Cont	4	nsubj	_	_
+2	eru	u	NOUN	n	Number=Sing|Person=1|Rel=Cont	4	nsubj	_	_
 3	pakuʔa	pakuʔa	NOUN	n	_	4	obj	_	_
 4	omeʔeŋ	meʔeŋ	VERB	v	Person=3	0	root	_	_
 5	?	?	PUNCT	punct	_	4	punct	_	_

@@ -1541,7 +1541,7 @@
 # text = ɨɲawite arakapusauhu omõduroŋ bal
 # text_fr = De là, des fusils tiraient des balles. (GE, 115:272)
 1	ɨɲawite	ɨɲ	DET	dem	Case=Abl|Foc=Yes	2	obl	_	_
-2	arakapusauhu	arakapusa	NOUN	n	Augm=Yes	3	nsubj	_	_
+2	arakapusauhu	arakapusa	NOUN	n	Degree=Aug	3	nsubj	_	_
 3	omõduroŋ	mõdur	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 4	bal	bal	NOUN	n	_	3	obj	_	_
 
@@ -1607,7 +1607,7 @@
 # sent_id = 01.246
 # text = wɨraʔauhu wane ozeka õhem okarabɨtebarupi
 # text_fr = Un comou géant casse (le sol) et sort au milieu de la cour. (GE, 123:283)
-1	wɨraʔauhu	wɨraʔa	NOUN	n	Augm=Yes	3	nsubj	_	_
+1	wɨraʔauhu	wɨraʔa	NOUN	n	Degree=Aug	3	nsubj	_	_
 2	wane	wane	NOUN	n	_	1	nmod	_	_
 3	ozeka	zeka	VERB	v	Person=3	0	root	_	_
 4	õhem	hem	VERB	v	Person=3	3	conj	_	_
@@ -2704,7 +2704,7 @@
 # sent_id = 01.400
 # text = emõdurawĩ duriam epe
 # text_fr = Donne-moi un peu de riz. (GE, 179:476)
-1	emõdurawĩ	mõdur	VERB	v	Dim=Yes|Mood=Imp|Number=Sing|Person=2	0	root	_	_
+1	emõdurawĩ	mõdur	VERB	v	Degree=Dim|Mood=Imp|Number=Sing|Person=2	0	root	_	_
 2	duriam	duri	NOUN	n	Case=Tra	1	obj	_	_
 3	epe	e	PRON	pron	Case=Dat|Number=Sing|Person=1	1	obl	_	_
 
@@ -2893,7 +2893,7 @@
 # text = bodʒuhukomãhã kɨtaʔar otuitʃẽ kiʔɨ
 # text_fr = Seulement les couleuvres sont sur le poteau. (GE, 186:507)
 1-2	bodʒuhukomãhã	_	_	_	_	_	_	_	_
-1	bodʒuhukom	bodʒ	NOUN	n	Augm=Yes|Number=Plur	3	nsubj	_	_
+1	bodʒuhukom	bodʒ	NOUN	n	Degree=Aug|Number=Plur	3	nsubj	_	_
 2	ãhã	ãhã	ADV	adv	_	1	advmod	_	_
 3	kɨtaʔar	kɨta	NOUN	n	Case=Loc	0	root	_	_
 4-5	otuitʃẽ	_	_	_	_	_	_	_	_
@@ -2904,7 +2904,7 @@
 # sent_id = 01.427
 # text = takuruũwĩ otuiomãʔẽrehe owur
 # text_fr = Il monte sur un petit rocher qui est là. (GE, 186:508)
-1	takuruũwĩ	takuru	NOUN	n	Dim=Yes	3	obl	_	_
+1	takuruũwĩ	takuru	NOUN	n	Degree=Dim	3	obl	_	_
 2	otuiomãʔẽrehe	tui	AUX	aux	Aspect=Cont|Nmzr=Rel|Person=3|Rel=Cont	1	cop	_	_
 3	owur	wur	VERB	v	Person=3	0	root	_	_
 
@@ -4211,7 +4211,7 @@
 # sent_id = 01.617
 # text = oʔoʔogawĩ
 # text_fr = Elle en arrache un peu partout (du manioc). (GE, 248:789)
-1	oʔoʔogawĩ	ʔog	VERB	v	Dim=Yes|Person=3|Red=Yes	0	root	_	SpacesAfter=\n
+1	oʔoʔogawĩ	ʔog	VERB	v	Degree=Dim|Person=3|Red=Yes	0	root	_	SpacesAfter=\n
 
 # sent_id = 01.618
 # text = oho kosokosog takuruʔaranẽ ozaʔogoŋ
@@ -4501,7 +4501,7 @@
 # text_fr = Est-ce que tu veux que je renverse ces gros mortiers? (GE, 260:841)
 1	erepotaneso	potane	VERB	v	Int=Yes|Number=Sing|Person=2	0	root	_	_
 2	aŋ	aŋ	DET	dem	_	3	det	_	_
-3	duʔauhu	duʔa	NOUN	n	Augm=Yes	4	obj	_	_
+3	duʔauhu	duʔa	NOUN	n	Degree=Aug	4	obj	_	_
 4	arowarowagamãʔẽkom	rowag	VERB	v	Case=Ref|Nmzr=Rel|Number[obj]=Plur|Number[subj]=Sing|Person[subj]=1|Red=Yes	1	ccomp	_	_
 5	?	?	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
 
@@ -5434,4 +5434,92 @@
 # text_fr = Sa mère est malade. (GE, 299:1019)
 1	iɨ	ɨ	NOUN	n	Rel=NCont	2	nsubj	_	_
 2	ibaʔeraɨo	baʔeraɨ	NOUN	n	Aspect=Cont|Rel=NCont	0	root	_	_
+
+# sent_id = 01.802
+# text = bedʒu oiɲuŋtaro
+# text_fr = Elle va mettre une cassave. (GE, 300:1020)
+1	bedʒu	bedʒu	NOUN	n	_	2	obj	_	_
+2	oiɲuŋtaro	iɲuŋ	VERB	v	Aspect=Cont|Person=3|Tense=Fut	0	root	_	_
+
+# sent_id = 01.803
+# text = dodʒaʔodʒio
+# text_fr = Il n'est pas en train de pleurer. (GE, 300:1021)
+1	dodʒaʔodʒio	dʒaʔo	VERB	v	Aspect=Cont|Person=3|Polarity=Neg	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.804
+# text = takuruʔar oapɨgeʔeo
+# text_fr = Elle s'assoit de nouveau sur le rocher. (GE, 300:1022)
+1	takuruʔar	takuru	NOUN	n	Case=Loc	2	obl	_	_
+2	oapɨgeʔeo	apɨg	VERB	v	Aspect=Cont|Person=3	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.805
+# text = oanõ oibao kiʔɨ
+# text_fr = Il attend son animal maintenant. (GE, 300:1023)
+1	oanõ	anõ	VERB	v	Person=3	0	root	_	_
+2	oibao	iba	NOUN	n	Aspect=Cont|Corf=Yes|Person=3	1	obj	_	_
+3	kiʔɨ	kiʔɨ	ADV	adv	_	1	advmod	_	SpacesAfter=\n
+
+# sent_id = 01.806
+# text = pɨa omãʔẽnẽ nõdereheo
+# text_fr = La nuit, il nous voit quand même. (GE, 300:1024)
+1	pɨa	pɨa	ADV	adv	_	2	advmod	_	_
+2	omãʔẽnẽ	mãʔẽ	VERB	v	Contrast=Yes|Person=3	0	root	_	_
+3	nõdereheo	ehe	ADP	posp	Aspect=Cont|Clusivity=In|Number=Plur|Person=1|Rel=Cont	2	obl	_	SpacesAfter=\n
+
+# sent_id = 01.807
+# text = omẽbɨr ozopodʒo
+# text_fr = Elle est en train de nourrir son fils. (GE, 300:1026)
+1	omẽbɨr	mẽbɨr	NOUN	n	Corf=Yes|Person=3	2	obj	_	_
+2	ozopodʒo	zopodʒ	VERB	v	Aspect=Cont|Person=3	0	root	_	_
+
+# sent_id = 01.808
+# text = ozopodʒ omẽbɨro
+# text_fr = Elle est en train de nourrir son fils. (GE, 300:1027)
+1	ozopodʒ	zopodʒ	VERB	v	Person=3	0	root	_	_
+2	omẽbɨro	mẽbɨr	NOUN	n	Aspect=Cont|Corf=Yes|Person=3	1	obj	_	_
+
+# sent_id = 01.809
+# text = wane atarawadʒiɲ
+# text_fr = Je travaille bien. (GE, 301:1029)
+1	wane	wane	ADV	adv	_	2	advmod	_	_
+2	atarawadʒiɲ	tarawadʒ	VERB	v	Aspect=Cont|Number=Sing|Person=1	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.810
+# text = matɨ tede erehotariɲ ?
+# text_fr = Où vas-tu aller ? (GE, 301:1031)
+1	matɨ	matɨ	ADV	adv	_	3	advmod	_	_
+2	tede	ede	PRON	pron	Int=Yes|Number=Sing|Person=2	3	nsubj	_	_
+3	erehotariɲ	ho	VERB	v	Aspect=Cont|Number=Sing|Person=2|Tense=Fut	0	root	_	_
+4	?	?	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 01.811
+# text = azopodʒ emẽbɨriɲ
+# text_fr = Je suis en train de nourrir mon enfant. (GE, 302:1034)
+1	azopodʒ	zopodʒ	VERB	v	Number=Sing|Person=1	0	root	_	_
+2	emẽbɨriɲ	mẽbɨr	NOUN	n	Aspect=Cont|Number=Sing|Person=1	1	obj	_	SpacesAfter=\n
+
+# sent_id = 01.812
+# text = amãʔẽnẽ pedeheɲ
+# text_fr = Je vous regarde. (GE, 302:1035)
+1	amãʔẽnẽ	mãʔẽ	VERB	v	Contrast=Yes|Number=Sing|Person=1	0	root	_	_
+2	pedeheɲ	ehe	ADP	posp	Aspect=Cont|Number=Plur|Person=2|Rel=Cont	1	obl	_	SpacesAfter=\n
+
+# sent_id = 01.813
+# text = amõ oʔureʔeɲ
+# text_fr = Un autre vient de nouveau. (GE, 302:1038)
+1	amõ	amõ	PRON	pron	PronType=Ind	2	nsubj	_	_
+2	oʔureʔeɲ	ʔur	VERB	v	Aspect=Cont|Person=3	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.814
+# text = ezozopodʒiɲ
+# text_fr = Ils me nourrissent. (GE, 303:1039)
+1	ezozopodʒiɲ	zopodʒ	VERB	v	Aspect=Cont|Number=Sing|Person=1|Red=Yes	0	root	_	SpacesAfter=\n
+
+# sent_id = 01.815
+# text = amõ teko õhem kowioʔu
+# text_fr = Une autre personne sort juste de l'abattis. (GE, 303:1040)
+1	amõ	amõ	PRON	pron	PronType=Ind	2	amod	_	_
+2	teko	teko	PROPN	propn	_	3	nsubj	_	_
+3	õhem	hem	VERB	v	Person=3	0	root	_	_
+4	kowioʔu	ko	NOUN	n	Case=Abl|Tense=Past	3	obl	_	SpacesAfter=\n
 

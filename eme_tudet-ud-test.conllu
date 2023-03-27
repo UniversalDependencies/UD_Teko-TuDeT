@@ -4307,7 +4307,7 @@
 # text_fr = Il viendra un jour ressusciter les morts. (GE, 252:806)
 1	oʔurtar	ʔur	VERB	v	Person=3|Tense=Fut	0	root	_	_
 2	kʷi	kʷi	ADV	adv	_	1	advmod	_	_
-3	poromõmaʔam	maʔam	NOUN	n	Hum=Yes|Voice=Cau	1	xcomp	_	SpacesAfter=\n
+3	poromõmaʔam	maʔam	NOUN	n	Imprs=Yes|Voice=Cau	1	xcomp	_	SpacesAfter=\n
 
 # sent_id = 01.634
 # text = so iʔar omõdo

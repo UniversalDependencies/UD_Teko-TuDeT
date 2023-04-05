@@ -1876,7 +1876,7 @@
 # sent_id = 01.282
 # text = aʔenam dati docteur , aipo kob docteur oʔoramte infirmier
 # text_fr = A cette époque, il n'y avait pas de médecin, maintenant il y a un médecin et un infirmier. (GE, 133:326)
-1	aʔenam	aʔe	ADV	adv	Mood=Sub	3	advmod	_	_
+1	aʔenam	aʔe	ADV	adv	Subord=Yes	3	advmod	_	_
 2	dati	dati	AUX	aux	Polarity=Neg	3	cop	_	_
 3	docteur	docteur	NOUN	n	_	0	root	_	_
 4	,	,	PUNCT	punct	_	3	punct	_	_
@@ -1941,7 +1941,7 @@
 # sent_id = 01.292
 # text = en.92anam , Polorekojaram adʒu
 # text_fr = En 92, je deviens le remplaçant de Paulo. (GE, 138:335)
-1	en.92anam	en.92	ADV	adv	Mood=Sub	4	obl	_	_
+1	en.92anam	en.92	ADV	adv	Subord=Yes	4	obl	_	_
 2	,	,	PUNCT	punct	_	4	punct	_	_
 3-4	Polorekojaram	_	_	_	_	_	_	_	_
 3	Polo	Polo	PROPN	propn	_	4	nmod	_	_
@@ -3776,12 +3776,13 @@
 # sent_id = 01.550
 # text = turehewe , ijɨrehewe , oporahadʒ
 1-2	turehewe	_	_	_	_	_	_	_	_
-1	tu	u	NOUN	n	Rel=NCont	5	obl	_	_
-1	rehewe	ehewe	ADP	posp	Rel=Cont	5	obl	_	_
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	ijɨrehewe	jɨ	NOUN	n	Also=Yes|Nmzr=Rel|Rel=NCont	1	conj	_	_
-4	,	,	PUNCT	punct	_	5	punct	_	_
-5	oporahadʒ	porahadʒ	VERB	v	Person=3	0	root	_	SpacesAfter=\n
+1	tu	u	NOUN	n	Rel=NCont	6	obl	_	_
+2	rehewe	ehewe	ADP	posp	Rel=Cont	1	case	_	_
+3	,	,	PUNCT	punct	_	1	punct	_	_
+4-5	ijɨrehewe	_	_	_	_	_	_	_	_
+4	ijɨ	jɨ	NOUN	n	Rel=NCont	1	conj	_	_
+5	rehewe	ehewe	ADP	posp	Rel=Cont	4	case	_	_
+6	oporahadʒ	porahadʒ	VERB	v	Person=3	0	root	_	SpacesAfter=\n
 
 # sent_id = 01.551
 # text = okarabɨteb wãĩwĩ õhem oapɨgo

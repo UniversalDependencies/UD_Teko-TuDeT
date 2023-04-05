@@ -3774,7 +3774,7 @@
 6	Niwe	Niwe	PROPN	propn	_	4	obl	_	_
 
 # sent_id = 01.550
-# text = turehewe , ijɨrehewe , oporahadʒ
+# text = turehewe , ijɨrehewe oporahadʒ
 1-2	turehewe	_	_	_	_	_	_	_	_
 1	tu	u	NOUN	n	Rel=NCont	6	obl	_	_
 2	rehewe	ehewe	ADP	posp	Rel=Cont	1	case	_	_
@@ -4015,7 +4015,7 @@
 # sent_id = 01.585
 # text = pɨanam , munam oike tapɨdʒapope
 # text_fr = Pendant la nuit, quelqu'un est entré dans la maison. (GE, 237:745)
-1	pɨanam	pɨa	ADV	adv	Subord=Yes-	4	advmod	_	_
+1	pɨanam	pɨa	ADV	adv	Subord=Yes	4	advmod	_	_
 2	,	,	PUNCT	punct	_	4	punct	_	_
 3	munam	mun	NOUN	n	Case=Tra	4	obl	_	_
 4	oike	ike	VERB	v	Person=3	0	root	_	_

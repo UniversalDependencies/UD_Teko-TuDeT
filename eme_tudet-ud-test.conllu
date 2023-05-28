@@ -5709,9 +5709,9 @@
 # text = oiɲuŋbanam,  opukudʒ opukudʒeʔe
 # text_fr = Quand elle a fini de les mettre, elle remue, elle remue encore. (GE, 307:1067)
 1	oiɲuŋbanam	iɲuŋ	VERB	v	Aspect=Compl|Person=3|Subord=Yes	3	advcl	_	_
-2	,	,	PUNCT	punct	_	3	punct	_	SpacesAfter=\s\s
+2	,	,	PUNCT	punct	_	3	punct	_	_
 3	opukudʒ	pukudʒ	VERB	v	Person=3	0	root	_	_
-4	opukudʒeʔe	pukudʒ	VERB	v	Aspect=Iter|Person=3	3	parataxis	_	SpacesAfter=
+4	opukudʒeʔe	pukudʒ	VERB	v	Aspect=Iter|Person=3	3	parataxis	_	_
 
 # sent_id = 01.837
 # text = ekukusugkatu aŋ baʔekom !

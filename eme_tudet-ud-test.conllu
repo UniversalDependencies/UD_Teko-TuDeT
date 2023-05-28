@@ -1166,7 +1166,7 @@
 # text_fr = L'enfant part en courant vers sa maison. (GE, 93:207)
 1	pitaŋ	pitaŋ	NOUN	n	_	2	nsubj	_	_
 2	onan	nan	VERB	v	Person=3	0	root	_	_
-3	oho	ho	VERB	v	Person=3	2	root	_	_
+3	oho	ho	VERB	v	Person=3	2	dep	_	_
 4	apɨdʒakotɨ	apɨdʒ	NOUN	n	Case=All|Corf=Yes|Person=3	2	obl	_	_
 
 # sent_id = 01.183
@@ -4044,7 +4044,7 @@
 # text_fr = Alors ils lui en trouvent une. (GE, 238:751)
 1	okuar	kuar	VERB	v	Person=3	0	root	_	_
 2	am	am	PART	prcl	Case=Tra	1	dep	_	_
-3	idʒupe	dʒupe	ADP	posp	Rel=NCont	1	obl	_	_
+3	idʒupe	dʒupe	ADP	posp	Case=Dat|Rel=NCont	1	obl	_	_
 4	kiʔɨ	kiʔɨ	ADV	adv	_	1	advmod	_	_
 
 # sent_id = 01.590
@@ -5654,3 +5654,111 @@
 1	kweherako	kwehe	ADV	adv	Tense=Past	2	advmod	_	_
 2	oho	ho	VERB	v	Person=3	0	root	_	_
 3	awɨganam	wɨg	ADV	adv	Number=Sing|Person=1|Subord=Yes	2	advcl	_	_
+
+# sent_id = 01.830
+# text = nanirako ikemɨnanam
+# text_fr = C'était ainsi autrefois. (GE, 306:1059)
+1	nanirako	nani	ADV	adv	Tense=Past	1	advmod	_	_
+2	ikemɨnanam	ikemɨn	ADV	adv	Case=Ref|Subord=Yes	0	root	_	_
+
+# sent_id = 01.831
+# text = iparɨruate okoɨa idʒupe ikeʔɨ
+# text_fr = C'est son gendre qui fait l'abattis pour elle désormais. (GE, 307:1060)
+1	iparɨruate	parɨru	NOUN	n	Case=Ref|Foc=Yes|Rel=NCont	2	nsubj	_	_
+2	okoɨa	koɨa	VERB	v	Person=3	0	root	_	_
+3	idʒupe	dʒupe	ADP	posp	Case=Dat|Rel=NCont	2	obl	_	_
+4	ikeʔɨ	ikeʔɨ	ADV	adv	_	2	advmod	_	_
+
+# sent_id = 01.832
+# text = mɨnawarer zaiko , aipoate , iwonõwã zaiko ikeʔɨ
+# text_fr = On vivait comme ça jadis, maintenant, on ne vit plus ainsi. (GE, 307:1061)
+1	mɨnawarer	mɨnawarer	ADV	adv	_	2	advmod	_	_
+2	zaiko	iko	VERB	v	Imprs=Yes	0	root	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	aipoate	aipo	ADV	adv	Case=Ref|Foc=Yes	7	dislocated	_	_
+5	,	,	PUNCT	punct	_	7	punct	_	_
+6	iwonõwã	wo	ADP	posp	Polarity=Neg|Rel=NCont	7	obl	_	_
+7	zaiko	iko	VERB	v	Imprs=Yes	2	parataxis	_	_
+8	ikeʔɨ	ikeʔɨ	ADV	adv	_	7	advmod	_	_
+
+# sent_id = 01.833
+# text = oporeʔe ʔɨb oʔaŋ
+# text_fr = Elles replongent encore dans l'eau. (GE, 307:1064)
+1	oporeʔe	por	VERB	v	Aspect=Iter|Person=3	0	root	_	_
+2	ʔɨb	ʔɨ	NOUN	n	Case=Loc	3	obl	_	_
+3	oʔaŋ	ʔa	VERB	v	Number[subj]=Plur|Person=3	1	parataxis	_	_
+
+# sent_id = 01.834
+# text = ɨpope omanõwər õhemeʔe
+# text_fr = Il est ressorti presque mort de l'eau. (GE, 307:1065)
+1	ɨpope	ɨ	NOUN	n	Case=Loc	3	obl	_	_
+2-3	omanõwər	_	_	_	_	_	_	_	_
+2	omanõ	manõ	VERB	v	Person=3	3	xcomp	_	_
+3	wər	wər	VERB	v	_	0	root	_	_
+4	õhemeʔe	hem	VERB	v	Aspect=Iter|Person=3	3	parataxis	_	_
+
+# sent_id = 01.835
+# text = imeneʔe omãʔẽonam , ...
+# text_fr = Quand c'est son mari même qui la surveille, ... (GE, 307:1066)
+1	imeneʔe	men	NOUN	n	Aspect=Iter|Rel=NCont	2	obj	_	_
+2	omãʔẽonam	omãʔẽonam	VERB	v	Aspect=Cont|Person=3|Subord=Yes	0	root	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	...	...	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 01.836
+# text = oiɲuŋbanam,  opukudʒ opukudʒeʔe
+# text_fr = Quand elle a fini de les mettre, elle remue, elle remue encore. (GE, 307:1067)
+1	oiɲuŋbanam	iɲuŋ	VERB	v	Aspect=Compl|Person=3|Subord=Yes	3	advcl	_	_
+2	,	,	PUNCT	punct	_	3	punct	_	SpacesAfter=\s\s
+3	opukudʒ	pukudʒ	VERB	v	Person=3	_	_	_	_
+4	opukudʒeʔe	pukudʒ	VERB	v	Aspect=Iter|Person=3	3	parataxis	_	SpacesAfter=
+
+# sent_id = 01.837
+# text = ekukusugkatu aŋ baʔekom !
+# text_fr = Lave bien ces choses ! (GE, 308:1068)
+1	ekukusugkatu	kusug	VERB	v	Intens=Yes|Mood=Imp|Number=Sing|Person=2|Red=Yes	0	root	_	_
+2	aŋ	aŋ	DET	dem	_	3	det	_	_
+3	baʔekom	baʔe	NOUN	n	Number=Plur	1	obj	_	_
+4	!	!	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 01.838
+# text = ekukusukatu aŋ baʔekom !
+# text_fr = Lave bien ces choses ! (GE, 308:1068)
+1	ekukusukatu	kusu	VERB	v	Intens=Yes|Mood=Imp|Number=Sing|Person=2|Red=Yes	0	root	_	_
+2	aŋ	aŋ	DET	dem	_	3	det	_	_
+3	baʔekom	baʔe	NOUN	n	Number=Plur	1	obj	_	_
+4	!	!	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 01.839
+# text = oitunitun , okusukusugkatueʔe , pug oiɲuiɲuŋ
+# text_fr = Il les sent, les lave bien, et les repose à chaque fois. (GE, 309:1069)
+1	oitunitun	itun	VERB	v	Person=3|Red=Yes	0	root	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	okusukusugkatueʔe	kusug	VERB	v	Aspect=Iter|Intens=Yes|Person=3|Red=Yes	1	parataxis	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_
+5	pug	pug	X	ideo	_	6	dep	_	_
+6	oiɲuiɲuŋ	iɲuŋ	VERB	v	Person=3|Red=Yes	3	parataxis	_	_
+
+# sent_id = 01.840
+# text = oitunitun , okusukusukatueʔe , pug oiɲuiɲuŋ
+# text_fr = Il les sent, les lave bien, et les repose à chaque fois. (GE, 309:1069)
+1	oitunitun	itun	VERB	v	Person=3|Red=Yes	0	root	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	okusukusukatueʔe	kusu	VERB	v	Aspect=Iter|Intens=Yes|Person=3|Red=Yes	1	parataxis	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_
+5	pug	pug	X	ideo	_	6	dep	_	_
+6	oiɲuiɲuŋ	iɲuŋ	VERB	v	Person=3|Red=Yes	3	parataxis	_	_
+
+# sent_id = 01.841
+# text = amõ kɨtokom õhẽhem
+# text_fr = D'autres grenouilles sortent. (GE, 309:1070)
+1	amõ	amõ	PRON	pron	PronType=Ind	2	amod	_	_
+2	kɨtokom	kɨto	NOUN	n	Number=Plur	3	nsubj	_	_
+3	õhẽhem	hẽhem	VERB	v	Person=3|Red=Yes	0	root	_	_
+
+# sent_id = 01.842
+# text = õhẽõhemnẽ oʔa
+# text_fr = Il sortait à chaque fois en tombant. (GE, 309:1071)
+1	õhẽõhemnẽ	hem	VERB	v	Contrast=Yes|Person=3|Red=Yes	0	root	_	_
+2	oʔa	ʔa	VERB	v	Person=3	1	parataxis	_	_
+

@@ -5658,7 +5658,7 @@
 # sent_id = 01.830
 # text = nanirako ikemɨnanam
 # text_fr = C'était ainsi autrefois. (GE, 306:1059)
-1	nanirako	nani	ADV	adv	Tense=Past	1	advmod	_	_
+1	nanirako	nani	ADV	adv	Tense=Past	2	advmod	_	_
 2	ikemɨnanam	ikemɨn	ADV	adv	Case=Ref|Subord=Yes	0	root	_	_
 
 # sent_id = 01.831
@@ -5710,7 +5710,7 @@
 # text_fr = Quand elle a fini de les mettre, elle remue, elle remue encore. (GE, 307:1067)
 1	oiɲuŋbanam	iɲuŋ	VERB	v	Aspect=Compl|Person=3|Subord=Yes	3	advcl	_	_
 2	,	,	PUNCT	punct	_	3	punct	_	SpacesAfter=\s\s
-3	opukudʒ	pukudʒ	VERB	v	Person=3	_	_	_	_
+3	opukudʒ	pukudʒ	VERB	v	Person=3	0	root	_	_
 4	opukudʒeʔe	pukudʒ	VERB	v	Aspect=Iter|Person=3	3	parataxis	_	SpacesAfter=
 
 # sent_id = 01.837

@@ -1037,7 +1037,7 @@
 # text = arehete ...
 # text_fr = C'est pour ça que ... (GE, 87:187)
 1-2	arehete	_	_	_	_	_	_	_	_
-1	a	a	DET	dem	_	_	_	_	_
+1	a	a	DET	dem	_	0	root	_	_
 2	rehete	ehe	ADP	posp	Foc=Yes|Rel=Cont	1	case	_	_
 3	...	...	PUNCT	punct	_	1	punct	_	_
 
@@ -2169,7 +2169,7 @@
 # text_fr = Ils se réveillent ensemble avec le chien. (GE, 148:378)
 1	zeʔoram	ʔoram	CCONJ	cc	PronType=Rcp	4	cc	_	_
 2-3	zawararehe	_	_	_	_	_	_	_	_
-2	zawara	zawar	NOUN	n	Case=Reft	4	obl	_	_
+2	zawara	zawar	NOUN	n	Case=Ref	4	obl	_	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	_	_
 4	okuʔeŋ	kuʔe	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 
@@ -2567,7 +2567,7 @@
 2	oiba	iba	NOUN	n	Corf=Yes|Person=3	6	obj	_	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	_	_
 4-5	zawararehe	_	_	_	_	_	_	_	_
-4	zawara	zawar	NOUN	n	Case=Ref	3	appos	_	_
+4	zawara	zawar	NOUN	n	Case=Ref	2	appos	_	_
 5	rehe	ehe	ADP	posp	Rel=Cont	4	case	_	_
 6	omãʔẽo	mãʔẽ	VERB	v	Aspect=Cont|Person=3	0	root	_	_
 
@@ -3367,7 +3367,7 @@
 2	,	,	PUNCT	punct	_	5	punct	_	_
 3-4	ijɨrehewe	_	_	_	_	_	_	_	_
 3	ijɨ	jɨ	NOUN	n	Rel=NCont	5	obl	_	_
-4	rehewe	ehe	ADP	posp	Also=Yes|Nmzr=Rel	3	_	_	_
+4	rehewe	ehe	ADP	posp	Also=Yes|Nmzr=Rel	3	case	_	_
 5	okaʔu	kaʔu	VERB	v	Person=3	0	root	_	_
 
 # sent_id = 01.492
@@ -3378,7 +3378,7 @@
 2	rupi	upi	ADP	posp	Nmzr=Rel	1	case	_	_
 3	dʒi	dʒi	X	x	_	1	dep	_	_
 4	zaiko	iko	VERB	v	Imprs=Yes	8	ccomp	_	_
-5	rehete	ehe	ADP	posp	Foc=Yes|Nmzr=Rel|Subord=Yes	4	case	_	_
+5	rehete	ehe	ADP	posp	Foc=Yes|Nmzr=Rel	4	case	_	_
 6	,	,	PUNCT	punct	_	8	punct	_	_
 7	nani	nani	ADV	adv	_	8	advmod	_	_
 8	zadʒapɨaka	dʒapɨaka	VERB	v	Imprs=Yes	0	root	_	_
@@ -5408,7 +5408,7 @@
 2	,	,	PUNCT	punct	_	5	punct	_	_
 3-4	nõdebaʔekʷərarehete	_	_	_	_	_	_	_	_
 3	nõdebaʔekʷəra	baʔekʷər	NOUN	n	Case=Ref|Clusivity=In|Foc=Yes|Number=Plur|Person=1|Rel=Cont	5	obl	_	_
-4	rehete	ehe	ADP	posp	Case=Ref|Clusivity=In|Foc=Yes|Number=Plur|Person=1|Rel=Cont	3	_	_	_
+4	rehete	ehe	ADP	posp	Case=Ref|Clusivity=In|Foc=Yes|Number=Plur|Person=1|Rel=Cont	3	case	_	_
 5	sidʒeboʔetar	boʔe	VERB	v	Clusivity=In|Number=Plur|Person=1|Reflex=Yes|Tense=Fut	0	root	_	_
 
 # sent_id = 01.785
@@ -5768,8 +5768,8 @@
 # text_eng = He came out of the water almost dead.
 1	ɨpope	ɨ	NOUN	n	Case=Loc	4	obl	_	_
 2-3	omanõwər	_	_	_	_	_	_	_	_
-2	omanõ	manõ	VERB	v	Person=3	4	_	_	_
-3	wər	wər	VERB	v	_	2	aux	_	_
+2	omanõ	manõ	VERB	v	Person=3	4	xcomp	_	_
+3	wər	wər	AUX	aux	_	2	cop	_	_
 4	õhemeʔe	hem	VERB	v	Aspect=Iter|Person=3	0	root	_	_
 
 # sent_id = 01.835
@@ -5861,7 +5861,7 @@
 # text_fr = Qui donc me fait toujours à manger ? (GE, 309:1075)
 1	awasipo	awa	PRON	pron	Excl=Yes|Int=Yes	3	nsubj	_	_
 2	eremiʔõ	emiʔõ	NOUN	n	Number=Sing|Person=1|Rel=Cont	3	obj	_	_
-3	obaʔebaʔemãʔẽ	baʔe	VERB	v	Person=3|Red=Yes|Nmzr=Rel	0	root	_	_
+3	obaʔebaʔemãʔẽ	baʔe	VERB	v	Nmzr=Rel|Person=3|Red=Yes	0	root	_	_
 4	?	?	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 01.847
@@ -6048,14 +6048,14 @@
 # text_fr = Il viendra un jour pour ressusciter (soulever) les gens. (GE, 324:1123)
 1	oʔurtar	ʔur	VERB	v	Person=3|Tense=Fut	0	root	_	_
 2	kʷi	kʷi	ADV	adv	_	1	advmod	_	_
-3	poromõmaʔam	maʔam	VERB	v	 Imprs=Yes|Voice=Cau	1	xcomp	_	_
+3	poromõmaʔam	maʔam	VERB	v	Imprs=Yes|Voice=Cau	1	xcomp	_	_
 
 # sent_id = 01.878
 # text = oʔutar kʷi poromõmaʔam
 # text_fr = Il viendra un jour pour ressusciter (soulever) les gens. (GE, 324:1123)
 1	oʔutar	ʔu	VERB	v	Person=3|Tense=Fut	0	root	_	_
 2	kʷi	kʷi	ADV	adv	_	1	advmod	_	_
-3	poromõmaʔam	maʔam	NOUN	n	 Imprs=Yes|Voice=Cau	1	xcomp	_	_
+3	poromõmaʔam	maʔam	NOUN	n	Imprs=Yes|Voice=Cau	1	xcomp	_	_
 
 # sent_id = 01.879
 # text = oho oiba oekaroŋ
@@ -6104,3 +6104,4 @@
 # text_fr = Il va se baigner. (GE, 326:1138)
 1	oho	ho	VERB	v	Person=3	0	root	_	_
 2	ozaug	zaug	VERB	v	Person=3	1	xcomp	_	_
+

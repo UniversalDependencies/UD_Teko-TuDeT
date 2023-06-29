@@ -3497,7 +3497,7 @@
 # text = kir tou owir oʔa zawapinimaʔar
 # text_fr = Elle bouge et elle tombe sur le jaguar. (GE, 218:641)
 1	kir	kir	INTJ	intj	_	3	discourse	_	_
-2	tou	tou	INTJ	intj	_	3	discourse	_	_
+2	tou	tou	INTJ	intj	_	1	flat	_	_
 3	owir	wir	VERB	v	Person=3	0	root	_	_
 4	oʔa	ʔa	VERB	v	Person=3	3	parataxis	_	_
 5	zawapinimaʔar	zawapinim	NOUN	n	Case=Loc	4	obl	_	_
@@ -4245,7 +4245,7 @@
 # text = surug surug aʔegotɨnẽʔe onenaŋoŋ
 # text_fr = Ils (les deux frères) rentrent chez elle. (GE, 246:779)
 1	surug	surug	INTJ	intj	_	4	discourse	_	_
-2	surug	surug	INTJ	intj	_	4	discourse	_	_
+2	surug	surug	INTJ	intj	_	1	flat	_	_
 3	aʔegotɨnẽʔe	aʔe	DET	dem	Case=All|Contrast=Yes|Emph=Yes	4	obl	_	_
 4	onenaŋoŋ	naŋ	VERB	v	Number[subj]=Plur|Person=3|Reflex=Yes	0	root	_	_
 
@@ -6220,7 +6220,7 @@
 # text_fr = Demain nous irons voir pour pêcher. (GE, 331:1167)
 1	kõʔem	kõʔem	ADV	adv	_	2	advmod	_	_
 2	orohotar	ho	VERB	v	Clusivity=Ex|Number=Sing|Person=1|Tense=Fut	0	root	_	_
-3	esag	esag	NOUN	n	Rel=NCont	2	obj	_	_
+3	esag	esag	NOUN	n	Rel=NCont	2	dep	_	_
 4	torowɨkɨpodʒ	wɨkɨpodʒ	VERB	v	Clusivity=Ex|Mood=Per|Number=Sing|Person=1	2	xcomp	_	_
 
 # sent_id = 01.904
@@ -6238,7 +6238,7 @@
 3-4	wɨrakʷar	_	_	_	_	_	_	_	_
 3	wɨra	wɨra	NOUN	n	_	4	nmod	_	_
 4	kʷar	kʷar	NOUN	n	_	2	obj	_	_
-5	erowawag	wag	NOUN	n	Red=Yes|Rel=NCont|Voice=SCau	2	obl	_	_
+5	erowawag	wag	NOUN	n	Red=Yes|Rel=NCont|Voice=SCau	2	parataxis	_	_
 
 # sent_id = 01.906
 # text = kareheãhã omãʔẽ
@@ -6414,7 +6414,7 @@
 # text_fr = Maintenant, il y en aura encore plus, parce que j'ai fait mettre un paquet de logements sociaux. (GE, 339:1201)
 1	aipo	aipo	ADV	adv	_	0	root	_	_
 2	kobtarpɨrɨ	kob	AUX	aux	Degree=Cmp|Tense=Fut	1	cop	_	_
-3	parce	parce	X	x	_	6	dep	_	_
+3	parce	parce	X	x	_	6	mark	_	_
 4	que	que	X	x	_	3	fixed	_	_
 5	logementssociauxkom	logementssociaux	NOUN	n	Number=Plur	6	obj	_	_
 6	aiɲuŋokar	iɲuŋ	VERB	v	Number=Sing|Person=1|Voice=Cau	1	advcl	_	_
@@ -6567,6 +6567,7 @@
 2	nõdutari	dur	VERB	v	Person=3|Polarity=Neg|Tense=Fut	1	parataxis	_	_
 3	ekotɨ	kotɨ	ADV	adv	Number=Sing|Person=1	2	advmod	_	_
 
+
 # sent_id = 01.1047
 # text = moŋ eʔi
 # text_fr = Il fait noir (GE, 406:1468)
@@ -6705,7 +6706,7 @@
 # text = sɨrɨdʒ sɨrɨdʒ pakuʔa oho ikotɨŋ
 # text_fr = Elles prennent des bananes et vont chez lui. (GE, 403:1448)
 1	sɨrɨdʒ	sɨrɨdʒ	INTJ	n	_	4	discourse	_	_
-2	sɨrɨdʒ	sɨrɨdʒ	INTJ	n	_	4	discourse	_	_
+2	sɨrɨdʒ	sɨrɨdʒ	INTJ	n	_	1	flat	_	_
 3	pakuʔa	pakuʔa	NOUN	n	_	4	obj	_	_
 4	oho	ho	VERB	v	Person=3	0	root	_	_
 5	ikotɨŋ	kotɨ	ADV	adv	Number[subj]=Plur|Person=1|Rel=NCont	4	advmod	_	SpacesAfter=\n
@@ -6714,18 +6715,18 @@
 # text = tuŋ tuŋ zebiʔa obaʔe
 # text_fr = Boum, boum, il met la musique fort. (GE, 408:1482)
 1	tuŋ	tuŋ	INTJ	n	_	4	discourse	_	_
-2	tuŋ	tuŋ	INTJ	n	_	4	discourse	_	_
+2	tuŋ	tuŋ	INTJ	n	_	1	flat	_	_
 3	zebiʔa	zebiʔa	NOUN	n	_	4	obj	_	_
 4	obaʔe	baʔe	VERB	v	Person=3	0	root	_	_
 
 # sent_id = 01.952
 # text = soʔo idʒakaŋ akãakãmãʔẽrehe ozepɨhɨg
 # text_fr = Il se tient à un daguet rouge dont la tête a des bois. (GE, 347:1241)
-1	soʔo	soʔo	NOUN	n	_	5	obj	_	_
+1	soʔo	soʔo	NOUN	n	_	5	obl	_	_
 2	idʒakaŋ	dʒaka	NOUN	n	Rel=NCont	3	nsubj	_	_
 3-4	akãakãmãʔẽrehe	_	_	_	_	_	_	_	_
-3	akãakãmãʔẽ	akã	NOUN	n	Red=Yes|Rel=NCont|VerbForm=Ger	1	advcl	_	_
-4	rehe	ehe	ADP	posp	Rel=Cont	3	obl	_	_
+3	akãakãmãʔẽ	akã	NOUN	n	Red=Yes|Rel=NCont|VerbForm=Ger	1	acl	_	_
+4	rehe	ehe	ADP	posp	VerbForm=Ger	1	case	_	_
 5	ozepɨhɨg	pɨhɨg	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 
 # sent_id = 01.1022
@@ -6781,7 +6782,7 @@
 # text = sɨrɨdʒ so , iʔar omõdo
 # text_fr = Il prend l'eau, il lui envoie dessus. (GE, 407:1477)
 1	sɨrɨdʒ	sɨrɨdʒ	INTJ	intj	_	5	discourse	_	_
-2	so	so	INTJ	intj	_	5	discourse	_	_
+2	so	so	INTJ	intj	_	1	flat	_	_
 3	,	,	PUNCT	punct	_	5	punct	_	_
 4	iʔar	ʔar	ADP	posp	Case=Loc	5	obl	_	_
 5	omõdo	mõdo	VERB	v	Person=3	0	root	_	_
@@ -6814,9 +6815,9 @@
 1	oipir	ipir	VERB	v	Person=3	0	root	_	_
 2	pitaŋaũwĩ	pitaŋ	NOUN	n	Case=Ref|Degree=Dim	1	obj	_	_
 3	oipir	ipir	VERB	v	Person=3	1	parataxis	_	_
-4	erahoɲ	eraho	NOUN	n	Aspect=Cont|Rel=NCont	3	parataxis	_	_
+4	erahoɲ	ho	VERB	v	Aspect=Cont|Voice=SCau	3	parataxis	_	_
 5-6	soʔoroɲam	_	_	_	_	_	_	_	_
-5	soʔo	soʔo	NOUN	n	_	1	appos	_	_
+5	soʔo	soʔo	NOUN	n	_	4	obj	_	_
 6	roɲam	roɲam	NOUN	n	Rel=Cont	5	nmod	_	_
 
 # sent_id = 01.1009
@@ -6832,4 +6833,3 @@
 1	oɨkɨdʒ	ɨkɨdʒ	VERB	v	Person=3	0	root	_	_
 2	owɨ	wɨ	NOUN	n	Corf=Yes|Person=3	1	obj	_	_
 3	eraho	eraho	NOUN	n	Rel=NCont	1	parataxis	_	_
-

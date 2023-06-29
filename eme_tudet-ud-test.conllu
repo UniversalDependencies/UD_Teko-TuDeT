@@ -6265,7 +6265,7 @@
 # text_fr = Pendant qu'elle dort, sa mère va faire cuire de la nourriture. (GE, 336:1175)
 1	okeronam	ker	VERB	v	Aspect=Cont|Person=3|Subord=Yes	3	advcl	_	_
 2	,	,	PUNCT	punct	_	3	punct	_	_
-3	oho	ho	VERB	v	Person=3	_	_	_	_
+3	oho	ho	VERB	v	Person=3	0	root	_	_
 4	ijɨ	jɨ	NOUN	n	Rel=NCont	3	nsubj	_	_
 5	baʔezaʔu	baʔezaʔu	NOUN	n	_	6	obj	_	_
 6	omumuɲõ	mumuɲ	VERB	v	Aspect=Cont|Person=3	3	xcomp	_	_
@@ -6493,7 +6493,7 @@
 # text_fr = Ils attendent pour vous voir. (litt : Ils attendent parce qu'ils ont dit "Voyons-les"). (GE, 342:1217)
 1	tamãʔẽ	mãʔẽ	VERB	v	Mood=Per|Number=Sing|Person=1	3	ccomp	_	_
 2	ehe	ehe	ADP	posp	Rel=NCont	1	obl	_	_
-3	eʔirehe	eʔi	VERB	v	Rel=Cont|Person=3|Subord=Yes	4	advcl	_	_
+3	eʔirehe	eʔi	VERB	v	Person=3|Rel=Cont|Subord=Yes	4	advcl	_	_
 4	owanõŋ	wanõ	VERB	v	Number[subj]=Plur|Person=3	0	root	_	_
 
 # sent_id = 01.935

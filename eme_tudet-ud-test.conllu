@@ -2,7 +2,7 @@
 # document_authorship = Fabrício Ferraz Gerardi and Uliana Vedenina
 # sent_id = 01.001
 # text = diawutari
-# text_fr = Il ne parlera pas (GE, 23:16) 
+# text_fr = Il ne parlera pas (GE, 23:16)
 # text_eng = He won't speak
 1	diawutari	awu	NOUN	n	Polarity=Neg|Rel=NCont|Tense=Fut	0	root	_	_
 
@@ -165,7 +165,7 @@
 # sent_id = 01.027
 # text = karaɨ okʷa
 # text_fr = Il y a une épidémie de fièvre. (litt : la fièvre passe)(GE, 35:42)
-# text_eng = There is an epidemic of fever. (lit: the fever passes) 
+# text_eng = There is an epidemic of fever. (lit: the fever passes)
 1	karaɨ	karaɨ	NOUN	n	_	2	nsubj	_	_
 2	okʷa	kʷa	VERB	v	Person=3	0	root	_	_
 
@@ -666,7 +666,7 @@
 
 # sent_id = 01.101
 # text = ipuriweʔe baʔe ipope pazaru zaiɲuŋamãʔẽ
-# text_fr = Et à côté il y a la chose dans laquelle on met du cachiri (= une marmite) (GE, 60:120) 
+# text_fr = Et à côté il y a la chose dans laquelle on met du cachiri (= une marmite) (GE, 60:120)
 # text_eng = And nearby there is the thing in which we put cachiri (= a pot)
 1	ipuriweʔe	puri	ADP	posp	Also=Yes|Emph=Yes|Rel=NCont	5	obl	_	_
 2	baʔe	baʔe	NOUN	n	_	5	obl	_	_
@@ -6832,3 +6832,4 @@
 1	oɨkɨdʒ	ɨkɨdʒ	VERB	v	Person=3	0	root	_	_
 2	owɨ	wɨ	NOUN	n	Corf=Yes|Person=3	1	obj	_	_
 3	eraho	eraho	NOUN	n	Rel=NCont	1	parataxis	_	_
+

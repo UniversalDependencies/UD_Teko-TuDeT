@@ -5,128 +5,131 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>759</sentences><tokens>2133</tokens><words>2272</words><fused>125</fused></total>
+    <total><sentences>913</sentences><tokens>2689</tokens><words>2896</words><fused>191</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>759</sentences><tokens>2133</tokens><words>2272</words><fused>125</fused></test>
+    <test><sentences>913</sentences><tokens>2689</tokens><words>2896</words><fused>191</fused></test>
   </size>
-  <lemmas unique="565" /><!-- ,, ho, baʔe, ?, apɨdʒ, mãʔẽ, aŋ, dʒu, aʔe, iɲuŋ, zawar, nan, ehe, kob, " -->
-  <forms unique="1259" /><!-- ,, ?, aŋ, oho, ", aʔe, ..., am, oiɲuŋ, kob, adʒu, zawar, aipo, kiʔɨ, wane -->
-  <fusions unique="105" /><!-- nanipamẽ, awakʷəraraʔɨr, Polorekojaram, amanaraʔɨraterehe, apamabaʔekʷər, apamaʔesiparate, lekolazar, nanãhãte, otuirupiwe, oɨrumõde, panaĩsĩkomarupidʒi, perupi, tazar, tekorapɨdʒate, tupawər -->
+  <lemmas unique="623" /><!-- ,, ehe, ho, baʔe, ?, mãʔẽ, iɲuŋ, aŋ, apɨdʒ, dʒu, nan, aʔe, ʔu, iba, zawar -->
+  <forms unique="1417" /><!-- ,, ?, rehe, oho, aŋ, ", ..., am, aʔe, zawar, !, oiɲuŋ, aipo, eʔi, teko -->
+  <fusions unique="150" /><!-- awakʷəraraʔɨr, nanipamẽ, nanipamẽitʃe, arehete, baʔekomarehe, oibarehe, zawararehe, Polorekojaram, amanaraʔɨrate, amanaraʔɨraterehe, amãhãitʃe, apamabaʔekʷər, apamaʔesiparate, ijɨrehewe, lekolazar -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADP">73</tag><!-- ehe, upi, dʒupe, pope, ʔar, puri, wɨb, wɨrakotɨ, ehewe, pe -->
-    <tag name="ADV">218</tag><!-- kotɨ, ãhã, kiʔɨ, aipo, am, wɨtʃɨ, kor, wane, nan, nani -->
-    <tag name="AUX">60</tag><!-- dʒu, kob, dati, tui, ate -->
-    <tag name="CCONJ">8</tag><!-- oʔoram, mais, ʔoram -->
-    <tag name="DET">74</tag><!-- aŋ, aʔe, wɨɲ, ɨɲ, a, les, arehete -->
-    <tag name="INTJ">16</tag><!-- tapug, surug, ekuʔi, kar, kir, kosokosog, kuʔi, owa, seg, so -->
-    <tag name="NOUN">818</tag><!-- apɨdʒ, zawar, baʔe, iba, wãĩwĩ, aʔɨr, zar, awakʷər, ʔɨ, lekol -->
-    <tag name="NUM">19</tag><!-- mokoɲ, bapɨr, mozepẽ, 12, cinq, momokonte -->
-    <tag name="PART">28</tag><!-- waɨ, mamen, mame, am, kupao, o, a, enam, kuwa, nam -->
-    <tag name="PRON">66</tag><!-- idʒe, ede, amõ, nõde, pamẽ, awa, ereɲ, maŋ, orereɲ, am -->
-    <tag name="PROPN">48</tag><!-- teko, Françoise, Polo, Trois-Sauts, Cayenne, Surinam, Bopea, Camopi, Channel, F. -->
-    <tag name="PUNCT">188</tag><!-- ,, ?, ", ..., !, ., : -->
+    <tag name="ADP">149</tag><!-- ehe, upi, dʒupe, ʔar, pope, puri, wɨb, wɨrakotɨ, dʒuwi, baʔe -->
+    <tag name="ADV">265</tag><!-- kotɨ, ãhã, aipo, am, kiʔɨ, nani, kor, wɨtʃɨ, wane, ikeʔɨ -->
+    <tag name="AUX">65</tag><!-- dʒu, kob, tui, dati, ate -->
+    <tag name="CCONJ">9</tag><!-- oʔoram, ʔoram, mais -->
+    <tag name="DET">78</tag><!-- aŋ, aʔe, wɨɲ, a, ɨɲ, les -->
+    <tag name="INTJ">34</tag><!-- tapug, sɨrɨdʒ, wog, kosokosog, seg, so, surug, tuŋ, de, ekuʔi -->
+    <tag name="NOUN">958</tag><!-- apɨdʒ, baʔe, iba, zawar, aʔɨr, wãĩwĩ, ʔɨ, awakʷər, zar, lekol -->
+    <tag name="NUM">18</tag><!-- mokoɲ, bapɨr, mozepẽ, 12, cinq, momokonte -->
+    <tag name="PART">35</tag><!-- waɨ, mamen, mame, am, kupao, o, ta, a, enam, kuwa -->
+    <tag name="PRON">75</tag><!-- idʒe, amõ, ede, pamẽ, nõde, awa, ereɲ, maŋ, mozepẽ, orereɲ -->
+    <tag name="PROPN">50</tag><!-- teko, Françoise, Polo, Trois-Sauts, Cayenne, Surinam, dʒasor, Bopea, Camopi, Channel -->
+    <tag name="PUNCT">256</tag><!-- ,, ?, ", ..., !, ., : -->
     <tag name="SCONJ">1</tag><!-- parce.que -->
-    <tag name="VERB">647</tag><!-- ho, mãʔẽ, iɲuŋ, baʔe, ʔu, nan, zika, dʒapɨaka, eʔi, ker -->
-    <tag name="X">8</tag><!-- dʒi, bɨr, fu, moɲi, sikədʒi -->
+    <tag name="VERB">885</tag><!-- ho, mãʔẽ, iɲuŋ, baʔe, ʔu, nan, eʔi, ʔa, ker, dʒapɨaka -->
+    <tag name="X">18</tag><!-- dʒi, za, pug, aho, bɨr, fu, kom, moɲi, parce, que -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="65">
-    <feat name="Accomp" value="Yes" upos="ADV,AUX,DET,NOUN,VERB">8</feat><!-- aŋara, eʔira, kobara, nanimãʔẽra, nõderaɨhɨpadʒira, pasiʔɨrehedʒira, pɨanamara -->
-    <feat name="Also" value="Yes" upos="ADP,ADV,NOUN,PRON,VERB">25</feat><!-- mɨnawe, orohotaruwe, arakapusawe, dereibawesipo, dʒuribaweʔe, edʒɨawe, edʒɨwe, eibawe, iboteaweʔe, ijɨrehewe -->
-    <feat name="Aspect" value="Compl" upos="ADV,AUX,NOUN,VERB">31</feat><!-- oʔupakatu, zapɨhɨpa, akuwapakatu, dabaʔepatari, dazaugpadʒi, deraɨhɨpadʒi, dobaʔepakatudʒi, kobpakatu, manãkuwapa, nõderaɨhɨpadʒira -->
-    <feat name="Aspect" value="Cont" upos="ADP,AUX,NOUN,PART,VERB">74</feat><!-- nõdereheo, oʔao, oapɨgo, omumuɲõ, otuio, eredʒuɲ, ibaʔeraɨo, omãʔẽo, oʔuo, pedʒuɲ -->
-    <feat name="Aspect" value="Iter" upos="AUX,DET,VERB">8</feat><!-- opoʔoʔe, otuiʔe, aŋeʔe, eʔiʔe, ohoʔe, orowɨgtareʔe -->
-    <feat name="Case" value="Abl" upos="ADP,ADV,DET,NOUN,PROPN">21</feat><!-- aʔewi, kawi, wɨrawi, Cayenneawinẽ, apamawi, apamaʔewi, aŋawi, baʔewi, ewinẽ, idʒuwi -->
-    <feat name="Case" value="All" upos="DET,NOUN,PROPN,VERB">20</feat><!-- watekotɨ, Trois-Sautskotɨ, masogotɨ, nõdebaʔemãʔẽkotɨ, nõdezarakotɨ, Renékotɨ, apɨdʒakotɨ, aʔegotɨnẽʔe, oapɨdʒakotɨ, watekotɨwarakom -->
-    <feat name="Case" value="Dat" upos="ADP,NOUN,PRON,PROPN,VERB">33</feat><!-- idʒupe, bokalape, lekolape, maziʔogape, pitakomape, zoaʔɨrape, Cayenneape, Kayenape, La.Franceapewar, awapeto -->
-    <feat name="Case" value="Loc" upos="ADP,DET,NOUN,PROPN">54</feat><!-- ʔɨb, baʔepopedʒi, bokalapedʒi, kijapope, kukupope, patupope, surinamapope, tab, zawapinimaʔar, ʔɨpope -->
-    <feat name="Case" value="Ref" upos="ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">175</feat><!-- lekola, apama, awakʷəra, lekolazarakom, awakʷərakom, idʒeate, ikemɨnanam, ikɨwɨrakom, tapɨdʒa, wɨɲate -->
-    <feat name="Case" value="Tra" upos="ADP,NOUN,PART,PROPN">40</feat><!-- ʒãdamam, ɨŋam, aʔɨamnẽ, rekojaram, tapɨdʒam, tarawadʒam, wãĩwĩam, am, baʔeraʔɨraʔepɨhɨgam, duriam -->
-    <feat name="Clusivity" value="Ex" upos="ADP,NOUN,PRON,VERB">13</feat><!-- orohotar, orohotaruwe, orepe, orereɲ, oronekarakuri, oronekarakurinam, oronekarakuriõwãnam, oronekomuwe, orowɨgtareʔe, orozopodʒ -->
-    <feat name="Clusivity" value="In" upos="ADP,AUX,NOUN,PRON,VERB">65</feat><!-- nõde, nõdereheo, sidʒu, nõdebaʔemãʔẽkotɨ, nõdemõdokaroŋ, nõdezar, nõdezarakotɨ, sidʒemin, sikuwakatu, sinan -->
-    <feat name="Conces" value="Yes" upos="AUX">1</feat><!-- kobazepe -->
-    <feat name="Contrast" value="Yes" upos="ADP,ADV,AUX,DET,NOUN,PRON,PROPN,VERB">37</feat><!-- omãʔẽnẽ, aʔɨamnẽ, wɨtʃɨnẽ, Cayenneawinẽ, adʒunẽɲ, amãʔẽnẽ, apamanẽ, atɨnẽ, aʔegotɨnẽʔe, baʔekʷəranẽ -->
-    <feat name="Corf" value="Yes" upos="ADP,NOUN,VERB">38</feat><!-- oiba, oibarehe, oakaŋ, ozara, oɨ, apɨdʒakotɨ, oapar, oapara, oapɨdʒakotɨ, oaʔɨr -->
+  <feats unique="66">
+    <feat name="Accomp" value="Yes" upos="ADP,ADV,AUX,DET,NOUN,PRON,VERB">12</feat><!-- eʔira, aŋara, rehedʒira, idʒerawe, kobara, nanimãʔẽra, nõderaɨhɨpadʒira, pɨanamara -->
+    <feat name="Also" value="Yes" upos="ADP,ADV,NOUN,PRON,VERB">32</feat><!-- eibawe, mɨnawe, nõdeawuawekuwaenam, orohotaruwe, rupiwe, wɨrawe, arakapusawe, dereibawesipo, dʒuribaweʔe, edʒɨawe -->
+    <feat name="Aspect" value="Compl" upos="ADV,AUX,NOUN,VERB">35</feat><!-- oiɲuŋbanam, oʔupakatu, oʔupanawe, zapɨhɨpa, akuwapakatu, dabaʔepatari, dazaugpadʒi, deraɨhɨpadʒi, dobaʔepakatudʒi, kobpakatu -->
+    <feat name="Aspect" value="Cont" upos="ADP,ADV,AUX,NOUN,PART,VERB">87</feat><!-- nõdereheo, omumuɲõ, otuio, oʔao, oapɨgo, eredʒuɲ, ibaʔeraɨo, ohoɲ, okeokero, okero -->
+    <feat name="Aspect" value="Iter" upos="AUX,DET,NOUN,VERB">20</feat><!-- oporeʔe, opoʔoʔe, otuiʔe, aiɲuŋeʔe, aŋeʔe, eʔiʔe, imeneʔe, ohoʔe, okusugatuʔe, okusuggatuʔe -->
+    <feat name="Case" value="Abl" upos="ADP,ADV,DET,NOUN,PROPN">25</feat><!-- idʒuwi, aʔewi, kawi, wɨrawi, Cayenneawinẽ, apamawi, apamaʔewi, aŋawi, baʔewi, ewinẽ -->
+    <feat name="Case" value="All" upos="DET,NOUN,PROPN">22</feat><!-- watekotɨ, Trois-Sautskotɨ, nõdebaʔemãʔẽkotɨ, masogotɨ, nõdezarakotɨ, Renékotɨ, apɨdʒakotɨ, aʔegotɨnẽʔe, oapɨdʒakotɨ, watekotɨwarakom -->
+    <feat name="Case" value="Dat" upos="ADP,NOUN,PRON,PROPN,VERB">40</feat><!-- idʒupe, lekolape, bokalape, maziʔogape, pitakomape, zoaʔɨrape, Cayenneape, Kayenape, La.Franceapewar, awapeto -->
+    <feat name="Case" value="Loc" upos="ADP,DET,NOUN,PROPN">66</feat><!-- ʔɨb, kijapope, baʔepopedʒi, bokalapedʒi, iwɨrakotɨ, kukupope, patupope, surinamapope, tab, zawapinimaʔar -->
+    <feat name="Case" value="Ref" upos="ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">208</feat><!-- awakʷəra, lekola, munakom, zawara, amana, apama, ikemɨnanam, lekolazarakom, raʔɨrate, awakʷərakom -->
+    <feat name="Case" value="Tra" upos="ADP,NOUN,PART,PROPN">46</feat><!-- ʒãdamam, ɨŋam, aʔɨamnẽ, rekojaram, tapɨdʒam, tarawadʒam, wãĩwĩam, am, aʔɨam, baʔeraʔɨraʔepɨhɨgam -->
+    <feat name="Clusivity" value="Ex" upos="ADP,NOUN,PRON,VERB">15</feat><!-- orohotar, orohotaruwe, orepe, orereɲ, oronekarakuri, oronekarakurinam, oronekarakuriõwãnam, oronekomuwe, orowɨgtareʔe, orozopodʒ -->
+    <feat name="Clusivity" value="In" upos="ADP,AUX,NOUN,PRON,VERB">76</feat><!-- nõde, nõdereheo, nõdebaʔemãʔẽkotɨ, sidʒu, sikuwakatu, nõdeawuawekuwaenam, nõdebaʔe, nõdemõdokaroŋ, nõderehe, nõderɨruũwã -->
+    <feat name="Conces" value="Yes" upos="AUX,VERB">3</feat><!-- eremozaugaõwãzepeʔepo, kobazepe, sidʒeminanãzepe -->
+    <feat name="Contrast" value="Yes" upos="ADP,ADV,AUX,DET,NOUN,PRON,PROPN,VERB">42</feat><!-- omãʔẽnẽ, zekapɨrernẽ, aʔɨamnẽ, wɨtʃɨnẽ, Cayenneawinẽ, adʒunẽɲ, amãʔẽnẽ, apamanẽ, atɨnẽ, aʔegotɨnẽʔe -->
+    <feat name="Corf" value="Yes" upos="ADP,NOUN,VERB">45</feat><!-- oiba, oakaŋ, orekʷar, owɨ, ozara, oɨ, apɨdʒakotɨ, oapar, oapara, oapɨdʒakotɨ -->
     <feat name="Degree" value="Aug" upos="NOUN">4</feat><!-- arakapusauhu, bodʒuhukom, duʔauhu, wɨraʔauhu -->
-    <feat name="Degree" value="Cmp" upos="ADV,AUX,NOUN,VERB">9</feat><!-- atãpɨrɨ, epɨbɨrɨ, ipoɨdjpɨlɨ, izonaɲapɨrɨ, kobtarpɨrɨ, naonanpɨrɨnẽ, okuwapɨlɨ, taʔɨrpɨrɨ -->
-    <feat name="Degree" value="Dim" upos="NOUN,VERB">3</feat><!-- emõdurawĩ, oʔoʔogawĩ, takuruũwĩ -->
+    <feat name="Degree" value="Cmp" upos="ADV,AUX,NOUN,VERB">10</feat><!-- atãpɨrɨ, kobtarpɨrɨ, epɨbɨrɨ, ipoɨdjpɨlɨ, izonaɲapɨrɨ, naonanpɨrɨnẽ, okuwapɨlɨ, taʔɨrpɨrɨ -->
+    <feat name="Degree" value="Dim" upos="NOUN,VERB">5</feat><!-- takuruũwĩ, emõdurawĩ, oʔoʔogawĩ, pitaŋaũwĩ -->
     <feat name="Degree" value="Sup" upos="NOUN">1</feat><!-- səbɨrɨ -->
-    <feat name="Emph" value="Yes" upos="ADP,DET,NOUN,VERB">20</feat><!-- pedʒapɨakaõwã, aŋeʔe, aʔegotɨnẽʔe, dʒuribaweʔe, iboteaweʔe, ipuriweʔe, iwɨrakotɨʔe, iʔareʔe, odʒarapaʔameʔe, oronekarakuriõwãnam -->
-    <feat name="Excl" value="Yes" upos="ADV,NOUN,PRON,VERB">9</feat><!-- edeatesipo, baʔesipo, dereibawesipo, emenatesipo, manasipo, matɨsipo, nanaɨwərasipo, pezeboaitesipo -->
-    <feat name="Foc" value="Yes" upos="ADP,ADV,CCONJ,DET,NOUN,PRON,PROPN,VERB">59</feat><!-- idʒeate, iwaɲete, rehete, wɨɲate, arehete, aʔeate, edeatesipo, nomãʔẽtaraɨdʒimãʔẽte, rapɨdʒate, raʔɨrate -->
-    <feat name="Imprs" value="Yes" upos="ADP,AUX,NOUN,VERB">51</feat><!-- odʒakaʔar, zadʒapɨaka, zaiko, zabaʔeokar, zamãʔẽ, zapuru, zapɨhɨpa, zaɨkɨdʒtar, zoaʔɨrape, didʒamãʔẽaɨdʒi -->
-    <feat name="Int" value="Yes" upos="ADV,INTJ,NOUN,PART,PRON,VERB">48</feat><!-- tede, baʔeto, erepotanẽso, awapeto, awata, aʔenũwãso, baʔesipo, debaʔewarapo, debaʔewaraso, dereibawesipo -->
-    <feat name="Intens" value="Yes" upos="ADP,ADV,AUX,NOUN,VERB">29</feat><!-- damãʔẽtaraɨdʒi, imaniaɨ, nomãʔẽtaraɨdʒimãʔẽte, oʔupakatu, sikuwakatu, akuwapakatu, datikatu, didʒamãʔẽaɨdʒi, dikarakuriaɨdʒi, dobaʔepakatudʒi -->
-    <feat name="Mood" value="Des" upos="NOUN,VERB">3</feat><!-- erezaugtanẽpo, nõdeapisitanẽ, zamãʔẽtanẽ -->
-    <feat name="Mood" value="Dub" upos="ADV">2</feat><!-- kʷienã -->
-    <feat name="Mood" value="Imp" upos="NOUN,VERB">25</feat><!-- ekʷa, pedʒapɨakaõwã, ekerakoɲ, emeʔeŋ, emõdur, emõdurawĩ, eraho, ewedʒu, ewurana, ezo -->
-    <feat name="Mood" value="Irr" upos="ADV,AUX,NOUN,PART,PRON,VERB">10</feat><!-- kobaitʃe, manãkuwapa, nõdeawuawekuwaenam, opokadʒaitʃe, pamẽitʃe, wanegatukuwa, wanekuwa, waɨkuwa, wɨtʃɨkuwa -->
-    <feat name="Mood" value="Jus" upos="NOUN,PART,PRON">4</feat><!-- derapɨdʒnane, kede, mamenako, mamenasinã -->
-    <feat name="Mood" value="Per" upos="VERB">21</feat><!-- tapoʔo, tareko, topaʔam, taike, taowe, tazaugpanane, tazepir, tepedʒapɨakaõwã, teremãʔẽ, tereraho -->
-    <feat name="Nmzr" value="Adv" upos="ADP,ADV,NOUN,PROPN">8</feat><!-- La.Franceapewar, Sẽswawanakom, amewar, epewaramte, ipopewar, matɨwara, tatapewan, watekotɨwarakom -->
+    <feat name="Emph" value="Yes" upos="ADP,ADV,DET,NOUN,VERB">25</feat><!-- pedʒapɨakaõwã, ameʔenam, aŋeʔe, aʔegotɨnẽʔe, dʒuribaweʔe, eremozaugaõwãzepeʔepo, iboteaweʔe, ipuriweʔe, iwɨrakotɨʔe, iʔareʔe -->
+    <feat name="Excl" value="Yes" upos="ADV,NOUN,PRON,VERB">12</feat><!-- baʔesipo, edeatesipo, matɨsipo, awasipo, dereibawesipo, emenatesipo, manasipo, nanaɨwərasipo, pezeboaitesipo -->
+    <feat name="Foc" value="Yes" upos="ADP,ADV,CCONJ,DET,NOUN,PRON,PROPN,VERB">71</feat><!-- rehete, nomãʔẽtaraɨdʒimãʔẽte, raʔɨrate, idʒeate, iwaɲete, wɨɲate, aipoate, aʔeate, edeatesipo, oʔoramte -->
+    <feat name="Imprs" value="Yes" upos="ADP,AUX,NOUN,VERB">58</feat><!-- zaiko, odʒakaʔar, poromõmaʔam, zadʒapɨaka, zabaʔeokar, zaho, zaikenam, zamãʔẽ, zapuru, zapɨhɨpa -->
+    <feat name="Int" value="Yes" upos="ADV,INTJ,NOUN,PART,PRON,VERB">54</feat><!-- tede, baʔesipo, baʔeto, erepotanẽso, matɨsipo, taenã, awapeto, awasipo, awata, aʔenũwãso -->
+    <feat name="Intens" value="Yes" upos="ADP,ADV,AUX,NOUN,VERB">42</feat><!-- damãʔẽtaraɨdʒi, nomãʔẽtaraɨdʒimãʔẽte, sikuwakatu, imaniaɨ, oʔupakatu, akuwapakatu, asĩŋatumãʔẽ, azemɨmgatu, datikatu, didʒamãʔẽaɨdʒi -->
+    <feat name="Mood" value="Des" upos="NOUN,VERB">4</feat><!-- erezaugtanẽpo, nõdeapisitanẽ, onaʔaŋtanẽmãʔẽte, zamãʔẽtanẽ -->
+    <feat name="Mood" value="Dub" upos="ADV,PART">4</feat><!-- kʷienã, taenã -->
+    <feat name="Mood" value="Imp" upos="NOUN,VERB">36</feat><!-- ekʷa, pedʒapɨakaõwã, ezo, pezika, ehem, ekerakoɲ, ekukusugkatu, ekukusukatu, emeʔeŋ, emõdur -->
+    <feat name="Mood" value="Irr" upos="ADV,AUX,NOUN,PART,PRON,VERB">21</feat><!-- pamẽitʃe, kobaitʃe, nõdeawuawekuwaenam, waɨkuwa, wɨtʃɨkuwa, ãhãitʃe, manãkuwapa, nõdekamitʃakuwa, opokadʒaitʃe, ozepiraitʃe -->
+    <feat name="Mood" value="Jus" upos="NOUN,PART,PRON">5</feat><!-- mamenasinã, derapɨdʒnane, kede, mamenako -->
+    <feat name="Mood" value="Per" upos="NOUN,VERB">38</feat><!-- tapoʔo, tareko, tomãʔẽ, tomãʔẽkom, topaʔam, toʔu, taboɨg, taike, tairur, tamãʔẽ -->
+    <feat name="Nmzr" value="Adv" upos="ADP,ADV,NOUN,PROPN">9</feat><!-- La.Franceapewar, Sẽswawanakom, amewar, epewaramte, ipopewar, matɨwara, mɨnawarer, tatapewan, watekotɨwarakom -->
     <feat name="Nmzr" value="Ag" upos="NOUN,VERB">8</feat><!-- baʔehar, ibaʔehar, kisiha, mãʔẽharakomape, omõgʷeraharanẽ, porozikaharate, zomãʔẽnanhar, zozikahar -->
     <feat name="Nmzr" value="Inst" upos="NOUN,VERB">6</feat><!-- apɨka, dzewaka, pukutʃa, pɨhɨka, zozikaa, zozoga -->
-    <feat name="Nmzr" value="Rel" upos="ADP,ADV,AUX,NOUN,NUM,VERB">52</feat><!-- arowarowagamãʔẽkom, nomãʔẽtaraɨdʒimãʔẽte, nõdebaʔemãʔẽkotɨ, rupi, tukukimaʔẽ, wanemãʔẽ, adʒumãʔẽ, airuɲmãʔẽ, amanar, aʔɨraterehe -->
-    <feat name="Number" value="Plur" upos="ADP,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">167</feat><!-- nõde, aʔekom, lekolazarakom, nõdereheo, pitakom, wãĩwĩkom, awakʷərakom, ikɨwɨrakom, pedʒapɨakaõwã, sidʒu -->
-    <feat name="Number" value="Sing" upos="ADP,ADV,AUX,CCONJ,NOUN,PRON,VERB">268</feat><!-- adʒu, idʒe, abaʔe, ede, ekotɨ, ahotar, ekʷa, ereɲ, aiɲuŋokar, apotar -->
+    <feat name="Number" value="Plur" upos="ADP,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">199</feat><!-- munakom, nõde, aʔekom, lekolazarakom, nõdereheo, pedʒapɨakaõwã, pitakom, wãĩwĩkom, awakʷərakom, baʔekom -->
+    <feat name="Number" value="Sing" upos="ADP,ADV,AUX,CCONJ,NOUN,PRON,VERB">344</feat><!-- adʒu, ekotɨ, idʒe, ekʷa, abaʔe, ahotar, ede, aiɲuŋokar, azor, damãʔẽtaraɨdʒi -->
     <feat name="Number[obj]" value="Plur" upos="NOUN,VERB">8</feat><!-- arowarowagamãʔẽkom, aporoekar, azikakom, dezarakom, emozeburupakomokar, nõdemõdokaroŋ, nõderaʔɨrakomateenam -->
     <feat name="Number[obj]" value="Sing" upos="ADV,NOUN,VERB">8</feat><!-- epotaroŋ, ekotɨŋ, eparɨkom, toroʔu -->
-    <feat name="Number[subj]" value="Plur" upos="ADP,ADV,NOUN,NUM,PART,VERB">82</feat><!-- ohoŋ, okuʔeŋ, epotaroŋ, kupao, obaʔeŋ, dozemõdɨʔariŋ, ekotɨŋ, eparɨkom, nõdemõdokaroŋ, onũpãŋ -->
+    <feat name="Number[subj]" value="Plur" upos="ADP,ADV,NOUN,NUM,PART,VERB">95</feat><!-- ohoŋ, okuʔeŋ, epotaroŋ, kupao, obaʔeŋ, opɨhɨgoŋ, oʔaŋ, dozemõdɨʔariŋ, ekotɨŋ, eparɨkom -->
     <feat name="Number[subj]" value="Sing" upos="NOUN,VERB">6</feat><!-- arowarowagamãʔẽkom, azikakom, dezarakom, emozeburupakomokar, toroʔu -->
-    <feat name="Person" value="1" upos="ADP,ADV,AUX,NOUN,PRON,VERB">247</feat><!-- adʒu, idʒe, abaʔe, ekotɨ, ahotar, nõde, nõdereheo, aiɲuŋokar, apotar, damãʔẽtaraɨdʒi -->
-    <feat name="Person" value="2" upos="ADP,AUX,CCONJ,NOUN,PRON,VERB">119</feat><!-- ede, ekʷa, pedʒapɨakaõwã, tede, derehe, edeatesipo, eredʒuɲ, erenũpã, erepotanẽso, erezor -->
-    <feat name="Person" value="3" upos="ADP,AUX,NOUN,VERB">448</feat><!-- oho, oiɲuŋ, eʔi, obaʔe, ohoŋ, owir, oʔa, oker, omãʔẽnẽ, onan -->
+    <feat name="Person" value="1" upos="ADP,ADV,AUX,NOUN,PRON,VERB">320</feat><!-- adʒu, ekotɨ, idʒe, abaʔe, ahotar, ereiba, aiɲuŋokar, azor, damãʔẽtaraɨdʒi, nõde -->
+    <feat name="Person" value="2" upos="ADP,AUX,CCONJ,NOUN,PRON,VERB">138</feat><!-- ekʷa, ede, pedʒapɨakaõwã, derehe, tede, edeatesipo, eredʒuɲ, erenũpã, erepotanẽso, erezor -->
+    <feat name="Person" value="3" upos="ADP,AUX,NOUN,VERB">617</feat><!-- oho, oiɲuŋ, eʔi, oʔa, obaʔe, ohoŋ, oiba, oker, omãʔẽ, omãʔẽnẽ -->
     <feat name="Person[obj]" value="1" upos="ADV,NOUN">10</feat><!-- epotaroŋ, ekotɨŋ, eparɨkom, nõdemõdokaroŋ, nõderaʔɨrakomateenam -->
     <feat name="Person[obj]" value="2" upos="VERB">2</feat><!-- aporoekar, toroʔu -->
     <feat name="Person[subj]" value="1" upos="NOUN,VERB">6</feat><!-- arowarowagamãʔẽkom, aporoekar, azikakom, emozeburupakomokar, toroʔu -->
     <feat name="Person[subj]" value="2" upos="NOUN">1</feat><!-- dezarakom -->
-    <feat name="Polarity" value="Neg" upos="ADP,ADV,AUX,NOUN,NUM,PART,PROPN,VERB">100</feat><!-- dati, waɨ, damãʔẽtaraɨdʒi, dapotari, mamenasinã, datɨpɨdʒi, dosuʔutari, dozaugi, dozemõdɨʔariŋ, mame -->
+    <feat name="Polarity" value="Neg" upos="ADP,ADV,AUX,NOUN,NUM,PART,PROPN,VERB">117</feat><!-- dati, waɨ, damãʔẽtaraɨdʒi, mamenasinã, nomãʔẽtaraɨdʒimãʔẽte, dapotari, mame, dapɨhɨgi, datɨpɨdʒi, dosuʔutari -->
     <feat name="Pred" value="Yes" upos="NOUN">14</feat><!-- bɨgi, siŋi, tukugi, tukukimaʔẽ, bɨgimãʔẽ, kuʔidʒi, tabedʒi, tawadʒi -->
-    <feat name="PronType" value="Ind" upos="PRON">8</feat><!-- amõ, amõenam, amõkom, amõkoma -->
-    <feat name="PronType" value="Rcp" upos="ADP,ADV,CCONJ,VERB">6</feat><!-- zekapɨrernẽ, zemenõ, zeporikatu, zeʔar, zeʔari, zeʔoram -->
-    <feat name="PronType" value="Tot" upos="PRON">4</feat><!-- pamẽ -->
-    <feat name="Red" value="Yes" upos="NOUN,VERB">30</feat><!-- oituĩtun, arowarowag, arowarowagamãʔẽkom, ezozopodʒ, omãʔẽmãʔẽ, opopor, aerahoraho, ezozopodʒiɲ, oeɲueɲuŋo, ohẽhem -->
-    <feat name="Reflex" value="Yes" upos="ADV,NOUN,VERB">31</feat><!-- sidʒemin, azenami, depezezikatari, emozemohun, omozezopodʒ, onenaŋoŋ, ozekusug, ozekɨ, ozemim, ozemokasinẽ -->
-    <feat name="Rel" value="Abs" upos="NOUN">24</feat><!-- tapɨdʒ, tapɨdʒa, tata, tapɨdʒam, tupa, tapɨdʒape, tapɨdʒapope, tatapewan, taʔaŋa, taʔɨrpɨrɨ -->
-    <feat name="Rel" value="Cont" upos="ADP,ADV,AUX,CCONJ,DET,NOUN,PRON,PROPN,VERB">132</feat><!-- raʔɨr, rupi, nõdereheo, rehe, oibarehe, zawararehe, arehete, eraha, erapɨdʒape, ereiba -->
-    <feat name="Rel" value="NCont" upos="ADP,ADV,CCONJ,NOUN,VERB">127</feat><!-- idʒupe, ijɨ, ehe, ipope, eiba, ibaridʒa, ikɨwɨrakom, iwaɲete, iwɨb, eraho -->
-    <feat name="Subord" value="Yes" upos="ADV,NOUN,PART,VERB">33</feat><!-- aʔenawe, ikemɨnanam, 10heuresaʔenawe, 2heuresanam, aʔenam, deuxheuresanam, dikaruginam, dizeraʔenawe, dosuʔutarinam, ebotenam -->
-    <feat name="Tense" value="Fut" upos="AUX,NOUN,NUM,VERB">66</feat><!-- ahotar, damãʔẽtaraɨdʒi, oʔurtar, oʔutar, aiɲuŋokartar, awurtar, dosuʔutari, nomãʔẽtaraɨdʒimãʔẽte, orohotar, orohotaruwe -->
-    <feat name="Tense" value="Past" upos="NOUN">2</feat><!-- kowioʔu, kʷaraɨreherako -->
-    <feat name="Top" value="Yes" upos="ADV,NOUN,PART,PRON,VERB">20</feat><!-- koenam, zawaraenam, zawarenam, amõenam, bedʒuenam, daepɨdʒiaʔu, dawarimãʔẽenam, enam, idʒeenam, iwɨrakotɨenam -->
-    <feat name="Voice" value="Cau" upos="AUX,NOUN,VERB">54</feat><!-- aiɲuŋokar, aiɲuŋokartar, obosale, okaʔarokar, zabaʔeokar, ahaokar, aiɲuŋokatar, amokoɲokar, amozaug, amõbɨg -->
-    <feat name="Voice" value="SCau" upos="NOUN,VERB">23</feat><!-- oweronan, arowarowag, oeroker, areko, aroãbɨ, aroʔa, derozaug, eraho, oeraho, oerokʷa -->
+    <feat name="PronType" value="Ind" upos="PRON">11</feat><!-- amõ, amõenam, amõkom, amõkoma, mozepẽ -->
+    <feat name="PronType" value="Rcp" upos="ADP,ADV,CCONJ,PRON,VERB">9</feat><!-- zekapɨrernẽ, ze, zemenõ, zeporikatu, zeʔar, zeʔari, zeʔoram -->
+    <feat name="PronType" value="Tot" upos="PRON">7</feat><!-- pamẽ, pamẽitʃe -->
+    <feat name="Red" value="Yes" upos="NOUN,VERB">60</feat><!-- oituĩtun, arowarowag, opopor, arowarowagamãʔẽkom, ezozopodʒ, oetaeta, oitunitun, oiɲuiɲuŋ, okeokero, omãʔẽmãʔẽ -->
+    <feat name="Reflex" value="Yes" upos="ADV,NOUN,VERB">41</feat><!-- azemim, ozemim, sidʒemin, azeboʔe, azemimtar, azemɨmgatu, azenami, dazemimi, depezezikatari, emozemohun -->
+    <feat name="Rel" value="Abs" upos="NOUN">26</feat><!-- tapɨdʒ, tapɨdʒa, tata, tupa, tapɨdʒam, tapɨdʒape, tapɨdʒapope, tatapewan, taʔaŋa, taʔɨrpɨrɨ -->
+    <feat name="Rel" value="Cont" upos="ADP,ADV,AUX,CCONJ,NOUN,VERB">167</feat><!-- rehe, raʔɨr, rupi, rehete, nõdereheo, ereiba, okidʒerehe, raʔɨrate, rupiwe, derehe -->
+    <feat name="Rel" value="NCont" upos="ADP,ADV,CCONJ,NOUN,VERB,X">165</feat><!-- ehe, idʒupe, ijɨ, eiba, eraho, ipope, ibaridʒa, idʒuwi, ikɨwɨrakom, imõdo -->
+    <feat name="Subord" value="Yes" upos="ADP,ADV,AUX,NOUN,PART,VERB">71</feat><!-- ikemɨnanam, odʒapɨakanam, oiɲuŋbanam, okidʒerehe, aʔenawe, eʔirehe, oʔararehe, oʔupanawe, pepazenam, tarawadʒanam -->
+    <feat name="Tense" value="Fut" upos="AUX,NOUN,NUM,VERB">86</feat><!-- ahotar, oʔutar, damãʔẽtaraɨdʒi, nomãʔẽtaraɨdʒimãʔẽte, aiɲuŋokartar, orohotar, oʔurtar, aiɲuŋokatar, anantar, awedʒutar -->
+    <feat name="Tense" value="Past" upos="ADP,ADV,NOUN,VERB">6</feat><!-- kowioʔu, kweherako, nanirako, ozemõdɨʔaramõnam, reherako, õhemoʔu -->
+    <feat name="Top" value="Yes" upos="ADV,NOUN,PART,PRON,VERB">25</feat><!-- zawarenam, koenam, nõdeawuawekuwaenam, wareʔeteaʔu, zawaraenam, amõenam, bedʒuenam, daepɨdʒiaʔu, dawarimãʔẽenam, enam -->
+    <feat name="VerbForm" value="Ger" upos="ADP,ADV,AUX,NOUN,NUM,VERB">59</feat><!-- nomãʔẽtaraɨdʒimãʔẽte, nõdebaʔemãʔẽkotɨ, arowarowagamãʔẽkom, ereiba, rehete, rupi, tukukimaʔẽ, wanemãʔẽ, adʒumãʔẽ, airuɲmãʔẽ -->
+    <feat name="VerbForm" value="Ser" upos="VERB">15</feat><!-- azemim, sidʒemin, azaug, ekʷa, ezo, oho, ohoɲ, opopor, owawag, owawagoŋ -->
+    <feat name="Voice" value="Cau" upos="AUX,NOUN,VERB">68</feat><!-- aiɲuŋokar, aiɲuŋokartar, poromõmaʔam, aiɲuŋokatar, obosale, oboʔa, okaʔarokar, zabaʔeokar, ahaokar, amokoɲokar -->
+    <feat name="Voice" value="SCau" upos="NOUN,VERB,X">28</feat><!-- oweronan, arowarowag, oeroker, areko, arowag, aroãbɨ, aroʔa, derozaug, eraho, erahoɲ -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="27">
-    <dep name="acl">1</dep>
-    <dep name="advcl">27</dep>
-    <dep name="advmod">191</dep>
-    <dep name="amod">2</dep>
+  <deps unique="29">
+    <dep name="acl">2</dep>
+    <dep name="advcl">54</dep>
+    <dep name="advmod">231</dep>
+    <dep name="amod">5</dep>
     <dep name="appos">7</dep>
-    <dep name="case">23</dep>
-    <dep name="cc">7</dep>
-    <dep name="ccomp">18</dep>
-    <dep name="compound">1</dep>
-    <dep name="conj">23</dep>
-    <dep name="cop">59</dep>
-    <dep name="dep">70</dep>
-    <dep name="det">60</dep>
-    <dep name="discourse">46</dep>
-    <dep name="dislocated">5</dep>
+    <dep name="case">70</dep>
+    <dep name="cc">8</dep>
+    <dep name="ccomp">27</dep>
+    <dep name="compound">17</dep>
+    <dep name="conj">25</dep>
+    <dep name="cop">63</dep>
+    <dep name="dep">93</dep>
+    <dep name="det">64</dep>
+    <dep name="discourse">43</dep>
+    <dep name="dislocated">20</dep>
+    <dep name="fixed">1</dep>
+    <dep name="flat">7</dep>
     <dep name="iobj">1</dep>
-    <dep name="mark">1</dep>
-    <dep name="nmod">88</dep>
-    <dep name="nsubj">181</dep>
+    <dep name="mark">3</dep>
+    <dep name="nmod">97</dep>
+    <dep name="nsubj">223</dep>
     <dep name="nummod">9</dep>
-    <dep name="obj">154</dep>
-    <dep name="obl">257</dep>
-    <dep name="parataxis">74</dep>
-    <dep name="punct">188</dep>
-    <dep name="root">759</dep>
-    <dep name="vocative">1</dep>
-    <dep name="xcomp">19</dep>
+    <dep name="obj">199</dep>
+    <dep name="obl">306</dep>
+    <dep name="parataxis">104</dep>
+    <dep name="punct">256</dep>
+    <dep name="root">913</dep>
+    <dep name="vocative">7</dep>
+    <dep name="xcomp">41</dep>
   </deps>
 </treebank>

@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Teko-TuDeT:
-commit e8c353ac9b3d698f3b2f2fa7730db2da75b5d67d
-Merge: 72473a2 532c5be
+commit 8de9714252cf69970e9e5037071b9f059bc35077
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 13:08:51 2023 +0100
 Size: counted 2896 of 2896 words (nodes).
 Size: min(0, log((N/1000)**2)) = 2.12666094904694.
 Size: maximum value 13.815511 is for 1000000 words or more.

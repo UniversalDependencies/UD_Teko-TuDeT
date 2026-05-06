@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Teko-TuDeT:
-commit b5569b30dd755457912b7abf02c33966b56471d6
-Merge: e00933c f5dfb16
+commit 8791200e567328e3468b2e8ed872d0d22a544724
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:55:50 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'eme_tudet'
 Language code (from CoNLL-U file name) = 'eme'
@@ -25,20 +25,34 @@ Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang eme --max-err=10 UD_Teko-TuDeT/eme_tudet-ud-test.conllu
-[Line 70 Sent 01.012]: [L3 Warning pron-det-without-prontype] The word 'idʒeate' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 125 Sent 01.019]: [L3 Warning pron-det-without-prontype] The word 'idʒeate' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 126 Sent 01.019]: [L3 Warning pron-det-without-prontype] The word 'aŋ' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 137 Sent 01.020]: [L3 Warning pron-det-without-prontype] The word 'idʒe' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 372 Sent 01.060]: [L3 Warning pron-det-without-prontype] The word 'aŋ' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 412 Sent 01.064]: [L3 Warning pron-det-without-prontype] The word 'wɨɲ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 419 Sent 01.065]: [L3 Warning pron-det-without-prontype] The word 'aŋ' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 487 Sent 01.076]: [L3 Warning pron-det-without-prontype] The word 'aŋ' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 593 Sent 01.092]: [L3 Warning pron-det-without-prontype] The word 'aʔe' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 606 Sent 01.093]: [L3 Warning pron-det-without-prontype] The word 'nõde' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 146
-*** PASSED ***
-Validity: 1
+[Line 70 Sent 01.012]: [L3 WARNING pron-det-without-prontype] The word 'idʒeate' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 125 Sent 01.019]: [L3 WARNING pron-det-without-prontype] The word 'idʒeate' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 126 Sent 01.019]: [L3 WARNING pron-det-without-prontype] The word 'aŋ' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 137 Sent 01.020]: [L3 WARNING pron-det-without-prontype] The word 'idʒe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 372 Sent 01.060]: [L3 WARNING pron-det-without-prontype] The word 'aŋ' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 412 Sent 01.064]: [L3 WARNING pron-det-without-prontype] The word 'wɨɲ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 419 Sent 01.065]: [L3 WARNING pron-det-without-prontype] The word 'aŋ' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 487 Sent 01.076]: [L3 WARNING pron-det-without-prontype] The word 'aŋ' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 593 Sent 01.092]: [L3 WARNING pron-det-without-prontype] The word 'aʔe' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 606 Sent 01.093]: [L3 WARNING pron-det-without-prontype] The word 'nõde' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 1560 Sent 01.237]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'arakapusauhu') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2239 Sent 01.330]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'pirakoma') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2248 Sent 01.331]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'munakom') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2273 Sent 01.334]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'pira') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2522 Sent 01.368]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'rupawəra') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2744 Sent 01.399]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'wãĩwĩ') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2954 Sent 01.427]: [L3 SYNTAX obl-should-be-nmod] The parent (node [1] 'takuruũwĩ') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3733 Sent 01.537]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'tapɨdʒ') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5383 Sent 01.780]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'napiara') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5722 Sent 01.828]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'tapɨdʒ') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 6417 Sent 01.925]: [L3 WARNING fixed-without-extpos] Fixed expression 'parce que' does not have the 'ExtPos' feature
+Warnings: 135
+SYNTAX errors: 11
+*** FAILED *** with 11 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -46,6 +60,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
 (weight=0.111111111111111) * (score{udeprels}=0.783783783783784) = 0.0870870870870871
-(TOTAL score=0.47127427283819) * (availability=1) * (validity=1) = 0.47127427283819
-STARS = 2.5
-UD_Teko-TuDeT	0.47127427283819	2.5
+(TOTAL score=0.47127427283819) * (availability=1) * (validity=0.01) = 0.0047127427283819
+STARS = 0
+UD_Teko-TuDeT	0.0047127427283819	0
